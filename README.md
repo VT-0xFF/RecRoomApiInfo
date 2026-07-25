@@ -1,6 +1,7 @@
 # RecRoomApiInfo
 A full list of every recroom version and their API request urls, and their expected responses.
 
+## All of the builds DLLs will be inside of the "DLLs" folder in this repo.
 ## All of the API documentation will be as MD files inside of the "API" folder in this repo.
 
 # How can You Help?
@@ -10,8 +11,8 @@ A full list of every recroom version and their API request urls, and their expec
 I am aiming to have this automated, but fully accurate, Baseline known information is that:
 * All versions after `6 December 2018 – 21:26:17 UTC` are Il2Cpp builds, and would require decompilation of the game back to mono C#, or at least understandable function calls that could provide easy understanding of functions, what they do, and how they do it, and class definitions.
 * All versions before `23 June 2017 – 17:23:52 UTC` do NOT use besthttp, they use a custom made "RecNet.Core" Namespace that uses UnityEngine.WWW to make requests.
-* All versions before `10 February 2017 – 01:48:05 UTC` do NOT use Beebyte Obfuscator, making it lightyears easier to read and understand the implementation.
 * All versions before `26 October 2016 – 20:30:17 UTC` do NOT use "RecNet.Core" for web requests, instead manually using UnityEngine.WWW to make requests, or the build has no HTTP requests
+* All versions `10 February 2017 – 01:48:05 UTC` to `6 December 2018 – 21:26:17 UTC` and versions past `` have Beebyte Obfuscation. (Yes they turned it off during the il2cpp switch, idk why)
 * All versions `14 December 2018 – 19:12:52 UTC` to `27 September 2022 – 02:50:34 UTC` can and have been dumped with Cpp2Il's `--just-give-me-dlls-asap-dammit` flag.
 * All versions `12 October 2022 – 02:50:27 UTC` and beyond cannot be dumped with Cpp2Il's `--just-give-me-dlls-asap-dammit` flag and would require additional work.
 * For the dumps for versions `11 February 2017 – 00:57:56 UTC` and beyond, Although I can try my best to provide accurate information, please note that some things may be wrong, or missing due to the obfuscation.
