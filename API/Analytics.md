@@ -1,31 +1,36 @@
 # Analytics
 
-## Event
+_Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
-**POST** `api/analytics/v1/session/event`
+## POST `api/analytics/v1/session/event`
 
-*(first seen: 2016-12-09_03-11-41, last seen: 2017-02-03_23-53-02)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2017-02-03_23-53-02 (12 builds)*
 
-**Body:** Form
+**Declared by:** `Analytics.Event`
 
-| Field | Value |
-|-------|-------|
-| `SessionId` | `Core.SessionId.ToString ()` |
+**Request body:** form fields (Dictionary<string,string>)
+
+| Field | Type |
+|-------|------|
+| `SessionId` | `string` |
 | `Category` | `string` |
 | `Action` | `string` |
 | `Label` | `string` |
-| `Value` | `value.Value.ToString ("F3")` |
-| `Value2` | `value2.Value.ToString ("F3")` |
-| `Value3` | `value3.Value.ToString ("F3")` |
+| `Value` | `string` |
+| `Value2` | `string` |
+| `Value3` | `string` |
 
-**Expected Response:**
+**Response:**
 
-200 Unhandled response content
+`200 OK` — body not consumed by the client (error-only callback)
 
-**Callback(s):**
+<details><summary>Client-side callback</summary>
+
 ```cs
 callback
 ```
+
+</details>
 
 ---
 
