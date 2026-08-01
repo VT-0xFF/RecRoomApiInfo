@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/playerReputation/v1/heal`
 
-*first seen: 2017-01-18_01-10-07 — last seen: 2019-11-12_15-10-55 (48 builds)*
+*first seen: 2017-01-18_01-10-07 — last seen: 2019-11-12_15-10-55 (56 builds)*
 
 **Declared by:** `Profiles.UpdateLocalProfileKarma`
 

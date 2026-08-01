@@ -4,9 +4,9 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/images/v1/cheer`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (105 builds)*
+*first seen: 2019-01-18_19-43-25 — last seen: 2021-08-06_06-02-59 (110 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.CheerImage`, `Images.CheerImage`
+**Declared by:** `<>c__DisplayClass48_0.CheerImage`, `<GetImage>c__AnonStorey4.CheerImage`, `Images.CheerImage`
 
 **Request body:** RecNet.Images.ImageCheerRequestDTO
 
@@ -26,9 +26,9 @@ true
 
 ## POST `api/images/v1/deletesaved`
 
-*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (128 builds)*
+*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (135 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.DeleteSavedImage`, `<DownloadAndCacheImage>c__AnonStorey17F.ELNCDLJECNP`, `<DownloadAndCacheImage>c__AnonStorey180.ELNCDLJECNP`, `Images.DeleteSavedImage`
+**Declared by:** `<>c__DisplayClass48_0.DeleteSavedImage`, `<DownloadAndCacheImage>c__AnonStorey17F.ELNCDLJECNP`, `<DownloadAndCacheImage>c__AnonStorey180.ELNCDLJECNP`, `<GetImage>c__AnonStorey4.DeleteSavedImage`, `Images.DeleteSavedImage`
 
 **Request body:** RecNet.EHGDGFBEMJF.MDGHHNGHILI
 
@@ -70,9 +70,9 @@ JOINLHEALDL
 
 ## GET `api/images/v1/listsaved`
 
-*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (128 builds)*
+*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (135 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.GetSavedImageList`, `<DownloadAndCacheImage>c__AnonStorey17F.CHGBEOFIPBO`, `<DownloadAndCacheImage>c__AnonStorey180.CHGBEOFIPBO`, `Images.GetSavedImageList`
+**Declared by:** `<>c__DisplayClass48_0.GetSavedImageList`, `<DownloadAndCacheImage>c__AnonStorey17F.CHGBEOFIPBO`, `<DownloadAndCacheImage>c__AnonStorey180.CHGBEOFIPBO`, `<GetImage>c__AnonStorey4.GetSavedImageList`, `Images.GetSavedImageList`
 
 **Response:**
 
@@ -93,9 +93,9 @@ delegate(string DAKCKPMBKFF, OMDAOHGDFPA DKBBNNEBKMO) {
 
 ## POST `api/images/v1/modifyaccessibility`
 
-*first seen: 2018-02-01_20-04-59 — last seen: 2021-08-06_06-02-59 (120 builds)*
+*first seen: 2018-02-01_20-04-59 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.ModifySavedImageAccessibility`, `Images.ModifySavedImageAccessibility`
+**Declared by:** `<>c__DisplayClass48_0.ModifySavedImageAccessibility`, `<GetImage>c__AnonStorey4.ModifySavedImageAccessibility`, `Images.ModifySavedImageAccessibility`
 
 **Request body:** RecNet.Images.SavedImageAccessibilityDTO
 
@@ -207,9 +207,9 @@ delegate(WWW www) {
 
 ## POST `api/images/v1/sendlink`
 
-*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (128 builds)*
+*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (135 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.SendImageLink`, `<DownloadAndCacheImage>c__AnonStorey17F.JPIMNCBHPKG`, `<DownloadAndCacheImage>c__AnonStorey180.JPIMNCBHPKG`, `Images.SendImageLink`
+**Declared by:** `<>c__DisplayClass48_0.SendImageLink`, `<DownloadAndCacheImage>c__AnonStorey17F.JPIMNCBHPKG`, `<DownloadAndCacheImage>c__AnonStorey180.JPIMNCBHPKG`, `<GetImage>c__AnonStorey4.SendImageLink`, `Images.SendImageLink`
 
 **Request body:** RecNet.EHGDGFBEMJF.MDGHHNGHILI
 
@@ -229,9 +229,9 @@ JOINLHEALDL
 
 ## GET `api/images/v1/slideshow`
 
-*first seen: 2019-04-23_15-25-47 — last seen: 2021-08-06_06-02-59 (102 builds)*
+*first seen: 2018-12-19_21-04-44 — last seen: 2021-08-06_06-02-59 (109 builds)*
 
-**Declared by:** `Images.GetCurrentSlideshowInfo`
+**Declared by:** `<GetImage>c__AnonStorey4.GetCurrentSlideshowInfo`, `Images.GetCurrentSlideshowInfo`
 
 **Response:**
 
@@ -240,7 +240,7 @@ JOINLHEALDL
 <details><summary>Client-side callback</summary>
 
 ```cs
-true
+(byte)num3 != 0
 ```
 
 </details>
@@ -331,9 +331,9 @@ delegate(string DAKCKPMBKFF, MDGHHNGHILI DKBBNNEBKMO) {
 
 ## POST `api/images/v2/deletetransient`
 
-*first seen: 2017-12-15_01-29-10 — last seen: 2019-07-23_13-56-01 (35 builds)*
+*first seen: 2017-12-15_01-29-10 — last seen: 2019-07-23_13-56-01 (42 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.DeleteTransientImage`, `Images.DeleteTransientImage`
+**Declared by:** `<>c__DisplayClass48_0.DeleteTransientImage`, `<GetImage>c__AnonStorey4.DeleteTransientImage`, `Images.DeleteTransientImage`
 
 **Request body:** RecNet.Images.ImageNameDTO
 
@@ -353,9 +353,9 @@ true
 
 ## GET `api/images/v2/named`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (103 builds)*
+*first seen: 2018-12-19_21-04-44 — last seen: 2021-08-06_06-02-59 (110 builds)*
 
-**Declared by:** `<>c__DisplayClass48_0.DownloadNamedImageMappings`, `Images.DownloadNamedImageMappings`
+**Declared by:** `<>c__DisplayClass48_0.DownloadNamedImageMappings`, `<GetImage>c__AnonStorey4.DownloadNamedImageMappings`, `Images.DownloadNamedImageMappings`
 
 **Response:**
 
@@ -364,7 +364,7 @@ true
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>
@@ -426,7 +426,9 @@ JOINLHEALDL
 
 ## POST `api/images/v3/profile`
 
-*first seen: 2017-12-15_01-29-10 — last seen: 2018-04-13_22-58-42 (19 builds)*
+*first seen: 2017-12-15_01-29-10 — last seen: 2018-12-20_21-03-57 (21 builds)*
+
+**Declared by:** `<GetImage>c__AnonStorey4.<SetLocalProfileImage>m__2`
 
 **Request body:** WWWForm (application/x-www-form-urlencoded)
 
@@ -451,23 +453,26 @@ JOINLHEALDL
 
 ## POST `api/images/v3/uploadsaved`
 
-*first seen: 2018-02-01_20-04-59 — last seen: 2018-04-13_22-58-42 (15 builds)*
+*first seen: 2018-02-01_20-04-59 — last seen: 2018-12-20_21-03-57 (17 builds)*
 
-**Request body:** BestHTTP.Forms.EAFJIFILMAF
+**Declared by:** `<GetImage>c__AnonStorey4.UploadShareCamImage`
+
+**Request body:** BestHTTP.Forms.HTTPFormBase
+
+| Field | Type |
+|-------|------|
+| `image` | `string` |
+| `altimage` | `string` |
+| `imgMeta` | `string` |
 
 **Response:**
 
-`200 OK` — JSON `EHGDGFBEMJF+MDGHHNGHILI` (schema not recovered)
+`200 OK` — body not consumed by the client (error-only callback)
 
 <details><summary>Client-side callback</summary>
 
 ```cs
-delegate(string DAKCKPMBKFF, MDGHHNGHILI DKBBNNEBKMO) {
-	string text = DKBBNNEBKMO?.GAKPGOHFAHD;
-	bool flag = FKJHLNJDEKK.LECFBEBMLIC == null || ObscuredBool.EDHNDLCFIOL (FKJHLNJDEKK.LECFBEBMLIC.JMMJGMOBGJM);
-	BLJJLANALAD [text] = ((!flag) ? KIBIPLAPDAH.mainImage : KIBIPLAPDAH.altImage);
-	HEMCJJJMLKI.MKFLPKAIDDJ (JOINLHEALDL, DAKCKPMBKFF, text);
-}
+(HTTPFormBase)hTTPMultiPartForm
 ```
 
 </details>
@@ -476,9 +481,9 @@ delegate(string DAKCKPMBKFF, MDGHHNGHILI DKBBNNEBKMO) {
 
 ## POST `api/images/v4/profile`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (39 builds)*
+*first seen: 2019-01-18_19-43-25 — last seen: 2019-11-12_15-10-55 (44 builds)*
 
-**Declared by:** `<>c.<SetLocalProfileImage>b__35_0`, `Images.<SetLocalProfileImage>b__35_0`, `Images.<SetLocalProfileImage>b__39_0`, `Images.<SetLocalProfileImage>b__41_0`, `Images.<SetLocalProfileImage>b__43_0`
+**Declared by:** `<>c.<SetLocalProfileImage>b__35_0`, `<GetImage>c__AnonStorey4.<SetLocalProfileImage>m__1`, `Images.<SetLocalProfileImage>b__35_0`, `Images.<SetLocalProfileImage>b__39_0`, `Images.<SetLocalProfileImage>b__41_0`, `Images.<SetLocalProfileImage>b__43_0`
 
 **Request body:** BestHTTP.Forms.HTTPMultiPartForm
 

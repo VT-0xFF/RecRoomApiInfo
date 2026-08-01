@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## GET `api/testcasemanagement/v1/testcase/{param}`
 
-*first seen: 2018-11-15_20-00-52 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-11-15_20-00-52 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `TestCaseManagement.GetTestCase`
 
@@ -46,7 +46,7 @@ kBBKBACEPDG
 
 ## POST `api/testcasemanagement/v1/testcase/{param}/claim`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
 **Declared by:** `TestCaseManagement.ClaimTestCase`
 
@@ -90,7 +90,7 @@ hKBGPJJNELK
 
 ## POST `api/testcasemanagement/v1/testcase/{param}/status`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
 **Declared by:** `TestCaseManagement.UpdateTestCaseStatus`
 
@@ -134,7 +134,7 @@ kBBKBACEPDG
 
 ## POST `api/testcasemanagement/v1/testcase/{param}/unclaim`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
 **Declared by:** `TestCaseManagement.UnclaimTestCase`
 
@@ -178,7 +178,7 @@ eBFAHANHHHI
 
 ## GET `api/testcasemanagement/v1/testpasssummary`
 
-*first seen: 2018-11-15_20-00-52 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-11-15_20-00-52 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `TestCaseManagement.GetTestPassSummaries`
 

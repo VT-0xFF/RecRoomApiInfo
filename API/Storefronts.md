@@ -260,6 +260,28 @@ lNIOBJAMBGA
 
 ---
 
+## POST `api/storefronts/v1/buyElite`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-07_18-24-01 (7 builds)*
+
+**Declared by:** `Storefronts.PurchaseSeasonEliteTrack`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+true
+```
+
+</details>
+
+---
+
 ## GET `api/storefronts/v1/buyInvention?inventionId={CS8__locals3}`
 
 *first seen: 2020-05-27_06-02-14 — last seen: 2020-08-04_04-00-43 (11 builds)*
@@ -298,6 +320,28 @@ lNIOBJAMBGA
 
 ---
 
+## POST `api/storefronts/v1/buyItem`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-07_18-24-01 (7 builds)*
+
+**Declared by:** `Storefronts.PurchaseItem`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+true
+```
+
+</details>
+
+---
+
 ## GET `api/storefronts/v1/buyTier`
 
 *first seen: 2018-06-07_23-55-49 — last seen: 2018-12-06_21-26-17 (33 builds)*
@@ -310,6 +354,28 @@ lNIOBJAMBGA
 
 ```cs
 lNIOBJAMBGA
+```
+
+</details>
+
+---
+
+## POST `api/storefronts/v1/buyTier`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-07_18-24-01 (7 builds)*
+
+**Declared by:** `Storefronts.PurchaseSeasonTier`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+true
 ```
 
 </details>
@@ -430,7 +496,7 @@ lNIOBJAMBGA
 
 ## POST `api/storefronts/v2/balance`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
 **Declared by:** `Storefronts.ModifyBalance`
 
@@ -470,7 +536,7 @@ text
 
 ## POST `api/storefronts/v2/buyElite`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2019-02-14_22-55-35 — last seen: 2021-08-06_06-02-59 (120 builds)*
 
 **Declared by:** `Storefronts.PurchaseSeasonEliteTrack`
 
@@ -512,9 +578,9 @@ true
 
 ## POST `api/storefronts/v2/buyItem`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-07-09_02-51-36 (115 builds)*
+*first seen: 2019-02-14_22-55-35 — last seen: 2021-07-09_02-51-36 (116 builds)*
 
-**Declared by:** `Storefronts.PurchaseHelper`
+**Declared by:** `Storefronts.PurchaseHelper`, `Storefronts.PurchaseItem`
 
 **Request body:** application/json
 
@@ -534,7 +600,7 @@ true
 
 ## POST `api/storefronts/v2/buyTier`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2019-02-14_22-55-35 — last seen: 2021-08-06_06-02-59 (120 builds)*
 
 **Declared by:** `Storefronts.PurchaseSeasonTier`
 
@@ -596,9 +662,11 @@ HEGFLJKILKM: false
 
 ## GET `api/storefronts/v3/giftdropstore/{param}`
 
-*first seen: 2018-06-07_23-55-49 — last seen: 2018-12-06_21-26-17 (33 builds)*
+*first seen: 2018-06-07_23-55-49 — last seen: 2019-02-14_22-55-35 (49 builds)*
 
-**URI parameters:** `param`
+**Declared by:** `Storefronts.<>m__0`, `Storefronts.GetStorefront`
+
+**URI parameters:** `storefrontTypes`
 
 **Response:**
 
@@ -607,7 +675,7 @@ HEGFLJKILKM: false
 <details><summary>Client-side callback</summary>
 
 ```cs
-HEGFLJKILKM: false
+(byte)num3 != 0
 ```
 
 </details>
@@ -616,7 +684,7 @@ HEGFLJKILKM: false
 
 ## GET `api/storefronts/v4/balance/{flag}`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
 **Declared by:** `Storefronts.GetBalance`
 
@@ -629,7 +697,7 @@ HEGFLJKILKM: false
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num3 != 0
 ```
 
 </details>

@@ -88,7 +88,7 @@ lNIOBJAMBGA
 
 ## POST `api/equipment/v1/update`
 
-*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (105 builds)*
+*first seen: 2017-05-20_00-29-28 — last seen: 2021-08-06_06-02-59 (113 builds)*
 
 **Declared by:** `Equipments.UpdateFavorites`
 

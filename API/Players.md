@@ -54,7 +54,7 @@ private static Core.ApiCallback ParseProfileCallback (GetProfileCallback callbac
 
 ## GET `api/players/v1/GetGeneratedNameOptions`
 
-*first seen: 2018-07-17_17-57-37 — last seen: 2019-11-12_15-10-55 (40 builds)*
+*first seen: 2018-07-17_17-57-37 — last seen: 2019-11-12_15-10-55 (48 builds)*
 
 **Declared by:** `Profiles.GetNameGenerationOptions`
 
@@ -74,7 +74,7 @@ true
 
 ## POST `api/players/v1/avoidJuniors`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-04-24_15-07-27 (5 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-04-24_15-07-27 (13 builds)*
 
 **Declared by:** `Profiles.UpdateAvoidJunior`
 
@@ -96,7 +96,7 @@ true
 
 ## POST `api/players/v1/bio`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (39 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (47 builds)*
 
 **Declared by:** `Profiles.UpdateLocalProfileBio`
 
@@ -118,7 +118,7 @@ true
 
 ## POST `api/players/v1/birthday`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (39 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (47 builds)*
 
 **Declared by:** `Profiles.UpdateLocalProfileBirthday`
 
@@ -196,7 +196,7 @@ private static Core.ApiCallback ParseProfileCallback (GetProfileCallback callbac
 
 ## POST `api/players/v1/createProfile`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (38 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (46 builds)*
 
 **Declared by:** `Profiles.CreateNewProfile`
 
@@ -218,7 +218,7 @@ true
 
 ## POST `api/players/v1/deleteProfile`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (38 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (46 builds)*
 
 **Declared by:** `Profiles.DeleteProfile`
 
@@ -240,7 +240,7 @@ true
 
 ## GET `api/players/v1/disallowInAppPurchases`
 
-*first seen: 2019-04-23_15-25-47 — last seen: 2019-11-12_15-10-55 (36 builds)*
+*first seen: 2019-02-14_22-55-35 — last seen: 2019-11-12_15-10-55 (37 builds)*
 
 **Declared by:** `Profiles.GetDisallowInAppPurchases`
 
@@ -251,7 +251,7 @@ true
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num3 != 0
 ```
 
 </details>
@@ -312,7 +312,7 @@ callback
 
 ## POST `api/players/v1/list`
 
-*first seen: 2016-11-23_01-26-08 — last seen: 2019-11-12_15-10-55 (57 builds)*
+*first seen: 2016-11-23_01-26-08 — last seen: 2019-11-12_15-10-55 (65 builds)*
 
 **Declared by:** `Profile.Get`, `Profiles.Get`, `Profiles.GetFromServer`, `Profiles.MoveNext`
 
@@ -410,7 +410,7 @@ private static Core.ApiCallback ParseObjectiveCompleteCallback (GetObjectiveComp
 
 ## GET `api/players/v1/phonelastfour`
 
-*first seen: 2018-07-17_17-57-37 — last seen: 2019-11-12_15-10-55 (40 builds)*
+*first seen: 2018-07-17_17-57-37 — last seen: 2019-11-12_15-10-55 (48 builds)*
 
 **Declared by:** `Profiles.GetPhoneLastFour`
 
@@ -574,7 +574,7 @@ delegate(WWW www) {
 
 ## GET `api/players/v1/{id}`
 
-*first seen: 2016-10-26_20-30-17 — last seen: 2019-11-12_15-10-55 (65 builds)*
+*first seen: 2016-10-26_20-30-17 — last seen: 2019-11-12_15-10-55 (73 builds)*
 
 **Declared by:** `Profile.Get`, `Profiles.Get`, `Profiles.GetFromServer`, `Profiles.GetPlayerById_DoNotUse`
 
@@ -666,7 +666,7 @@ callback
 
 ## POST `api/players/v2/displayname`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (39 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (47 builds)*
 
 **Declared by:** `Profiles.UpdateLocalProfileDisplayName`
 
@@ -760,7 +760,7 @@ true
 
 ## POST `api/players/v2/phone`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (39 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (47 builds)*
 
 **Declared by:** `Profiles.UpdateLocalProfilePhoneNumber`
 
@@ -782,7 +782,7 @@ true
 
 ## POST `api/players/v2/phone/verify`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-11-12_15-10-55 (39 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-11-12_15-10-55 (47 builds)*
 
 **Declared by:** `Profiles.VerifyLocalProfilePhoneNumber`
 
@@ -804,7 +804,7 @@ true
 
 ## GET `api/players/v2/search?name={searchString}`
 
-*first seen: 2018-07-17_17-57-37 — last seen: 2019-11-12_15-10-55 (40 builds)*
+*first seen: 2018-07-17_17-57-37 — last seen: 2019-11-12_15-10-55 (48 builds)*
 
 **Declared by:** `Profiles.SearchForPlayer`
 
@@ -817,7 +817,7 @@ true
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>
@@ -826,7 +826,7 @@ true
 
 ## POST `api/players/v2/updateReputation`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2019-11-12_15-10-55 (52 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2019-11-12_15-10-55 (60 builds)*
 
 **Declared by:** `Profiles.UpdateLocalProfileReputation`
 

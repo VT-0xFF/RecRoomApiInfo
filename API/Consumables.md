@@ -22,7 +22,7 @@ lNIOBJAMBGA
 
 ## POST `api/consumables/v1/consume`
 
-*first seen: 2018-03-15_20-55-21 — last seen: 2021-05-04_02-50-19 (116 builds)*
+*first seen: 2018-03-15_20-55-21 — last seen: 2021-05-04_02-50-19 (124 builds)*
 
 **Declared by:** `Consumables.UseConsumable`
 
@@ -35,7 +35,7 @@ lNIOBJAMBGA
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num3 != 0
+(byte)num9 != 0
 ```
 
 </details>
@@ -129,7 +129,7 @@ lNIOBJAMBGA
 
 ## POST `api/consumables/v1/updateActive`
 
-*first seen: 2018-04-12_18-08-52 — last seen: 2021-08-06_06-02-59 (125 builds)*
+*first seen: 2018-04-12_18-08-52 — last seen: 2021-08-06_06-02-59 (133 builds)*
 
 **Declared by:** `Consumables.ActivateConsumable`
 

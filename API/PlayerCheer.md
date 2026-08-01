@@ -22,7 +22,7 @@ dictionary
 
 ## POST `api/PlayerCheer/v1/SetSelectedCheer`
 
-*first seen: 2017-10-27_20-21-58 — last seen: 2021-08-06_06-02-59 (143 builds)*
+*first seen: 2017-10-27_20-21-58 — last seen: 2021-08-06_06-02-59 (151 builds)*
 
 **Declared by:** `PlayerCheering.UpdateSelectedCheer`
 

@@ -68,11 +68,11 @@ delegate(string DAKCKPMBKFF, List<NDKILGAFGDP> KINJLJBFIPI) {
 
 ## GET `api/events/v1/status/{param}`
 
-*first seen: 2018-05-09_19-37-59 — last seen: 2019-06-28_13-58-34 (52 builds)*
+*first seen: 2018-05-09_19-37-59 — last seen: 2019-06-28_13-58-34 (60 builds)*
 
 **Declared by:** `Events.RefreshEventStatus`
 
-**URI parameters:** `CS8__locals4`
+**URI parameters:** `eventId`
 
 **Response:**
 
@@ -183,7 +183,7 @@ delegate(string DAKCKPMBKFF, List<NDKILGAFGDP> KINJLJBFIPI) {
 
 ## GET `api/events/v3/list`
 
-*first seen: 2018-05-09_19-37-59 — last seen: 2019-06-28_13-58-34 (52 builds)*
+*first seen: 2018-05-09_19-37-59 — last seen: 2019-06-28_13-58-34 (60 builds)*
 
 **Declared by:** `Events.RefreshEventList`
 
@@ -194,7 +194,7 @@ delegate(string DAKCKPMBKFF, List<NDKILGAFGDP> KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num3 != 0
+(byte)num4 != 0
 ```
 
 </details>

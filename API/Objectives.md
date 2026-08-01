@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/objectives/v1/cleargroup`
 
-*first seen: 2017-12-15_01-29-10 — last seen: 2021-08-06_06-02-59 (182 builds)*
+*first seen: 2017-12-15_01-29-10 — last seen: 2021-08-06_06-02-59 (190 builds)*
 
 **Declared by:** `Objectives.ClearGroup`
 
@@ -98,7 +98,7 @@ internal void OJKNBNGGBEC (string DAKCKPMBKFF, GMJJCBDJADA DKBBNNEBKMO)
 
 ## GET `api/objectives/v1/myprogress`
 
-*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (159 builds)*
+*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (167 builds)*
 
 **Declared by:** `Objectives.GetMyObjectiveProgress`
 
@@ -109,7 +109,7 @@ internal void OJKNBNGGBEC (string DAKCKPMBKFF, GMJJCBDJADA DKBBNNEBKMO)
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>

@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## GET `api/challenge/v1/getCurrent`
 
-*first seen: 2017-07-11_00-44-03 — last seen: 2019-06-11_14-05-32 (102 builds)*
+*first seen: 2017-07-11_00-44-03 — last seen: 2019-06-11_14-05-32 (110 builds)*
 
 **Declared by:** `Challenges.GetCurrentChallenges`
 

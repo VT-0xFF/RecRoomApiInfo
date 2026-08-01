@@ -705,7 +705,7 @@ lNIOBJAMBGA
 
 ## POST `api/gamesessions/v2/reportjoinresult`
 
-*first seen: 2017-10-31_21-37-38 — last seen: 2019-04-24_15-07-27 (12 builds)*
+*first seen: 2017-10-31_21-37-38 — last seen: 2019-04-24_15-07-27 (20 builds)*
 
 **Declared by:** `GameSessions.ReportGameJoinResult`
 
@@ -727,7 +727,7 @@ true
 
 ## POST `api/gamesessions/v2/setinprogress`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-04-24_15-07-27 (5 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-04-24_15-07-27 (13 builds)*
 
 **Declared by:** `GameSessions.SetGameInProgress`
 
@@ -774,6 +774,54 @@ delegate(string DAKCKPMBKFF) {
 	}
 	HEMCJJJMLKI.MKFLPKAIDDJ (JOINLHEALDL, DAKCKPMBKFF);
 }
+```
+
+</details>
+
+---
+
+## POST `api/gamesessions/v3/{api}`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2018-12-20_21-03-57 (3 builds)*
+
+**Declared by:** `GameSessions.JoinHelper`
+
+**URI parameters:** `api`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num5 != 0
+```
+
+</details>
+
+---
+
+## POST `api/gamesessions/{api}`
+
+*first seen: 2019-01-18_19-43-25 — last seen: 2019-02-14_22-55-35 (5 builds)*
+
+**Declared by:** `GameSessions.JoinHelper`
+
+**URI parameters:** `api`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num5 != 0
 ```
 
 </details>

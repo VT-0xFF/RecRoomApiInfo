@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/checklist/v1/complete`
 
-*first seen: 2018-06-07_23-55-49 — last seen: 2020-07-01_03-10-54 (98 builds)*
+*first seen: 2018-06-07_23-55-49 — last seen: 2020-07-01_03-10-54 (106 builds)*
 
 **Declared by:** `Checklist.ClaimOrientationChallengeReward`, `Checklist.CompleteChecklistItem`
 
@@ -17,7 +17,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num5 != 0
 ```
 
 </details>
@@ -26,7 +26,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## GET `api/checklist/v1/current`
 
-*first seen: 2018-06-07_23-55-49 — last seen: 2020-07-01_03-10-54 (98 builds)*
+*first seen: 2018-06-07_23-55-49 — last seen: 2020-07-01_03-10-54 (106 builds)*
 
 **Declared by:** `Checklist.GetCurrentChecklist`
 
@@ -37,7 +37,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>

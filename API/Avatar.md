@@ -381,7 +381,7 @@ private static Core.ApiCallback ParseAvatarCallback (GetAvatarCallback callback)
 
 ## GET `api/avatar/v2`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (175 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (183 builds)*
 
 **Declared by:** `Avatars.DownloadLocalAvatar`
 
@@ -488,7 +488,7 @@ delegate(string HJLPPIBIGNJ) {
 
 ## GET `api/avatar/v2/gifts`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (175 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (183 builds)*
 
 **Declared by:** `Avatars.DowloadGiftPackages`
 
@@ -544,7 +544,7 @@ delegate(string GHJBJJPHNHD, List<OEBDCPDFCEM> ODKMANJEBGL) {
 
 ## POST `api/avatar/v2/gifts/consume/`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (256 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (264 builds)*
 
 **Declared by:** `<LocalConsumeGiftPackage>c__IteratorAC.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorAD.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorBF.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorDA.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorE2.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorE4.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorE8.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorE9.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorF5.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorF6.MoveNext`, `<LocalConsumeGiftPackage>c__IteratorF7.MoveNext`, `Avatars.LocalConsumeGiftPackage`, `Avatars.MoveNext`
 
@@ -618,7 +618,7 @@ delegate(string error, GiftPackage newGift) {
 
 ## POST `api/avatar/v2/gifts/generate`
 
-*first seen: 2017-04-20_22-49-30 — last seen: 2021-08-06_06-02-59 (221 builds)*
+*first seen: 2017-04-20_22-49-30 — last seen: 2021-08-06_06-02-59 (229 builds)*
 
 **Declared by:** `Avatars.LocalRequestGiftPackage`
 
@@ -750,7 +750,7 @@ HEGFLJKILKM: false
 
 ## POST `api/avatar/v2/set`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (263 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (271 builds)*
 
 **Declared by:** `Avatars.SaveLocalAvatarSettings`
 
@@ -772,7 +772,7 @@ HEGFLJKILKM: false
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>
@@ -874,7 +874,7 @@ internal void LANIJAAOAJF (string GHJBJJPHNHD, List<KODMOLPDANI> DKIBCKJFDEK)
 
 ## GET `api/avatar/v3/saved`
 
-*first seen: 2018-07-26_22-13-12 — last seen: 2021-08-06_06-02-59 (144 builds)*
+*first seen: 2018-07-26_22-13-12 — last seen: 2021-08-06_06-02-59 (152 builds)*
 
 **Declared by:** `Avatars.DowloadSavedOutfitSlots`
 
@@ -885,7 +885,7 @@ internal void LANIJAAOAJF (string GHJBJJPHNHD, List<KODMOLPDANI> DKIBCKJFDEK)
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>

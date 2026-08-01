@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## GET `api/playerevents/v1/all`
 
-*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (150 builds)*
+*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (158 builds)*
 
 **Declared by:** `PlayerEvents.DownloadPlayerEventList`
 
@@ -15,7 +15,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>
@@ -64,7 +64,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 
 ## POST `api/playerevents/v1/bulkInvite`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `PlayerEvents.InvitePlayers`
 
@@ -77,7 +77,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num4 != 0
 ```
 
 </details>
@@ -86,7 +86,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 
 ## POST `api/playerevents/v1/deleteResponse`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `PlayerEvents.DeleteResponse`
 
@@ -99,7 +99,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num3 != 0
 ```
 
 </details>
@@ -108,7 +108,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 
 ## POST `api/playerevents/v1/report`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `PlayerEvents.ReportEvent`
 
@@ -121,7 +121,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num4 != 0
 ```
 
 </details>
@@ -130,7 +130,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 
 ## POST `api/playerevents/v1/respond`
 
-*first seen: 2018-07-26_22-13-12 — last seen: 2021-08-06_06-02-59 (135 builds)*
+*first seen: 2018-07-26_22-13-12 — last seen: 2021-08-06_06-02-59 (143 builds)*
 
 **Declared by:** `PlayerEvents.RespondToEvent`
 
@@ -143,7 +143,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num2 != 0
+(byte)num5 != 0
 ```
 
 </details>
@@ -152,7 +152,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 
 ## GET `api/playerevents/v1/{num}`
 
-*first seen: 2018-07-26_22-13-12 — last seen: 2019-11-12_15-10-55 (64 builds)*
+*first seen: 2018-07-26_22-13-12 — last seen: 2019-11-12_15-10-55 (72 builds)*
 
 **Declared by:** `PlayerEvents.GetPlayerEventById`
 
@@ -165,7 +165,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num2 != 0
+(byte)num3 != 0
 ```
 
 </details>
@@ -174,7 +174,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 
 ## POST `api/playerevents/v2`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `PlayerEvents.CreateEvent`
 
@@ -187,7 +187,7 @@ delegate(string DAKCKPMBKFF, IEJNLOKMMKJ KINJLJBFIPI) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>
@@ -218,11 +218,11 @@ OKBCAHBFJBL: false
 
 ## POST `api/playerevents/v2/{num2}`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (124 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2021-08-06_06-02-59 (132 builds)*
 
 **Declared by:** `PlayerEvents.ModifyEvent`
 
-**URI parameters:** `num2`
+**URI parameters:** `num`
 
 **Request body:** RecNet.CreateModifyEventRequest
 
@@ -233,7 +233,7 @@ OKBCAHBFJBL: false
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num3 != 0
+(byte)num4 != 0
 ```
 
 </details>

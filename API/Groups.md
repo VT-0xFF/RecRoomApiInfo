@@ -22,7 +22,7 @@ lNIOBJAMBGA
 
 ## POST `api/groups/v1`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (119 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (127 builds)*
 
 **Declared by:** `Groups.CreateNewGroup`
 
@@ -44,7 +44,7 @@ true
 
 ## POST `api/groups/v1/delete/{CS8__locals5}`
 
-*first seen: 2019-04-23_15-25-47 — last seen: 2021-08-06_06-02-59 (66 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (74 builds)*
 
 **Declared by:** `Groups.DeleteGroup`
 
@@ -88,7 +88,7 @@ dictionary
 
 ## GET `api/groups/v1/name/{param}`
 
-*first seen: 2018-05-26_01-00-13 — last seen: 2021-08-06_06-02-59 (155 builds)*
+*first seen: 2018-05-26_01-00-13 — last seen: 2021-08-06_06-02-59 (163 builds)*
 
 **Declared by:** `Groups.GetGroupByName`
 
@@ -101,7 +101,7 @@ dictionary
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num2 != 0
 ```
 
 </details>
@@ -110,9 +110,11 @@ dictionary
 
 ## GET `api/groups/v1/{arg}`
 
-*first seen: 2018-05-26_01-00-13 — last seen: 2021-03-12_03-49-58 (83 builds)*
+*first seen: 2018-05-26_01-00-13 — last seen: 2021-03-12_03-49-58 (91 builds)*
 
-**URI parameters:** `param`
+**Declared by:** `Groups.GetGroupDetails`
+
+**URI parameters:** `arg`
 
 **Response:**
 
@@ -121,7 +123,7 @@ dictionary
 <details><summary>Client-side callback</summary>
 
 ```cs
-HEGFLJKILKM: false
+(byte)num2 != 0
 ```
 
 </details>

@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## GET `api/config/v1/amplitude`
 
-*first seen: 2017-09-15_00-01-47 — last seen: 2021-08-06_06-02-59 (196 builds)*
+*first seen: 2017-09-15_00-01-47 — last seen: 2021-08-06_06-02-59 (204 builds)*
 
 **Declared by:** `Config.DownloadAmplitudeSettings`
 
@@ -97,7 +97,7 @@ delegate(WWW www) {
 
 ## GET `api/config/v2`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (263 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (271 builds)*
 
 **Declared by:** `Config.DownloadConfigSettings`
 

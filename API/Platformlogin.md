@@ -174,9 +174,9 @@ delegate(string DAKCKPMBKFF, List<EEBPLECPEGD> AILIBDCECFM) {
 
 ## GET `api/platformlogin/v1/refreshlogin`
 
-*first seen: 2017-11-18_17-11-39 — last seen: 2019-11-12_15-10-55 (105 builds)*
+*first seen: 2017-11-18_17-11-39 — last seen: 2019-11-12_15-10-55 (106 builds)*
 
-**Declared by:** `Login.OnRefreshLogin`
+**Declared by:** `Login.OnRefreshLogin`, `Login.RefreshLogin`
 
 **Response:**
 
@@ -212,9 +212,9 @@ dictionary
 
 ## POST `api/platformlogin/v1/registeraccount`
 
-*first seen: 2017-11-18_17-11-39 — last seen: 2019-11-12_15-10-55 (65 builds)*
+*first seen: 2017-11-18_17-11-39 — last seen: 2019-11-12_15-10-55 (66 builds)*
 
-**Declared by:** `Login.ResetUnverifiedEmail`
+**Declared by:** `Login.RegisterAccount`, `Login.ResetUnverifiedEmail`
 
 **Request body:** form fields (Dictionary<string,string>)
 
@@ -263,7 +263,7 @@ dictionary
 
 ## POST `api/platformlogin/v1/removecachedlogin`
 
-*first seen: 2017-11-18_17-11-39 — last seen: 2019-11-12_15-10-55 (65 builds)*
+*first seen: 2017-11-18_17-11-39 — last seen: 2019-11-12_15-10-55 (66 builds)*
 
 **Declared by:** `Login.RemoveCachedLogin`
 
@@ -298,7 +298,7 @@ delegate(string DAKCKPMBKFF) {
 
 ## POST `api/platformlogin/v2/getcachedlogins`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-10-02_14-21-06 (28 builds)*
+*first seen: 2019-02-14_22-55-35 — last seen: 2019-10-02_14-21-06 (29 builds)*
 
 **Declared by:** `Login.DownloadCachedLoginProfiles`
 
@@ -311,7 +311,7 @@ delegate(string DAKCKPMBKFF) {
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num2 != 0
+true
 ```
 
 </details>
@@ -378,36 +378,22 @@ JOINLHEALDL
 
 ## POST `api/platformlogin/{param}`
 
-*first seen: 2017-11-18_17-11-39 — last seen: 2018-04-13_22-58-42 (22 builds)*
+*first seen: 2017-11-18_17-11-39 — last seen: 2019-01-18_19-43-25 (26 builds)*
 
-**URI parameters:** `param`
+**Declared by:** `<LoginHelper>c__Iterator0.MoveNext`
+
+**URI parameters:** `arg`
 
 **Request body:** application/json
 
 **Response:**
 
-`200 OK` — JSON `HELBDLFLEJG+FAPAEHEIANH` (schema not recovered)
+`200 OK` — body not consumed by the client (error-only callback)
 
 <details><summary>Client-side callback</summary>
 
 ```cs
-delegate(string DAKCKPMBKFF, FAPAEHEIANH DKBBNNEBKMO) {
-	if (!string.IsNullOrEmpty (DAKCKPMBKFF)) {
-		Debug.LogError ("RecNet login failed: " + DAKCKPMBKFF);
-		DAKCKPMBKFF = "Unable to login (code: 3)";
-	} else if (!string.IsNullOrEmpty (DKBBNNEBKMO.HMBKJEPDKOO)) {
-		Debug.LogError ("RecNet login failed: " + DKBBNNEBKMO.HMBKJEPDKOO);
-		DAKCKPMBKFF = DKBBNNEBKMO.HMBKJEPDKOO;
-	} else {
-		HEMCJJJMLKI.GPJEAADBPLJ (ObscuredLong.EDHNDLCFIOL (DKBBNNEBKMO.MBHLIAEFEAD.PKJFPDJKJAH));
-		FKJHLNJDEKK.BKFNGIFNFBA (DKBBNNEBKMO.MBHLIAEFEAD);
-		LAMNCNMGPDF = DKBBNNEBKMO.NKFLBAKCPLA;
-		OONEBOCAKDB = DKBBNNEBKMO.OONEBOCAKDB;
-		AmplitudeAnalyticsClient.EBKMJABKJJA = DKBBNNEBKMO.DHGLEPFEMEL;
-		JICEFBNKLHF.Add (ObscuredLong.EDHNDLCFIOL (DKBBNNEBKMO.MBHLIAEFEAD.PKJFPDJKJAH));
-	}
-	HEMCJJJMLKI.MKFLPKAIDDJ (JOINLHEALDL, DAKCKPMBKFF);
-}
+text3
 ```
 
 </details>

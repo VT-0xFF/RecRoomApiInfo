@@ -386,9 +386,9 @@ delegate(string DAKCKPMBKFF) {
 
 ## GET `http://www.google.com/generate_204`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2018-12-06_21-26-17 (144 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2019-02-14_22-55-35 (148 builds)*
 
-**Declared by:** `<Get>c__AnonStorey3.TestConnection`, `<TestConnection>c__Iterator93.TestConnection`, `<TestConnection>c__Iterator96.TestConnection`, `<TestConnection>c__IteratorA2.TestConnection`, `<TestConnection>c__IteratorAE.MoveNext`, `<TestConnection>c__IteratorAF.MoveNext`, `<TestConnection>c__IteratorC1.MoveNext`, `<TestConnection>c__IteratorDC.MoveNext`, `<TestConnection>c__IteratorE4.MoveNext`, `<TestConnection>c__IteratorE6.MoveNext`, `<TestConnection>c__IteratorEA.MoveNext`, `<TestConnection>c__IteratorEB.MoveNext`, `<TestConnection>c__IteratorF7.MoveNext`, `<TestConnection>c__IteratorF8.MoveNext`, `<TestConnection>c__IteratorF9.MoveNext`
+**Declared by:** `<ConnectToRecNet>c__Iterator0.MoveNext`, `<Get>c__AnonStorey3.TestConnection`, `<TestConnection>c__Iterator93.TestConnection`, `<TestConnection>c__Iterator96.TestConnection`, `<TestConnection>c__IteratorA2.TestConnection`, `<TestConnection>c__IteratorAE.MoveNext`, `<TestConnection>c__IteratorAF.MoveNext`, `<TestConnection>c__IteratorC1.MoveNext`, `<TestConnection>c__IteratorDC.MoveNext`, `<TestConnection>c__IteratorE4.MoveNext`, `<TestConnection>c__IteratorE6.MoveNext`, `<TestConnection>c__IteratorEA.MoveNext`, `<TestConnection>c__IteratorEB.MoveNext`, `<TestConnection>c__IteratorF7.MoveNext`, `<TestConnection>c__IteratorF8.MoveNext`, `<TestConnection>c__IteratorF9.MoveNext`
 
 **Response:**
 
@@ -563,7 +563,9 @@ HEGFLJKILKM: false
 
 ## GET `https://ns.rec.net/?v=2`
 
-*first seen: 2018-10-11_23-46-07 — last seen: 2018-12-06_21-26-17 (10 builds)*
+*first seen: 2018-10-11_23-46-07 — last seen: 2019-02-14_22-55-35 (14 builds)*
+
+**Declared by:** `<ConnectToRecNet>c__Iterator0.MoveNext`
 
 **Response:**
 

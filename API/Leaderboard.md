@@ -22,7 +22,7 @@ dictionary
 
 ## POST `api/Leaderboard/v1`
 
-*first seen: 2017-02-10_01-48-05 — last seen: 2019-08-27_14-02-14 (114 builds)*
+*first seen: 2017-02-10_01-48-05 — last seen: 2019-08-27_14-02-14 (122 builds)*
 
 **Declared by:** `Leaderboards.Get`
 

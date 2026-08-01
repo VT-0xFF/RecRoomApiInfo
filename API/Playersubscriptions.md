@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## GET `api/playersubscriptions/v1/my`
 
-*first seen: 2018-03-01_20-14-27 — last seen: 2020-06-09_07-58-29 (116 builds)*
+*first seen: 2018-03-01_20-14-27 — last seen: 2020-06-09_07-58-29 (124 builds)*
 
 **Declared by:** `PlayerSubscriptions.OnPushNotificationConnectCallback`
 

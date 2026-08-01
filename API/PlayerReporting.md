@@ -77,7 +77,7 @@ dictionary
 
 ## POST `api/PlayerReporting/v1/hile`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (77 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2021-08-06_06-02-59 (85 builds)*
 
 **Declared by:** `PlayerReporting.CreateHileWarning`
 
@@ -105,7 +105,7 @@ dictionary
 
 ## POST `api/PlayerReporting/v1/instantKick`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2021-08-06_06-02-59 (77 builds)*
+*first seen: 2019-01-18_19-43-25 — last seen: 2021-08-06_06-02-59 (82 builds)*
 
 **Declared by:** `PlayerReporting.InstantKickPlayer`
 
@@ -145,7 +145,9 @@ dictionary
 
 ## POST `api/PlayerReporting/v1/kickFromEvent`
 
-*first seen: 2017-09-15_00-01-47 — last seen: 2018-05-04_20-50-17 (37 builds)*
+*first seen: 2017-09-15_00-01-47 — last seen: 2018-12-20_21-03-57 (40 builds)*
+
+**Declared by:** `PlayerReporting.KickPlayerFromEvent`
 
 **Request body:** form fields (Dictionary<string,string>)
 
@@ -184,7 +186,7 @@ JOINLHEALDL
 
 ## GET `api/PlayerReporting/v1/moderationBlockDetails`
 
-*first seen: 2017-09-15_00-01-47 — last seen: 2021-08-06_06-02-59 (154 builds)*
+*first seen: 2017-09-15_00-01-47 — last seen: 2021-08-06_06-02-59 (162 builds)*
 
 **Declared by:** `PlayerReporting.GetModerationBlockDetails`
 
@@ -330,7 +332,7 @@ dictionary
 
 ## POST `api/PlayerReporting/v2/voteToKick`
 
-*first seen: 2018-02-01_20-04-59 — last seen: 2019-04-24_15-07-27 (24 builds)*
+*first seen: 2018-02-01_20-04-59 — last seen: 2019-04-24_15-07-27 (32 builds)*
 
 **Declared by:** `PlayerReporting.VoteToKickPlayer`
 

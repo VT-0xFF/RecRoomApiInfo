@@ -22,7 +22,7 @@ hCJMNAIFNNE
 
 ## POST `api/bugreporting/v1/reportbug`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-04-24_15-07-27 (5 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-04-24_15-07-27 (13 builds)*
 
 **Declared by:** `BugReporting.ReportBug`
 

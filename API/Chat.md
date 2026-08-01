@@ -4,7 +4,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/addToChat`
 
-*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (50 builds)*
+*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (58 builds)*
 
 **Declared by:** `Chats.AddPlayerToChat`
 
@@ -17,7 +17,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num5 != 0
 ```
 
 </details>
@@ -26,7 +26,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/create`
 
-*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (50 builds)*
+*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (58 builds)*
 
 **Declared by:** `Chats.CreateChat`
 
@@ -39,7 +39,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num6 != 0
 ```
 
 </details>
@@ -48,7 +48,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/leaveChat`
 
-*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (50 builds)*
+*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (58 builds)*
 
 **Declared by:** `Chats.LeaveChat`
 
@@ -61,7 +61,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num6 != 0
 ```
 
 </details>
@@ -70,7 +70,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/readMessage`
 
-*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (50 builds)*
+*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (58 builds)*
 
 **Declared by:** `Chats.ReadMessage`
 
@@ -83,7 +83,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num2 != 0
+(byte)num6 != 0
 ```
 
 </details>
@@ -92,7 +92,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/renameChat`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2019-08-20_14-04-18 (35 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2019-08-20_14-04-18 (43 builds)*
 
 **Declared by:** `Chats.RenameChat`
 
@@ -105,7 +105,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num2 != 0
+(byte)num7 != 0
 ```
 
 </details>
@@ -114,7 +114,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/sendMessage`
 
-*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (50 builds)*
+*first seen: 2018-07-13_17-30-36 — last seen: 2019-08-20_14-04-18 (58 builds)*
 
 **Declared by:** `Chats.SendMessage`
 
@@ -127,7 +127,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-(byte)num != 0
+(byte)num5 != 0
 ```
 
 </details>
@@ -136,7 +136,9 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 
 ## POST `api/chat/v1/snoozeChat`
 
-*first seen: 2018-09-27_21-32-54 — last seen: 2018-12-06_21-26-17 (14 builds)*
+*first seen: 2018-09-27_21-32-54 — last seen: 2019-02-14_22-55-35 (22 builds)*
+
+**Declared by:** `Chats.SnoozeChat`
 
 **Request body:** application/json
 
@@ -147,7 +149,7 @@ _Generated from the mono-era `Assembly-CSharp.dll` builds in `DLLs/`._
 <details><summary>Client-side callback</summary>
 
 ```cs
-OKBCAHBFJBL: false
+(byte)num6 != 0
 ```
 
 </details>

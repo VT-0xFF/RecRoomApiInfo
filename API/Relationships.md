@@ -189,7 +189,7 @@ lNIOBJAMBGA
 
 ## POST `api/relationships/v1/bulkignoreplatformusers`
 
-*first seen: 2017-10-27_20-21-58 — last seen: 2021-08-06_06-02-59 (146 builds)*
+*first seen: 2017-10-27_20-21-58 — last seen: 2021-08-06_06-02-59 (154 builds)*
 
 **Declared by:** `Relationships.BulkIgnorePlatformUsers`
 
@@ -211,7 +211,7 @@ true
 
 ## GET `api/relationships/v1/favorite?id={flag}`
 
-*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (159 builds)*
+*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (167 builds)*
 
 **Declared by:** `Relationships.FavoritePlayer`
 
@@ -414,7 +414,7 @@ private static Core.ApiCallback ParseRelationshipCallback (ApiCallback callback)
 
 ## GET `api/relationships/v1/unfavorite?id={flag}`
 
-*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (159 builds)*
+*first seen: 2018-05-09_19-37-59 — last seen: 2021-08-06_06-02-59 (167 builds)*
 
 **Declared by:** `Relationships.UnfavoritePlayer`
 
@@ -616,7 +616,7 @@ private static COGCNMJCNKN.JBBHLKJLENC<HAGGMKNIFHJ> JPPKHOKPAPN (COGCNMJCNKN.AII
 
 ## GET `api/relationships/v2/get`
 
-*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (263 builds)*
+*first seen: 2016-12-09_03-11-41 — last seen: 2021-08-06_06-02-59 (271 builds)*
 
 **Declared by:** `Relationships.RefreshList`
 
@@ -812,7 +812,7 @@ private static COGCNMJCNKN.JBBHLKJLENC<HAGGMKNIFHJ> JPPKHOKPAPN (COGCNMJCNKN.AII
 
 ## POST `api/relationships/{param}`
 
-*first seen: 2017-03-09_02-36-59 — last seen: 2021-08-06_06-02-59 (196 builds)*
+*first seen: 2017-03-09_02-36-59 — last seen: 2021-08-06_06-02-59 (204 builds)*
 
 **Declared by:** `Relationships.PostPreferenceChange`
 

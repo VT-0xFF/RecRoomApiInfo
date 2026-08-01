@@ -84,7 +84,7 @@ lNIOBJAMBGA
 
 ## POST `api/presence/v1/playerDisconnected`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-04-24_15-07-27 (5 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-04-24_15-07-27 (13 builds)*
 
 **Declared by:** `Presence.SendRemotePlayerDisconnectRequest`
 
@@ -106,7 +106,7 @@ true
 
 ## POST `api/presence/v1/setplayerstatusvisibility`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-04-24_15-07-27 (5 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-04-24_15-07-27 (13 builds)*
 
 **Declared by:** `Presence.SetPlayerStatusVisibility`
 
@@ -146,7 +146,7 @@ lNIOBJAMBGA
 
 ## POST `api/presence/v1/setplayertype`
 
-*first seen: 2019-03-14_23-23-50 — last seen: 2019-04-24_15-07-27 (5 builds)*
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-04-24_15-07-27 (13 builds)*
 
 **Declared by:** `Presence.SetPlayerType`
 
@@ -293,7 +293,7 @@ lNIOBJAMBGA
 
 ## POST `api/presence/v2/list`
 
-*first seen: 2017-09-01_01-07-05 — last seen: 2019-04-24_15-07-27 (45 builds)*
+*first seen: 2017-09-01_01-07-05 — last seen: 2019-04-24_15-07-27 (53 builds)*
 
 **Declared by:** `Presence.RefreshCachedPlayerPresences`
 

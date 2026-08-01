@@ -170,6 +170,35 @@ internal void GCILAJMMLCE (string GHJBJJPHNHD, List<JBODKDEGMDO> CKJKCMPGGPE)
 
 ---
 
+## POST `api/settings/v2/remove`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Settings.StoreLocalPlayerSetting`
+
+**Request body:** RecNet.Setting
+
+**Response:**
+
+`200 OK` — JSON `Setting`
+
+```json
+{
+  "Key": string,
+  "Value": string
+}
+```
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num3 != 0
+```
+
+</details>
+
+---
+
 ## POST `api/settings/v2/set`
 
 *first seen: 2019-03-14_23-23-50 — last seen: 2019-09-05_17-54-23 (23 builds)*
