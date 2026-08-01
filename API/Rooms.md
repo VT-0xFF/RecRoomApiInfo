@@ -62,7 +62,9 @@ lNIOBJAMBGA
 
 ## POST `api/rooms/v1/bookmark`
 
-*first seen: 2018-02-01_20-04-59 — last seen: 2018-04-05_19-22-43 (13 builds)*
+*first seen: 2018-02-01_20-04-59 — last seen: 2019-02-14_22-55-35 (21 builds)*
+
+**Declared by:** `Rooms.BookmarkRoom`
 
 **Request body:** application/json
 
@@ -202,7 +204,9 @@ lNIOBJAMBGA
 
 ## POST `api/rooms/v1/cheer`
 
-*first seen: 2017-12-15_01-29-10 — last seen: 2018-04-05_19-22-43 (17 builds)*
+*first seen: 2017-12-15_01-29-10 — last seen: 2019-02-14_22-55-35 (25 builds)*
+
+**Declared by:** `Rooms.CheerRoom`
 
 **Request body:** application/json
 
@@ -254,30 +258,20 @@ lNIOBJAMBGA
 
 ## POST `api/rooms/v1/clone`
 
-*first seen: 2018-03-01_20-14-27 — last seen: 2018-04-05_19-22-43 (8 builds)*
+*first seen: 2018-03-01_20-14-27 — last seen: 2019-02-14_22-55-35 (16 builds)*
+
+**Declared by:** `Rooms.CloneRoom`
 
 **Request body:** application/json
 
 **Response:**
 
-`200 OK` — JSON `HNIFBBFIBBG+DELNGKJFONK` (schema not recovered)
+`200 OK` — body not consumed by the client (error-only callback)
 
 <details><summary>Client-side callback</summary>
 
 ```cs
-private static HEMCJJJMLKI.JMICPMCJMJF<DELNGKJFONK> FGECDLDEFIE (string BHDHJEIHHJD, HEMCJJJMLKI.JMICPMCJMJF<DELNGKJFONK> JOINLHEALDL)
-{
-	return delegate(string DAKCKPMBKFF, DELNGKJFONK DKBBNNEBKMO) {
-		if (!string.IsNullOrEmpty (DAKCKPMBKFF)) {
-			Debug.LogErrorFormat ("RecNet room modify failed ({0}): {1}", BHDHJEIHHJD, DAKCKPMBKFF);
-		} else if (DKBBNNEBKMO.DPLNNBKDDAH != BOFMNGCCLNF.Success) {
-			Debug.LogWarningFormat ("RecNet room modify failed ({0}): {1}", BHDHJEIHHJD, DKBBNNEBKMO.DPLNNBKDDAH);
-		} else {
-			MLOMMKCHAND (DKBBNNEBKMO.PLOPPLAOICD);
-		}
-		HEMCJJJMLKI.MKFLPKAIDDJ (JOINLHEALDL, DAKCKPMBKFF, DKBBNNEBKMO);
-	};
-}
+true
 ```
 
 </details>
@@ -304,30 +298,20 @@ lNIOBJAMBGA
 
 ## POST `api/rooms/v1/datahistory/restore`
 
-*first seen: 2018-03-01_20-14-27 — last seen: 2018-04-05_19-22-43 (8 builds)*
+*first seen: 2018-03-01_20-14-27 — last seen: 2019-02-14_22-55-35 (16 builds)*
+
+**Declared by:** `Rooms.RestoreToRoomDataHistory`
 
 **Request body:** application/json
 
 **Response:**
 
-`200 OK` — JSON `HNIFBBFIBBG+DELNGKJFONK` (schema not recovered)
+`200 OK` — body not consumed by the client (error-only callback)
 
 <details><summary>Client-side callback</summary>
 
 ```cs
-private static HEMCJJJMLKI.JMICPMCJMJF<DELNGKJFONK> FGECDLDEFIE (string BHDHJEIHHJD, HEMCJJJMLKI.JMICPMCJMJF<DELNGKJFONK> JOINLHEALDL)
-{
-	return delegate(string DAKCKPMBKFF, DELNGKJFONK DKBBNNEBKMO) {
-		if (!string.IsNullOrEmpty (DAKCKPMBKFF)) {
-			Debug.LogErrorFormat ("RecNet room modify failed ({0}): {1}", BHDHJEIHHJD, DAKCKPMBKFF);
-		} else if (DKBBNNEBKMO.DPLNNBKDDAH != BOFMNGCCLNF.Success) {
-			Debug.LogWarningFormat ("RecNet room modify failed ({0}): {1}", BHDHJEIHHJD, DKBBNNEBKMO.DPLNNBKDDAH);
-		} else {
-			MLOMMKCHAND (DKBBNNEBKMO.PLOPPLAOICD);
-		}
-		HEMCJJJMLKI.MKFLPKAIDDJ (JOINLHEALDL, DAKCKPMBKFF, DKBBNNEBKMO);
-	};
-}
+true
 ```
 
 </details>
@@ -488,6 +472,26 @@ private static HEMCJJJMLKI.JMICPMCJMJF<List<PLOPPLAOICD>> PGJHJBCDJPO (HEMCJJJML
 
 ---
 
+## GET `api/rooms/v1/featuredRoomGroup`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.GetCurrentFeaturedRoomGroup`
+
+**Response:**
+
+`200 OK` — JSON `Rooms+FeaturedRoomGroupDTO` (schema not recovered)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num3 != 0
+```
+
+</details>
+
+---
+
 ## POST `api/rooms/v1/featuredRoomGroup`
 
 *first seen: 2018-08-28_16-00-26 — last seen: 2018-12-06_21-26-17 (19 builds)*
@@ -502,6 +506,26 @@ private static HEMCJJJMLKI.JMICPMCJMJF<List<PLOPPLAOICD>> PGJHJBCDJPO (HEMCJJJML
 
 ```cs
 HEGFLJKILKM: false
+```
+
+</details>
+
+---
+
+## GET `api/rooms/v1/filters`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.GetTags`
+
+**Response:**
+
+`200 OK` — JSON `Rooms+GetFiltersResponse` (schema not recovered)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num3 != 0
 ```
 
 </details>
@@ -738,6 +762,28 @@ lNIOBJAMBGA
 
 ---
 
+## POST `api/rooms/v1/modify/sceneParent`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.ModifySceneParent`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num9 != 0
+```
+
+</details>
+
+---
+
 ## GET `api/rooms/v1/modify/tags`
 
 *first seen: 2018-08-28_16-00-26 — last seen: 2018-12-06_21-26-17 (19 builds)*
@@ -750,6 +796,28 @@ lNIOBJAMBGA
 
 ```cs
 lNIOBJAMBGA
+```
+
+</details>
+
+---
+
+## POST `api/rooms/v1/modify/tags`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.ModifyRoomTags`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num10 != 0
 ```
 
 </details>
@@ -786,6 +854,28 @@ lNIOBJAMBGA
 
 ```cs
 lNIOBJAMBGA
+```
+
+</details>
+
+---
+
+## POST `api/rooms/v1/modifyscene`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.ModifyRoomScene`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+true
 ```
 
 </details>
@@ -1401,6 +1491,28 @@ lNIOBJAMBGA
 
 ---
 
+## POST `api/rooms/v2/modify`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.ModifyRoomImageName`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+true
+```
+
+</details>
+
+---
+
 ## GET `api/rooms/v2/modifyPermissions`
 
 *first seen: 2018-11-05_23-42-06 — last seen: 2018-12-06_21-26-17 (7 builds)*
@@ -1421,7 +1533,9 @@ hKBGPJJNELK
 
 ## GET `api/rooms/v2/myRecent?skip=0&take=10`
 
-*first seen: 2018-08-28_16-00-26 — last seen: 2018-12-06_21-26-17 (19 builds)*
+*first seen: 2018-08-28_16-00-26 — last seen: 2019-02-14_22-55-35 (27 builds)*
+
+**Declared by:** `Rooms.GetMyRecentRooms`
 
 **Response:**
 
@@ -1430,7 +1544,7 @@ hKBGPJJNELK
 <details><summary>Client-side callback</summary>
 
 ```cs
-HEGFLJKILKM: false
+(byte)num2 != 0
 ```
 
 </details>
@@ -1497,11 +1611,77 @@ HEGFLJKILKM: false
 
 ---
 
+## GET `api/rooms/v2/name/{stringToEscape}`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.GetRoomByName`
+
+**URI parameters:** `stringToEscape`
+
+**Response:**
+
+`200 OK` — JSON `Room`
+
+```json
+{
+  "RoomId": long,
+  "Name": string,
+  "Description": string,
+  "CreatorPlayerId": int,
+  "ImageName": string,
+  "State": int,
+  "Accessibility": int,
+  "SupportsLevelVoting": bool,
+  "IsAGRoom": bool,
+  "CloningAllowed": bool,
+  "SupportsScreens": bool,
+  "SupportsWalkVR": bool,
+  "SupportsTeleportVR": bool,
+  "AllowsJuniors": bool,
+  "DisableMicAutoMute": bool
+}
+```
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num5 != 0
+```
+
+</details>
+
+---
+
+## POST `api/rooms/v2/report`
+
+*first seen: 2018-12-14_19-12-52 — last seen: 2019-02-14_22-55-35 (8 builds)*
+
+**Declared by:** `Rooms.ReportRoom`
+
+**Request body:** application/json
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+true
+```
+
+</details>
+
+---
+
 ## POST `api/rooms/v2/saveData/{param}`
 
-*first seen: 2018-08-28_16-00-26 — last seen: 2018-12-06_21-26-17 (19 builds)*
+*first seen: 2018-08-28_16-00-26 — last seen: 2019-01-29_20-05-38 (25 builds)*
 
-**URI parameters:** `param`
+**Declared by:** `Rooms.UploadLocalRoomSceneData`
+
+**URI parameters:** `roomSceneId`
 
 **Request body:** WWWForm (application/x-www-form-urlencoded)
 
@@ -1518,7 +1698,7 @@ HEGFLJKILKM: false
 <details><summary>Client-side callback</summary>
 
 ```cs
-wWWForm
+true
 ```
 
 </details>
@@ -1587,11 +1767,13 @@ HEGFLJKILKM: false
 
 ## GET `api/rooms/v3/featured`
 
-*first seen: 2018-08-28_16-00-26 — last seen: 2018-12-06_21-26-17 (19 builds)*
+*first seen: 2018-08-28_16-00-26 — last seen: 2019-02-14_22-55-35 (27 builds)*
+
+**Declared by:** `Rooms.GetFeaturedRoom`
 
 **Response:**
 
-`200 OK` — JSON `PLOPPLAOICD`
+`200 OK` — JSON `Room`
 
 ```json
 {
@@ -1600,41 +1782,54 @@ HEGFLJKILKM: false
   "Description": string,
   "CreatorPlayerId": int,
   "ImageName": string,
-  "State": int,   // enum JECCIECOEID
-  "Accessibility": int,   // enum MJHMLOAMKCH
+  "State": int,
+  "Accessibility": int,
   "SupportsLevelVoting": bool,
-  "CheerCount": int,
-  "FavoriteCount": int,
   "IsAGRoom": bool,
   "CloningAllowed": bool,
   "SupportsScreens": bool,
   "SupportsWalkVR": bool,
-  "SupportsTeleportVR": bool
+  "SupportsTeleportVR": bool,
+  "AllowsJuniors": bool,
+  "DisableMicAutoMute": bool
 }
 ```
-
-| JSON key | Type | Maps to |
-|----------|------|---------|
-| `RoomId` | `long` | `EDNBKCICCOC` |
-| `Name` | `string` | `GDIECAFDIMC` |
-| `Description` | `string` | `MJLCELIIAJF` |
-| `CreatorPlayerId` | `int` | `EEDOGBONKHP` |
-| `ImageName` | `string` | `GAKPGOHFAHD` |
-| `State` | `int` | `FBBMOMHACLA` |
-| `Accessibility` | `int` | `DOFCAKGHLMI` |
-| `SupportsLevelVoting` | `bool` | `PCGBCEJPLHN` |
-| `CheerCount` | `int` | `BJDMPOGAGNB` |
-| `FavoriteCount` | `int` | `CPCPLOLHANO` |
-| `IsAGRoom` | `bool` | `OCAPHHJICEH` |
-| `CloningAllowed` | `bool` | `KGJHJMBMBIM` |
-| `SupportsScreens` | `bool` | `FICEMCIKPMA` |
-| `SupportsWalkVR` | `bool` | `MDKLIEPMCAO` |
-| `SupportsTeleportVR` | `bool` | `NNFGOPCDEDH` |
 
 <details><summary>Client-side callback</summary>
 
 ```cs
-bEDKNMKMHOL
+true
+```
+
+</details>
+
+---
+
+## POST `api/rooms/v3/saveData/{roomSceneId}`
+
+*first seen: 2019-02-07_18-24-01 — last seen: 2019-02-14_22-55-35 (2 builds)*
+
+**Declared by:** `Rooms.UploadLocalRoomSceneData`
+
+**URI parameters:** `roomSceneId`
+
+**Request body:** WWWForm (application/x-www-form-urlencoded)
+
+| Field | Type |
+|-------|------|
+| `data` | `byte[]` |
+| `imgList` | `string` |
+| `dataBlobList` | `string` |
+| `inventionUsages` | `string` |
+
+**Response:**
+
+`200 OK` — body not consumed by the client (error-only callback)
+
+<details><summary>Client-side callback</summary>
+
+```cs
+(byte)num16 != 0
 ```
 
 </details>
