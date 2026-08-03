@@ -1,4 +1,4 @@
-# RecRoomApiInfo
+# RecRoom Build Info
 A full list of every recroom version and their API request urls, and their expected responses.
 
 # Pausing updating the auto API docs until I can get every version's DLL Folder I can dump uploaded to the repo, and fix them to also document the endpoint (ROOMS / API / NOTIFICATION / ECON / etc.).
