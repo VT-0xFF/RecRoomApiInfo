@@ -15,6 +15,5 @@ I am aiming to have this automated, but fully accurate, Baseline known informati
 * All versions before `23 June 2017 – 17:23:52 UTC` do NOT use besthttp, they use a custom made "RecNet.Core" Namespace that uses UnityEngine.WWW to make requests.
 * All versions before `26 October 2016 – 20:30:17 UTC` do NOT use "RecNet.Core" for web requests, instead manually using UnityEngine.WWW to make requests, or the build has no HTTP requests
 * All versions beyond `10 February 2017 – 01:48:05 UTC` have Beebyte Obfuscation.
-* All versions `14 December 2018 – 19:12:52 UTC` to `21 June 2023 – 03:02:21 UTC` can and have been dumped with Cpp2Il's `--just-give-me-dlls-asap-dammit` flag.
-* All versions `21 June 2023 – 03:02:21 UTC` and beyond cannot be dumped with Cpp2Il's `--just-give-me-dlls-asap-dammit` flag and would require additional work due to metadata encryption.
+* All versions `14 December 2018 – 19:12:52 UTC` to `12 May 2026 – 18:46:14 UTC` can and have been dumped with Cpp2Il's `--just-give-me-dlls-asap-dammit` flag.
 * For the dumps for versions `11 February 2017 – 00:57:56 UTC` and beyond, Although I can try my best to provide accurate information, please note that some things may be wrong, or missing due to the obfuscation.
