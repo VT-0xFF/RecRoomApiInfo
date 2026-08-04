@@ -1,9 +1,9 @@
 # RecRoom Build Info
 A full list of every recroom version and their API request urls, and their expected responses.
 
-# Pausing updating the auto API docs until I can get every version's DLL Folder I can dump uploaded to the repo, and fix them to also document the endpoint (ROOMS / API / NOTIFICATION / ECON / etc.).
+# Pausing updating the auto API docs until I can get every version's DLLs dumped, and fix them to also document the endpoint (ROOMS / API / NOTIFICATION / ECON / etc.).
 
-## All of the builds DLLs will be inside of the "DLLs" folder in this repo.
+## All of the builds code or "Code" *(For builds using CPP2IL's IL to ASM)* will be inside of the "DLLs" folder in this repo.
 ## All of the API documentation will be as MD files inside of the "API" folder in this repo.
 
 # How can You Help?
