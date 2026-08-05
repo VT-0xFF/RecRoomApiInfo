@@ -1,0 +1,3110 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using Circuits.Shared.Api;
+using Cpp2IlInjected;
+using Microsoft.CodeAnalysis;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace Microsoft.CodeAnalysis
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	[CompilerGenerated]
+	[Microsoft.CodeAnalysis.Embedded]
+	internal sealed class EmbeddedAttribute : Attribute
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x8F0CF0", Offset = "0x8F00F0", VA = "0x1808F0CF0")]
+		public EmbeddedAttribute()
+		{
+		}
+	}
+}
+namespace System.Runtime.CompilerServices
+{
+	[Cpp2IlInjected.Token(Token = "0x2000003")]
+	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Parameter | AttributeTargets.ReturnValue | AttributeTargets.GenericParameter, AllowMultiple = false, Inherited = false)]
+	[Microsoft.CodeAnalysis.Embedded]
+	[CompilerGenerated]
+	internal sealed class NullableAttribute : Attribute
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000001")]
+		public readonly byte[] NullableFlags;
+
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0x235DAB0", Offset = "0x235CEB0", VA = "0x18235DAB0")]
+		public NullableAttribute(byte P_0)
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000004")]
+	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = false, Inherited = false)]
+	[Microsoft.CodeAnalysis.Embedded]
+	[CompilerGenerated]
+	internal sealed class NullableContextAttribute : Attribute
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000002")]
+		public readonly byte Flag;
+
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0x8F16B0", Offset = "0x8F0AB0", VA = "0x1808F16B0")]
+		public NullableContextAttribute(byte P_0)
+		{
+		}
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000005")]
+public struct BCHINHGIPLJ<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000003")]
+	internal KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>> BCLIKLACFCP;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000004")]
+	internal KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>> FIILCIANLFB;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000005")]
+	internal NOGIHGNAGLD KCMFMEHCMLL;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000006")]
+	internal HGNLDHFECEP HHDDBFLAJCE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000007")]
+	public MAKBGAMNFGF<TRoot> JILKBDBGELO;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000008")]
+	public FFACJABDHIA<TRoot> IMOKHHJFDPL;
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x53BE170", Offset = "0x53BD570", VA = "0x1853BE170")]
+	private BCHINHGIPLJ(KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>> GEAMAMPAMMJ, KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>> MLCCHAJCFDL, [In] NOGIHGNAGLD PIIOFHEPILF, [In] HGNLDHFECEP ENJCMIPLNMH, [In] MAKBGAMNFGF<TRoot> IOMOIHMPOLP, [In] FFACJABDHIA<TRoot> LAKIKIDEDIN)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000005")]
+	[Cpp2IlInjected.Address(RVA = "0x53BDFA0", Offset = "0x53BD3A0", VA = "0x1853BDFA0")]
+	public static BCHINHGIPLJ<TRoot> ACKFPPPAAAL(KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>> GEAMAMPAMMJ, KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>> MLCCHAJCFDL, [In] NOGIHGNAGLD PIIOFHEPILF, [In] HGNLDHFECEP ENJCMIPLNMH)
+	{
+		return default(BCHINHGIPLJ<TRoot>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000006")]
+public static class BGKLMJCELKD
+{
+	[Cpp2IlInjected.Token(Token = "0x2000007")]
+	public enum LAFPACAIABB
+	{
+		[Cpp2IlInjected.Token(Token = "0x400000A")]
+		CanConnectDirectly,
+		[Cpp2IlInjected.Token(Token = "0x400000B")]
+		CanConvertAndConnect
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000006")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF270", Offset = "0x2DCE670", VA = "0x182DCF270")]
+	public static void DNAOJJGPLEN<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000007")]
+	[Cpp2IlInjected.Address(RVA = "0xA93730", Offset = "0xA92B30", VA = "0x180A93730")]
+	public static KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>> BOMGBLJEKLB<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000008")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCFD50", Offset = "0x2DCF150", VA = "0x182DCFD50")]
+	public static KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>> HJINIOJAEMI<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000009")]
+	[Cpp2IlInjected.Address(RVA = "0x2329250", Offset = "0x2328650", VA = "0x182329250")]
+	public static NOGIHGNAGLD HKOOKANHFFK<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(NOGIHGNAGLD);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600000A")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF330", Offset = "0x2DCE730", VA = "0x182DCF330")]
+	public static HGNLDHFECEP DOHBJKMEOCF<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(HGNLDHFECEP);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600000B")]
+	[Cpp2IlInjected.Address(RVA = "0x2329250", Offset = "0x2328650", VA = "0x182329250")]
+	public static NOGIHGNAGLD NMJNEDGNAJO<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(NOGIHGNAGLD);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600000C")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF330", Offset = "0x2DCE730", VA = "0x182DCF330")]
+	public static HGNLDHFECEP HGIGFEOFLDF<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(HGNLDHFECEP);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600000D")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD2090", Offset = "0x2DD1490", VA = "0x182DD2090")]
+	public static LNNAOGECEMF<TRoot> MEJJFOEHBPA<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600000E")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0060", Offset = "0x2DCF460", VA = "0x182DD0060")]
+	public static (LNNAOGECEMF<TRoot>, AHPCDKCOAJM<CCPDCNPKMEJ>) INNNLEHMKMF<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default((LNNAOGECEMF<TRoot>, AHPCDKCOAJM<CCPDCNPKMEJ>));
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600000F")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCDB70", Offset = "0x2DCCF70", VA = "0x182DCDB70")]
+	public static MNABBGKHPNI<TRoot> AACBMEIFGGE<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000010")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD3830", Offset = "0x2DD2C30", VA = "0x182DD3830")]
+	public static bool OMBHLBCJPPF<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000011")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD1DB0", Offset = "0x2DD11B0", VA = "0x182DD1DB0")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, PALBKKEBDHN> LGDFNKEHHCC<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, PALBKKEBDHN>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000012")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF0C0", Offset = "0x2DCE4C0", VA = "0x182DCF0C0")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> DHNNFJGHHAK<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000013")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD3F50", Offset = "0x2DD3350", VA = "0x182DD3F50")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> POBPFPCKFAA<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IJNJJIFCDBB) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000014")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCEE90", Offset = "0x2DCE290", VA = "0x182DCEE90")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> DDCAMLHPLLF<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int HCBBANBCILK) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000015")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCFEB0", Offset = "0x2DCF2B0", VA = "0x182DCFEB0")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> IDAINHJAMOF<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000016")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD4180", Offset = "0x2DD3580", VA = "0x182DD4180")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> POIKNBHEPEB<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000017")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0D50", Offset = "0x2DD0150", VA = "0x182DD0D50")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> KHJLNLHGJHO<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000018")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD2190", Offset = "0x2DD1590", VA = "0x182DD2190")]
+	internal static ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP> NGGDKGNHECM<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, KEHHBMPLFPP>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000019")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD2350", Offset = "0x2DD1750", VA = "0x182DD2350")]
+	private static ABNAGONECLM<LAFPACAIABB, JMMAFLLBCOF> NKEGBAPNNJA<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<LAFPACAIABB, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600001A")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF680", Offset = "0x2DCEA80", VA = "0x182DCF680")]
+	private static AHPCDKCOAJM<AMFCOJIMJGL> EBCLCFHFLNH<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, [In] NHDJGAOGPOD AJLPJFOPFCG) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<AMFCOJIMJGL>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600001B")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0180", Offset = "0x2DCF580", VA = "0x182DD0180")]
+	private static void JBPKKOMAMPG<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600001C")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCFC60", Offset = "0x2DCF060", VA = "0x182DCFC60")]
+	internal static AHPCDKCOAJM<PLHEEEFNBNK> HFJLLABOJGJ<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, [In] LENADMPJNLI AOOGNGKJLKL) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<PLHEEEFNBNK>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600001D")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCFA20", Offset = "0x2DCEE20", VA = "0x182DCFA20")]
+	internal static AHPCDKCOAJM<JGJEEGHFLFO> FPACHBELPLH<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, [In] GKJDBJPPBHM IJEPNDOCKIJ) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<JGJEEGHFLFO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600001E")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF760", Offset = "0x2DCEB60", VA = "0x182DCF760")]
+	private static AHPCDKCOAJM<PNODKKHPFBO> EPCLBGMGHMN<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<BAEMPDHCENH> PAIJGEPOAJM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<PNODKKHPFBO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600001F")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF800", Offset = "0x2DCEC00", VA = "0x182DCF800")]
+	private static AHPCDKCOAJM<PNODKKHPFBO> FHAFHKHHAAP<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> GPBLDNKFEEL, AHPCDKCOAJM<BAEMPDHCENH> PAIJGEPOAJM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<PNODKKHPFBO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000020")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCE520", Offset = "0x2DCD920", VA = "0x182DCE520")]
+	private static void BEGEFJPHELM<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000021")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCE740", Offset = "0x2DCDB40", VA = "0x182DCE740")]
+	public static ABNAGONECLM<AHPCDKCOAJM<PNODKKHPFBO>, JMMAFLLBCOF> BPFPFBHMDCF<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO>? PDCJKIFBEGI, AHPCDKCOAJM<BAEMPDHCENH> NOEOKNONPLM, OCIBGMCIHFJ NFMIMDAJPBP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? IMKKPAMLDDK) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+		return default(ABNAGONECLM<AHPCDKCOAJM<PNODKKHPFBO>, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000022")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCDC20", Offset = "0x2DCD020", VA = "0x182DCDC20")]
+	public static AHPCDKCOAJM<PNODKKHPFBO> ADBNCILNEJB<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO>? GPBLDNKFEEL, AHPCDKCOAJM<BAEMPDHCENH> NOEOKNONPLM, OCIBGMCIHFJ NFMIMDAJPBP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? EAMKGBMDHCL) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+		return default(AHPCDKCOAJM<PNODKKHPFBO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000023")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0770", Offset = "0x2DCFB70", VA = "0x182DD0770")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF> JLJPIMBPKGA<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000024")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD3A00", Offset = "0x2DD2E00", VA = "0x182DD3A00")]
+	public static void PEPKDLMFPMC<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000025")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCFD60", Offset = "0x2DCF160", VA = "0x182DCFD60")]
+	public static ABNAGONECLM<AHPCDKCOAJM<AMFCOJIMJGL>, JMMAFLLBCOF> HNKELJGGADC<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<CCPDCNPKMEJ> NOEOKNONPLM, OCIBGMCIHFJ NFMIMDAJPBP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? IMKKPAMLDDK) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+		return default(ABNAGONECLM<AHPCDKCOAJM<AMFCOJIMJGL>, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000026")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD3BD0", Offset = "0x2DD2FD0", VA = "0x182DD3BD0")]
+	public static AHPCDKCOAJM<AMFCOJIMJGL> PJFOHCDEIKA<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<CCPDCNPKMEJ> NOEOKNONPLM, OCIBGMCIHFJ NFMIMDAJPBP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? IMKKPAMLDDK) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+		return default(AHPCDKCOAJM<AMFCOJIMJGL>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000027")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCFB10", Offset = "0x2DCEF10", VA = "0x182DCFB10")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF> GPKJCNEAANI<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000028")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCE8D0", Offset = "0x2DCDCD0", VA = "0x182DCE8D0")]
+	public static void CBLLPEMOHIE<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>, NIPMGBJLKGI
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000029")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD1110", Offset = "0x2DD0510", VA = "0x182DD1110")]
+	public static AHPCDKCOAJM<PLHEEEFNBNK> KJNMPGHMPOL<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IIACLAMOIEE, AHPCDKCOAJM<FEHJPJMJDBG> MLJGGJKHGBM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<PLHEEEFNBNK>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600002A")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0F80", Offset = "0x2DD0380", VA = "0x182DD0F80")]
+	public static void KJBOMBBCJLO<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600002B")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD33A0", Offset = "0x2DD27A0", VA = "0x182DD33A0")]
+	public static AHPCDKCOAJM<JGJEEGHFLFO> ODMKCLCJIIB<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IIACLAMOIEE, AHPCDKCOAJM<CBPDOKJJLFC> JMFKIMKMLMN) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<JGJEEGHFLFO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600002C")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0890", Offset = "0x2DCFC90", VA = "0x182DD0890")]
+	public static void JPDEGMPIEEO<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600002D")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD1ED0", Offset = "0x2DD12D0", VA = "0x182DD1ED0")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF> LGNJPBNIIAI<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600002E")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD04F0", Offset = "0x2DCF8F0", VA = "0x182DD04F0")]
+	public static void JKIGIFHMMGJ<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600002F")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCE5F0", Offset = "0x2DCD9F0", VA = "0x182DCE5F0")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF> BGPLLPDNGCK<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000030")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD34E0", Offset = "0x2DD28E0", VA = "0x182DD34E0")]
+	public static void OEGAKIKLEMF<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000031")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD0A20", Offset = "0x2DCFE20", VA = "0x182DD0A20")]
+	public static void KDFDOCDGELB<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000032")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF340", Offset = "0x2DCE740", VA = "0x182DCF340")]
+	public static void DOLMBGMGLDK<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000033")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD1250", Offset = "0x2DD0650", VA = "0x182DD1250")]
+	public static ABNAGONECLM<AHPCDKCOAJM<PLHEEEFNBNK>, JMMAFLLBCOF> KKJMNAGGIFE<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<AHPCDKCOAJM<PLHEEEFNBNK>, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000034")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCE370", Offset = "0x2DCD770", VA = "0x182DCE370")]
+	public static ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF> ANGLCCMDOAC<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM, [In] PMKHPKDDMDB EKFBHIJFHMA) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<ALHKDJHEAFJ, JMMAFLLBCOF>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000035")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF940", Offset = "0x2DCED40", VA = "0x182DCF940")]
+	public static void FMFGBHBALAH<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM, [In] PMKHPKDDMDB EKFBHIJFHMA) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000036")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCEE00", Offset = "0x2DCE200", VA = "0x182DCEE00")]
+	public static bool DAEMNKFGODG<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, HBNOCLDLIEG IFBDJLKPHIG) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000037")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCF8B0", Offset = "0x2DCECB0", VA = "0x182DCF8B0")]
+	public static bool FHCGMLGJCHP<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, HBNOCLDLIEG IFBDJLKPHIG) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000038")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD3980", Offset = "0x2DD2D80", VA = "0x182DD3980")]
+	public static HBNOCLDLIEG PDNCKFPBPGM<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000039")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCED70", Offset = "0x2DCE170", VA = "0x182DCED70")]
+	public static void CONNEDLGKFL<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, IEnumerable<AHPCDKCOAJM<AMFCOJIMJGL>> FPODBFBAGHC, OGHLOBLCDJI<AHPCDKCOAJM<PLHEEEFNBNK>> KOIAMPKPMGB) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600003A")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD2BC0", Offset = "0x2DD1FC0", VA = "0x182DD2BC0")]
+	public static void NLKKNHIHLGO<TRoot, TEnumerable>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, [In] TEnumerable POJBCHAHLFG) where TRoot : KGJCDPCBIJL<TRoot> where TEnumerable : IEnumerable<AHPCDKCOAJM<PLHEEEFNBNK>>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600003B")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD3760", Offset = "0x2DD2B60", VA = "0x182DD3760")]
+	public static void OHINHGFDEKB<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600003C")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD1460", Offset = "0x2DD0860", VA = "0x182DD1460")]
+	public static Dictionary<AHPCDKCOAJM<AMFCOJIMJGL>, List<IBBELHJEJEK<HBNOCLDLIEG>>> KPFNALJIOKF<TRoot>([In] this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, IEnumerable<AHPCDKCOAJM<AMFCOJIMJGL>> FPODBFBAGHC) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600003D")]
+	[Cpp2IlInjected.Address(RVA = "0x2DD1500", Offset = "0x2DD0900", VA = "0x182DD1500")]
+	public static void LAKALLLMCJD<TRoot>(this BCHINHGIPLJ<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, Dictionary<AHPCDKCOAJM<AMFCOJIMJGL>, List<IBBELHJEJEK<HBNOCLDLIEG>>> KBMFMDMKBAI, OGHLOBLCDJI<AHPCDKCOAJM<PLHEEEFNBNK>> KOIAMPKPMGB) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600003E")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCE030", Offset = "0x2DCD430", VA = "0x182DCE030")]
+	[CompilerGenerated]
+	internal static HBNOCLDLIEG ADJDKHFKCAM<TRoot, TRoot>(Dictionary<AHPCDKCOAJM<AMFCOJIMJGL>, List<IBBELHJEJEK<HBNOCLDLIEG>>> FIJPKDOHEHI, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, HBNOCLDLIEG ECBKHENODHD, HBNOCLDLIEG PHOGFEFCNEF) where TRoot : KGJCDPCBIJL<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200000A")]
+public interface FALIBIJPGMP
+{
+	[Cpp2IlInjected.Token(Token = "0x6000047")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	EDNLCJNDGLG NBCMFLJOPID();
+
+	[Cpp2IlInjected.Token(Token = "0x6000048")]
+	[Cpp2IlInjected.Address(Slot = "1")]
+	PMKHPKDDMDB BIDDHHNFMGN(HBNOCLDLIEG IFBDJLKPHIG);
+
+	[Cpp2IlInjected.Token(Token = "0x6000049")]
+	[Cpp2IlInjected.Address(Slot = "2")]
+	bool KPGFCIOBLNC(HBNOCLDLIEG IFBDJLKPHIG);
+}
+[Cpp2IlInjected.Token(Token = "0x200000B")]
+public interface KGJCDPCBIJL<TRoot> : FALIBIJPGMP where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x600004A")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	BCHINHGIPLJ<TRoot> AIKECLNJAKB();
+}
+[Cpp2IlInjected.Token(Token = "0x200000C")]
+public static class ANHEADCKCNB
+{
+	[Cpp2IlInjected.Token(Token = "0x600004B")]
+	[Cpp2IlInjected.Address(RVA = "0x3730170", Offset = "0x372F570", VA = "0x183730170")]
+	public static KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TSelf>> BOMGBLJEKLB<TSelf>(this TSelf MPLBPEBNKFP) where TSelf : KGJCDPCBIJL<TSelf>
+	{
+		return default(KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TSelf>>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600004C")]
+	[Cpp2IlInjected.Address(RVA = "0x3730170", Offset = "0x372F570", VA = "0x183730170")]
+	public static KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TSelf>> HJINIOJAEMI<TSelf>(this TSelf MPLBPEBNKFP) where TSelf : KGJCDPCBIJL<TSelf>
+	{
+		return default(KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TSelf>>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600004D")]
+	[Cpp2IlInjected.Address(RVA = "0x3730170", Offset = "0x372F570", VA = "0x183730170")]
+	public static NOGIHGNAGLD HKOOKANHFFK<TSelf>(this TSelf MPLBPEBNKFP) where TSelf : KGJCDPCBIJL<TSelf>
+	{
+		return default(NOGIHGNAGLD);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600004E")]
+	[Cpp2IlInjected.Address(RVA = "0x3730170", Offset = "0x372F570", VA = "0x183730170")]
+	public static HGNLDHFECEP DOHBJKMEOCF<TSelf>(this TSelf MPLBPEBNKFP) where TSelf : KGJCDPCBIJL<TSelf>
+	{
+		return default(HGNLDHFECEP);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600004F")]
+	[Cpp2IlInjected.Address(RVA = "0x37301F0", Offset = "0x372F5F0", VA = "0x1837301F0")]
+	public static LNNAOGECEMF<TSelf> MEJJFOEHBPA<TSelf>(this TSelf MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TSelf : KGJCDPCBIJL<TSelf>
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000050")]
+	[Cpp2IlInjected.Address(RVA = "0x37300F0", Offset = "0x372F4F0", VA = "0x1837300F0")]
+	public static MNABBGKHPNI<TSelf> AACBMEIFGGE<TSelf>(this TSelf MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TSelf : KGJCDPCBIJL<TSelf>
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200000D")]
+public interface NIPMGBJLKGI
+{
+	[Cpp2IlInjected.Token(Token = "0x6000051")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	void JEOOKMEACDJ(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, OCIBGMCIHFJ PNOAMLLJPCK, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? EAMKGBMDHCL);
+
+	[Cpp2IlInjected.Token(Token = "0x6000052")]
+	[Cpp2IlInjected.Address(Slot = "1")]
+	void MAOOIKEDMJK(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x6000053")]
+	[Cpp2IlInjected.Address(Slot = "2")]
+	void ALKEENMJAOD(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, OCIBGMCIHFJ PNOAMLLJPCK, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? EAMKGBMDHCL);
+
+	[Cpp2IlInjected.Token(Token = "0x6000054")]
+	[Cpp2IlInjected.Address(Slot = "3")]
+	void MPLCEDMKFDC(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD);
+}
+[Cpp2IlInjected.Token(Token = "0x200000E")]
+public struct FFACJABDHIA<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000012")]
+	internal global::MILLDJGCHDN<AHPCDKCOAJM<IMANFKKJPFM>, LMIPNDJCLHG, DDPGPLNGCEB, BNEEIFGPNIC<TRoot>, HBNOCLDLIEG, AHPCDKCOAJM<PLHEEEFNBNK>, AHPCDKCOAJM<JGJEEGHFLFO>, AHPCDKCOAJM<AMFCOJIMJGL>, AHPCDKCOAJM<PNODKKHPFBO>, TRoot, AFPLDDJLMBM<TRoot>> ICFOFAMGABF;
+
+	[Cpp2IlInjected.Token(Token = "0x6000055")]
+	[Cpp2IlInjected.Address(RVA = "0x24ECC90", Offset = "0x24EC090", VA = "0x1824ECC90")]
+	private FFACJABDHIA([In] global::MILLDJGCHDN<AHPCDKCOAJM<IMANFKKJPFM>, LMIPNDJCLHG, DDPGPLNGCEB, BNEEIFGPNIC<TRoot>, HBNOCLDLIEG, AHPCDKCOAJM<PLHEEEFNBNK>, AHPCDKCOAJM<JGJEEGHFLFO>, AHPCDKCOAJM<AMFCOJIMJGL>, AHPCDKCOAJM<PNODKKHPFBO>, TRoot, AFPLDDJLMBM<TRoot>> HKNABNLJGOH)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000056")]
+	[Cpp2IlInjected.Address(RVA = "0x4071000", Offset = "0x4070400", VA = "0x184071000")]
+	public static FFACJABDHIA<TRoot> ODOFIFAGLAJ()
+	{
+		return default(FFACJABDHIA<TRoot>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200000F")]
+public static class NEOOHPPLGLE
+{
+	[Cpp2IlInjected.Token(Token = "0x6000057")]
+	[Cpp2IlInjected.Address(RVA = "0xA93730", Offset = "0xA92B30", VA = "0x180A93730")]
+	public static global::MILLDJGCHDN<AHPCDKCOAJM<IMANFKKJPFM>, LMIPNDJCLHG, DDPGPLNGCEB, BNEEIFGPNIC<TRoot>, HBNOCLDLIEG, AHPCDKCOAJM<PLHEEEFNBNK>, AHPCDKCOAJM<JGJEEGHFLFO>, AHPCDKCOAJM<AMFCOJIMJGL>, AHPCDKCOAJM<PNODKKHPFBO>, TRoot, AFPLDDJLMBM<TRoot>> AFFELPLAAIM<TRoot>([In] this FFACJABDHIA<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(global::MILLDJGCHDN<AHPCDKCOAJM<IMANFKKJPFM>, LMIPNDJCLHG, DDPGPLNGCEB, BNEEIFGPNIC<TRoot>, HBNOCLDLIEG, AHPCDKCOAJM<PLHEEEFNBNK>, AHPCDKCOAJM<JGJEEGHFLFO>, AHPCDKCOAJM<AMFCOJIMJGL>, AHPCDKCOAJM<PNODKKHPFBO>, TRoot, AFPLDDJLMBM<TRoot>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000010")]
+public struct MAKBGAMNFGF<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000013")]
+	internal JLIMBLJHLLE<LGBMHNIOIBI<HBNOCLDLIEG>, TRoot, IOJAEGMGNFN<TRoot>> ICFOFAMGABF;
+
+	[Cpp2IlInjected.Token(Token = "0x6000058")]
+	[Cpp2IlInjected.Address(RVA = "0x24EC7B0", Offset = "0x24EBBB0", VA = "0x1824EC7B0")]
+	private MAKBGAMNFGF([In] JLIMBLJHLLE<LGBMHNIOIBI<HBNOCLDLIEG>, TRoot, IOJAEGMGNFN<TRoot>> HKNABNLJGOH)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000059")]
+	[Cpp2IlInjected.Address(RVA = "0x49CC4A0", Offset = "0x49CB8A0", VA = "0x1849CC4A0")]
+	public static MAKBGAMNFGF<TRoot> ODOFIFAGLAJ()
+	{
+		return default(MAKBGAMNFGF<TRoot>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000011")]
+public static class IDGDHGNHIBE
+{
+	[Cpp2IlInjected.Token(Token = "0x600005A")]
+	[Cpp2IlInjected.Address(RVA = "0xA93730", Offset = "0xA92B30", VA = "0x180A93730")]
+	public static JLIMBLJHLLE<LGBMHNIOIBI<HBNOCLDLIEG>, TRoot, IOJAEGMGNFN<TRoot>> AFFELPLAAIM<TRoot>([In] this MAKBGAMNFGF<TRoot> MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(JLIMBLJHLLE<LGBMHNIOIBI<HBNOCLDLIEG>, TRoot, IOJAEGMGNFN<TRoot>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000012")]
+public sealed class BNEEIFGPNIC<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000014")]
+	private readonly CKLDAPMGOHO<TRoot, MHKIHBDGICD<TRoot>> ICFOFAMGABF;
+
+	[Cpp2IlInjected.Token(Token = "0x600005B")]
+	[Cpp2IlInjected.Address(RVA = "0x8C7B90", Offset = "0x8C6F90", VA = "0x1808C7B90")]
+	public CKLDAPMGOHO<TRoot, MHKIHBDGICD<TRoot>> AFFELPLAAIM()
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600005C")]
+	[Cpp2IlInjected.Address(RVA = "0x5425ED0", Offset = "0x54252D0", VA = "0x185425ED0")]
+	private BNEEIFGPNIC(MHKIHBDGICD<TRoot> CFAPAOIIPAA)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600005D")]
+	[Cpp2IlInjected.Address(RVA = "0x5425E00", Offset = "0x5425200", VA = "0x185425E00")]
+	public static BNEEIFGPNIC<TRoot> ODOFIFAGLAJ()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000013")]
+public struct HGGPJDPJBNN
+{
+	[Cpp2IlInjected.Token(Token = "0x2000014")]
+	public abstract class LIGLMMKHLEA
+	{
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000015")]
+	public BPONAHELEAL<PLHEEEFNBNK, LENADMPJNLI> BLKINBPMNLC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+	[Cpp2IlInjected.Token(Token = "0x4000016")]
+	public BPONAHELEAL<JGJEEGHFLFO, GKJDBJPPBHM> FJMKDJHHOGD;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000017")]
+	public BPONAHELEAL<AMFCOJIMJGL, NHDJGAOGPOD> FLCJHLBLEPM;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+	[Cpp2IlInjected.Token(Token = "0x4000018")]
+	public GKOBKBKCCCO<DBEFHFBBEFE.PFDJJBLCHPH> PHJFFCBEBEJ;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x58")]
+	[Cpp2IlInjected.Token(Token = "0x4000019")]
+	public BPONAHELEAL<DBEFHFBBEFE.PFDJJBLCHPH, DBEFHFBBEFE> NJPFKOONANE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x68")]
+	[Cpp2IlInjected.Token(Token = "0x400001A")]
+	public GKOBKBKCCCO<NPMAIEAKBJN.CEMGMFLDMHH> PHDIGGHGADJ;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x90")]
+	[Cpp2IlInjected.Token(Token = "0x400001B")]
+	public BPONAHELEAL<NPMAIEAKBJN.CEMGMFLDMHH, NPMAIEAKBJN> KLIMJIMHBPE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0xA0")]
+	[Cpp2IlInjected.Token(Token = "0x400001C")]
+	public readonly AHPCDKCOAJM<BAEMPDHCENH> DLDJHOEACGO;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0xA4")]
+	[Cpp2IlInjected.Token(Token = "0x400001D")]
+	public AHPCDKCOAJM<LIGLMMKHLEA> EFNOLLIGHID;
+
+	[Cpp2IlInjected.Token(Token = "0x600005E")]
+	[Cpp2IlInjected.Address(RVA = "0x235D3D0", Offset = "0x235C7D0", VA = "0x18235D3D0")]
+	private HGGPJDPJBNN([In] BPONAHELEAL<PLHEEEFNBNK, LENADMPJNLI> BHEIECPPBBG, [In] BPONAHELEAL<JGJEEGHFLFO, GKJDBJPPBHM> AINBDIFEJLF, [In] BPONAHELEAL<AMFCOJIMJGL, NHDJGAOGPOD> CPNFMBFFLPF, [In] GKOBKBKCCCO<DBEFHFBBEFE.PFDJJBLCHPH> BKFPJMGHNFJ, [In] BPONAHELEAL<DBEFHFBBEFE.PFDJJBLCHPH, DBEFHFBBEFE> GPKLEJBMFJL, [In] GKOBKBKCCCO<NPMAIEAKBJN.CEMGMFLDMHH> BBHEBADCAPB, [In] BPONAHELEAL<NPMAIEAKBJN.CEMGMFLDMHH, NPMAIEAKBJN> DOMDGPCHPLC, AHPCDKCOAJM<BAEMPDHCENH> NOEOKNONPLM, AHPCDKCOAJM<LIGLMMKHLEA> NMBALOOFANG)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600005F")]
+	[Cpp2IlInjected.Address(RVA = "0x235D1B0", Offset = "0x235C5B0", VA = "0x18235D1B0")]
+	public static HGGPJDPJBNN JPDBGBNHKOA(AHPCDKCOAJM<BAEMPDHCENH> NOEOKNONPLM)
+	{
+		return default(HGGPJDPJBNN);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000060")]
+	[Cpp2IlInjected.Address(RVA = "0x235D100", Offset = "0x235C500", VA = "0x18235D100")]
+	public static HGGPJDPJBNN FGCPEFAJENM([In] BPONAHELEAL<PLHEEEFNBNK, LENADMPJNLI> BHEIECPPBBG, [In] BPONAHELEAL<JGJEEGHFLFO, GKJDBJPPBHM> AINBDIFEJLF, [In] BPONAHELEAL<AMFCOJIMJGL, NHDJGAOGPOD> CPNFMBFFLPF, [In] GKOBKBKCCCO<DBEFHFBBEFE.PFDJJBLCHPH> BKFPJMGHNFJ, [In] BPONAHELEAL<DBEFHFBBEFE.PFDJJBLCHPH, DBEFHFBBEFE> GPKLEJBMFJL, [In] GKOBKBKCCCO<NPMAIEAKBJN.CEMGMFLDMHH> BBHEBADCAPB, [In] BPONAHELEAL<NPMAIEAKBJN.CEMGMFLDMHH, NPMAIEAKBJN> DOMDGPCHPLC, AHPCDKCOAJM<BAEMPDHCENH> NOEOKNONPLM, AHPCDKCOAJM<LIGLMMKHLEA> NMBALOOFANG)
+	{
+		return default(HGGPJDPJBNN);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000015")]
+public static class PANDAODLDKN
+{
+	[Cpp2IlInjected.Token(Token = "0x6000061")]
+	[Cpp2IlInjected.Address(RVA = "0x235DF60", Offset = "0x235D360", VA = "0x18235DF60")]
+	public static void DNAOJJGPLEN(this HGGPJDPJBNN MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000062")]
+	[Cpp2IlInjected.Address(RVA = "0x3221180", Offset = "0x3220580", VA = "0x183221180")]
+	public static AHPCDKCOAJM<TM> APBNKDMGALE<TM>([In] this HGGPJDPJBNN MPLBPEBNKFP) where TM : HGGPJDPJBNN.LIGLMMKHLEA
+	{
+		return default(AHPCDKCOAJM<TM>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000016")]
+public struct HGNLDHFECEP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400001E")]
+	public BPONAHELEAL<PNODKKHPFBO, HGGPJDPJBNN> KFMENCDPEAM;
+
+	[Cpp2IlInjected.Token(Token = "0x6000063")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private HGNLDHFECEP([In] BPONAHELEAL<PNODKKHPFBO, HGGPJDPJBNN> KNHLIMDEMDB)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000064")]
+	[Cpp2IlInjected.Address(RVA = "0x235B580", Offset = "0x235A980", VA = "0x18235B580")]
+	public static HGNLDHFECEP ACKFPPPAAAL([In] BPONAHELEAL<PNODKKHPFBO, HGGPJDPJBNN> KNHLIMDEMDB)
+	{
+		return default(HGNLDHFECEP);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000017")]
+public static class GMKAPACPBNI
+{
+	[Cpp2IlInjected.Token(Token = "0x6000065")]
+	[Cpp2IlInjected.Address(RVA = "0x235CA20", Offset = "0x235BE20", VA = "0x18235CA20")]
+	public static void DNAOJJGPLEN(this HGNLDHFECEP MPLBPEBNKFP, [In] NOGIHGNAGLD PIIOFHEPILF)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000066")]
+	[Cpp2IlInjected.Address(RVA = "0x235CBC0", Offset = "0x235BFC0", VA = "0x18235CBC0")]
+	internal static void FCPJHHJJNCF(this HGNLDHFECEP MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI, AHPCDKCOAJM<BAEMPDHCENH> PAIJGEPOAJM)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000067")]
+	[Cpp2IlInjected.Address(RVA = "0x235CEE0", Offset = "0x235C2E0", VA = "0x18235CEE0")]
+	internal static void OLENLPMJDLF(this HGNLDHFECEP MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI, [In] NOGIHGNAGLD PIIOFHEPILF)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000068")]
+	[Cpp2IlInjected.Address(RVA = "0x235C9B0", Offset = "0x235BDB0", VA = "0x18235C9B0")]
+	public static HGGPJDPJBNN AFFELPLAAIM([In] this HGNLDHFECEP MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+		return default(HGGPJDPJBNN);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000069")]
+	[Cpp2IlInjected.Address(RVA = "0x235CE70", Offset = "0x235C270", VA = "0x18235CE70")]
+	public static HGGPJDPJBNN HEJPNBNFFBD(this HGNLDHFECEP MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+		return default(HGGPJDPJBNN);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000018")]
+public struct LENADMPJNLI
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400001F")]
+	public HBNOCLDLIEG BBGMBKJKLNE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+	[Cpp2IlInjected.Token(Token = "0x4000020")]
+	public HBNOCLDLIEG EMBDANEKFIN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+	[Cpp2IlInjected.Token(Token = "0x4000021")]
+	public PMKHPKDDMDB INCGKOEDABI;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000022")]
+	public AHPCDKCOAJM<FEHJPJMJDBG> DLDJHOEACGO;
+
+	[Cpp2IlInjected.Token(Token = "0x600006A")]
+	[Cpp2IlInjected.Address(RVA = "0x235D950", Offset = "0x235CD50", VA = "0x18235D950")]
+	private LENADMPJNLI(HBNOCLDLIEG ABCOJOHNPFF, HBNOCLDLIEG CFJFNLEMLKI, [In] PMKHPKDDMDB EKFBHIJFHMA, AHPCDKCOAJM<FEHJPJMJDBG> NOEOKNONPLM)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600006B")]
+	[Cpp2IlInjected.Address(RVA = "0x235D8E0", Offset = "0x235CCE0", VA = "0x18235D8E0")]
+	public static LENADMPJNLI ODOFIFAGLAJ(AHPCDKCOAJM<FEHJPJMJDBG> NOEOKNONPLM)
+	{
+		return default(LENADMPJNLI);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600006C")]
+	[Cpp2IlInjected.Address(RVA = "0x235D860", Offset = "0x235CC60", VA = "0x18235D860")]
+	public static LENADMPJNLI AOIHMGEGAPJ([In] PMKHPKDDMDB EKFBHIJFHMA, AHPCDKCOAJM<FEHJPJMJDBG> NOEOKNONPLM)
+	{
+		return default(LENADMPJNLI);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000019")]
+public static class AOOEKPPJGDK
+{
+	[Cpp2IlInjected.Token(Token = "0x600006D")]
+	[Cpp2IlInjected.Address(RVA = "0x235B330", Offset = "0x235A730", VA = "0x18235B330")]
+	public static void LAOLJMNGFAL(this LENADMPJNLI MPLBPEBNKFP, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200001A")]
+public struct NHDJGAOGPOD
+{
+	[Cpp2IlInjected.Token(Token = "0x200001B")]
+	public abstract class NHAGLKCACPD
+	{
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000023")]
+	public readonly AHPCDKCOAJM<CCPDCNPKMEJ> DLDJHOEACGO;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x4")]
+	[Cpp2IlInjected.Token(Token = "0x4000024")]
+	public AHPCDKCOAJM<NHAGLKCACPD> EFNOLLIGHID;
+
+	[Cpp2IlInjected.Token(Token = "0x600006E")]
+	[Cpp2IlInjected.Address(RVA = "0x961F80", Offset = "0x961380", VA = "0x180961F80")]
+	private NHDJGAOGPOD(AHPCDKCOAJM<CCPDCNPKMEJ> HFOMALDPHEB, AHPCDKCOAJM<NHAGLKCACPD> NMBALOOFANG)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600006F")]
+	[Cpp2IlInjected.Address(RVA = "0x235D9B0", Offset = "0x235CDB0", VA = "0x18235D9B0")]
+	public static NHDJGAOGPOD JPDBGBNHKOA(AHPCDKCOAJM<CCPDCNPKMEJ> HFOMALDPHEB)
+	{
+		return default(NHDJGAOGPOD);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000070")]
+	[Cpp2IlInjected.Address(RVA = "0x2338070", Offset = "0x2337470", VA = "0x182338070")]
+	public static NHDJGAOGPOD FGCPEFAJENM(AHPCDKCOAJM<CCPDCNPKMEJ> HFOMALDPHEB, AHPCDKCOAJM<NHAGLKCACPD> NMBALOOFANG)
+	{
+		return default(NHDJGAOGPOD);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200001C")]
+public static class GMNEFHCJPMI
+{
+	[Cpp2IlInjected.Token(Token = "0x6000071")]
+	[Cpp2IlInjected.Address(RVA = "0x306E970", Offset = "0x306DD70", VA = "0x18306E970")]
+	public static AHPCDKCOAJM<TM> APBNKDMGALE<TM>([In] this NHDJGAOGPOD MPLBPEBNKFP) where TM : NHDJGAOGPOD.NHAGLKCACPD
+	{
+		return default(AHPCDKCOAJM<TM>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200001D")]
+public struct GKJDBJPPBHM
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000025")]
+	public HBNOCLDLIEG BBGMBKJKLNE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+	[Cpp2IlInjected.Token(Token = "0x4000026")]
+	public HBNOCLDLIEG EMBDANEKFIN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+	[Cpp2IlInjected.Token(Token = "0x4000027")]
+	public AHPCDKCOAJM<CBPDOKJJLFC> DLDJHOEACGO;
+
+	[Cpp2IlInjected.Token(Token = "0x6000072")]
+	[Cpp2IlInjected.Address(RVA = "0x235C960", Offset = "0x235BD60", VA = "0x18235C960")]
+	private GKJDBJPPBHM(HBNOCLDLIEG ABCOJOHNPFF, HBNOCLDLIEG CFJFNLEMLKI, AHPCDKCOAJM<CBPDOKJJLFC> NOEOKNONPLM)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000073")]
+	[Cpp2IlInjected.Address(RVA = "0x235C910", Offset = "0x235BD10", VA = "0x18235C910")]
+	public static GKJDBJPPBHM ODOFIFAGLAJ(AHPCDKCOAJM<CBPDOKJJLFC> NOEOKNONPLM)
+	{
+		return default(GKJDBJPPBHM);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200001E")]
+public static class JACIIFGDOLM
+{
+	[Cpp2IlInjected.Token(Token = "0x6000074")]
+	[Cpp2IlInjected.Address(RVA = "0x235D5F0", Offset = "0x235C9F0", VA = "0x18235D5F0")]
+	public static void LAOLJMNGFAL(this GKJDBJPPBHM MPLBPEBNKFP, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200001F")]
+public struct GCMMJLMBLKF
+{
+	[Cpp2IlInjected.Token(Token = "0x2000020")]
+	public sealed class NOOCFOKDEOG
+	{
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000028")]
+	public BEOICECHJKA HKJKCAKKNIP;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000029")]
+	public AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.Token(Token = "0x6000075")]
+	[Cpp2IlInjected.Address(RVA = "0x235C4A0", Offset = "0x235B8A0", VA = "0x18235C4A0")]
+	private GCMMJLMBLKF([In] BEOICECHJKA JENLCPLLAKH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000076")]
+	[Cpp2IlInjected.Address(RVA = "0x235C3D0", Offset = "0x235B7D0", VA = "0x18235C3D0")]
+	public static GCMMJLMBLKF ODOFIFAGLAJ(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD)
+	{
+		return default(GCMMJLMBLKF);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000021")]
+public static class BHKKMJGHKDG
+{
+	[Cpp2IlInjected.Token(Token = "0x6000077")]
+	[Cpp2IlInjected.Address(RVA = "0x235B4E0", Offset = "0x235A8E0", VA = "0x18235B4E0")]
+	public static void DNAOJJGPLEN(this GCMMJLMBLKF MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000078")]
+	[Cpp2IlInjected.Address(RVA = "0x2DDAA20", Offset = "0x2DD9E20", VA = "0x182DDAA20")]
+	public static void MJDLKNLPDGB<TRoot>([In] this GCMMJLMBLKF MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000079")]
+	[Cpp2IlInjected.Address(RVA = "0x2DDA9D0", Offset = "0x2DD9DD0", VA = "0x182DDA9D0")]
+	public static void CONNEDLGKFL<TRoot>([In] this GCMMJLMBLKF MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600007A")]
+	[Cpp2IlInjected.Address(RVA = "0x2DDA9D0", Offset = "0x2DD9DD0", VA = "0x182DDA9D0")]
+	public static void NLKKNHIHLGO<TRoot>([In] this GCMMJLMBLKF MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000022")]
+public struct NOGIHGNAGLD
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400002A")]
+	public GDNHJKCFGMI<PNODKKHPFBO> NDCGLKDPIAM;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x48")]
+	[Cpp2IlInjected.Token(Token = "0x400002B")]
+	public BPONAHELEAL<PNODKKHPFBO, PHJEECMEBKI> KFMENCDPEAM;
+
+	[Cpp2IlInjected.Token(Token = "0x600007B")]
+	[Cpp2IlInjected.Address(RVA = "0x235DA50", Offset = "0x235CE50", VA = "0x18235DA50")]
+	private NOGIHGNAGLD([In] GDNHJKCFGMI<PNODKKHPFBO> PAOFBMHIAEC, [In] BPONAHELEAL<PNODKKHPFBO, PHJEECMEBKI> KNHLIMDEMDB)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600007C")]
+	[Cpp2IlInjected.Address(RVA = "0x235D9D0", Offset = "0x235CDD0", VA = "0x18235D9D0")]
+	public static NOGIHGNAGLD ACKFPPPAAAL([In] GDNHJKCFGMI<PNODKKHPFBO> PAOFBMHIAEC, [In] BPONAHELEAL<PNODKKHPFBO, PHJEECMEBKI> KNHLIMDEMDB)
+	{
+		return default(NOGIHGNAGLD);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000023")]
+public static class FMGDDPKEDPB
+{
+	[Cpp2IlInjected.Token(Token = "0x600007D")]
+	[Cpp2IlInjected.Address(RVA = "0x235BDA0", Offset = "0x235B1A0", VA = "0x18235BDA0")]
+	public static void DNAOJJGPLEN(this NOGIHGNAGLD MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600007E")]
+	[Cpp2IlInjected.Address(RVA = "0x235BF50", Offset = "0x235B350", VA = "0x18235BF50")]
+	public static AHPCDKCOAJM<PNODKKHPFBO> FCPJHHJJNCF(this NOGIHGNAGLD MPLBPEBNKFP)
+	{
+		return default(AHPCDKCOAJM<PNODKKHPFBO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600007F")]
+	[Cpp2IlInjected.Address(RVA = "0x235C070", Offset = "0x235B470", VA = "0x18235C070")]
+	public static AHPCDKCOAJM<PNODKKHPFBO> HCGLCMAJPFL(this NOGIHGNAGLD MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> GPBLDNKFEEL)
+	{
+		return default(AHPCDKCOAJM<PNODKKHPFBO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000080")]
+	[Cpp2IlInjected.Address(RVA = "0x235C280", Offset = "0x235B680", VA = "0x18235C280")]
+	public static void OLENLPMJDLF(this NOGIHGNAGLD MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000081")]
+	[Cpp2IlInjected.Address(RVA = "0x235BD30", Offset = "0x235B130", VA = "0x18235BD30")]
+	public static GKOBKBKCCCO<PNODKKHPFBO>.OHFLLBBHJAF BFLLJJPFFNJ([In] this NOGIHGNAGLD MPLBPEBNKFP)
+	{
+		return default(GKOBKBKCCCO<PNODKKHPFBO>.OHFLLBBHJAF);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000082")]
+	[Cpp2IlInjected.Address(RVA = "0x235BC60", Offset = "0x235B060", VA = "0x18235BC60")]
+	public static PHJEECMEBKI AFFELPLAAIM([In] this NOGIHGNAGLD MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+		return default(PHJEECMEBKI);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000083")]
+	[Cpp2IlInjected.Address(RVA = "0x235C190", Offset = "0x235B590", VA = "0x18235C190")]
+	public static PHJEECMEBKI HEJPNBNFFBD(this NOGIHGNAGLD MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+		return default(PHJEECMEBKI);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000084")]
+	[Cpp2IlInjected.Address(RVA = "0x235BCE0", Offset = "0x235B0E0", VA = "0x18235BCE0")]
+	public static bool BEGHCPGHHPC([In] this NOGIHGNAGLD MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000085")]
+	[Cpp2IlInjected.Address(RVA = "0x235C210", Offset = "0x235B610", VA = "0x18235C210")]
+	public static HEEJAAKOMGF<AHPCDKCOAJM<PNODKKHPFBO>, OGHLOBLCDJI<AHPCDKCOAJM<PNODKKHPFBO>>.EAJFADKHJJA> HLLFGLJJGEH([In] this NOGIHGNAGLD MPLBPEBNKFP, AHPCDKCOAJM<PNODKKHPFBO> LPMIIFILJPI)
+	{
+		return default(HEEJAAKOMGF<AHPCDKCOAJM<PNODKKHPFBO>, OGHLOBLCDJI<AHPCDKCOAJM<PNODKKHPFBO>>.EAJFADKHJJA>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000024")]
+public interface MNABBGKHPNI<TRoot> : IDisposable
+{
+	[Cpp2IlInjected.Token(Token = "0x6000086")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	void JGIJABKOFAG(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, OCIBGMCIHFJ PNOAMLLJPCK, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? EAMKGBMDHCL);
+
+	[Cpp2IlInjected.Token(Token = "0x6000087")]
+	[Cpp2IlInjected.Address(Slot = "1")]
+	void KPHDIEPICHK(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD);
+}
+[Cpp2IlInjected.Token(Token = "0x2000025")]
+public interface LNNAOGECEMF<TRoot> : IDisposable
+{
+	[Cpp2IlInjected.Token(Token = "0x6000088")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	void JGIJABKOFAG(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, OCIBGMCIHFJ PNOAMLLJPCK, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? EAMKGBMDHCL);
+
+	[Cpp2IlInjected.Token(Token = "0x6000089")]
+	[Cpp2IlInjected.Address(Slot = "1")]
+	void KPHDIEPICHK(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x600008A")]
+	[Cpp2IlInjected.Address(Slot = "2")]
+	IEnumerable<IBBELHJEJEK<HBNOCLDLIEG>> OENOMKIMLNL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x600008B")]
+	[Cpp2IlInjected.Address(Slot = "3")]
+	void JOBOELFIOCJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x600008C")]
+	[Cpp2IlInjected.Address(Slot = "4")]
+	PMKHPKDDMDB BEDIEFFDFPL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, HBNOCLDLIEG CFJFNLEMLKI);
+}
+[Cpp2IlInjected.Token(Token = "0x2000026")]
+public struct BEOICECHJKA
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400002C")]
+	public OGHLOBLCDJI<AHPCDKCOAJM<AMFCOJIMJGL>> FIBFMIAABPG;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+	[Cpp2IlInjected.Token(Token = "0x400002D")]
+	public OGHLOBLCDJI<AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>> AANIDBJPOPO;
+
+	[Cpp2IlInjected.Token(Token = "0x600008D")]
+	[Cpp2IlInjected.Address(RVA = "0x2338030", Offset = "0x2337430", VA = "0x182338030")]
+	private BEOICECHJKA([In] OGHLOBLCDJI<AHPCDKCOAJM<AMFCOJIMJGL>> FPODBFBAGHC, [In] OGHLOBLCDJI<AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>> DAEIBKPEPOF)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600008E")]
+	[Cpp2IlInjected.Address(RVA = "0x235B410", Offset = "0x235A810", VA = "0x18235B410")]
+	public static BEOICECHJKA ODOFIFAGLAJ()
+	{
+		return default(BEOICECHJKA);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000027")]
+public static class OCNGBHLAHJP
+{
+	[Cpp2IlInjected.Token(Token = "0x600008F")]
+	[Cpp2IlInjected.Address(RVA = "0x235B4E0", Offset = "0x235A8E0", VA = "0x18235B4E0")]
+	public static void DNAOJJGPLEN(this BEOICECHJKA MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000090")]
+	[Cpp2IlInjected.Address(RVA = "0x320F890", Offset = "0x320EC90", VA = "0x18320F890")]
+	internal static void DNJEHLEFLEB<TRoot>([In] this BEOICECHJKA MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000091")]
+	[Cpp2IlInjected.Address(RVA = "0x320FCE0", Offset = "0x320F0E0", VA = "0x18320FCE0")]
+	internal static void MJDLKNLPDGB<TRoot>([In] this BEOICECHJKA MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, HGGPJDPJBNN DBHAIJLGECN, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000092")]
+	[Cpp2IlInjected.Address(RVA = "0x320FB70", Offset = "0x320EF70", VA = "0x18320FB70")]
+	internal static void HEFKFHFLNCM<TRoot>([In] this BEOICECHJKA MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000093")]
+	[Cpp2IlInjected.Address(RVA = "0x320F770", Offset = "0x320EB70", VA = "0x18320F770")]
+	internal static void CONNEDLGKFL<TRoot>([In] this BEOICECHJKA MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000094")]
+	[Cpp2IlInjected.Address(RVA = "0x320FA00", Offset = "0x320EE00", VA = "0x18320FA00")]
+	internal static void FCGEIGEMOKI<TRoot>([In] this BEOICECHJKA MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000095")]
+	[Cpp2IlInjected.Address(RVA = "0x320FF70", Offset = "0x320F370", VA = "0x18320FF70")]
+	internal static void NLKKNHIHLGO<TRoot>([In] this BEOICECHJKA MPLBPEBNKFP, [In] OCIBGMCIHFJ NFMIMDAJPBP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000028")]
+public static class BAHMNHIELPB
+{
+	[Cpp2IlInjected.Token(Token = "0x6000096")]
+	[Cpp2IlInjected.Address(RVA = "0x235B3E0", Offset = "0x235A7E0", VA = "0x18235B3E0")]
+	public static AHPCDKCOAJM<FEHJPJMJDBG> CFGHLALGPCI(this int MPLBPEBNKFP)
+	{
+		return default(AHPCDKCOAJM<FEHJPJMJDBG>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000097")]
+	[Cpp2IlInjected.Address(RVA = "0x235B3B0", Offset = "0x235A7B0", VA = "0x18235B3B0")]
+	public static AHPCDKCOAJM<CBPDOKJJLFC> AEBHANKGGKK(this int MPLBPEBNKFP)
+	{
+		return default(AHPCDKCOAJM<CBPDOKJJLFC>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000029")]
+public static class OODPGJNAKNP<T>
+{
+	[Cpp2IlInjected.Token(Token = "0x6000098")]
+	[Cpp2IlInjected.Address(RVA = "0x32D8E00", Offset = "0x32D8200", VA = "0x1832D8E00")]
+	public static ABNAGONECLM<T, PJCDFEJGBMN> EPAGNDFLLNG<TRoot>(LNNAOGECEMF<TRoot> MPLBPEBNKFP, AHPCDKCOAJM<CCPDCNPKMEJ> NOEOKNONPLM)
+	{
+		return default(ABNAGONECLM<T, PJCDFEJGBMN>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200002A")]
+public struct OCIBGMCIHFJ
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400002E")]
+	internal BEOICECHJKA JECNEEIAHII;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x400002F")]
+	internal CLJHHANFNNN<GCMMJLMBLKF.NOOCFOKDEOG, GCMMJLMBLKF> KCMFMEHCMLL;
+
+	[Cpp2IlInjected.Token(Token = "0x6000099")]
+	[Cpp2IlInjected.Address(RVA = "0x235DC30", Offset = "0x235D030", VA = "0x18235DC30")]
+	private OCIBGMCIHFJ([In] BEOICECHJKA NIMLNKDMKHI, [In] CLJHHANFNNN<GCMMJLMBLKF.NOOCFOKDEOG, GCMMJLMBLKF> PIIOFHEPILF)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600009A")]
+	[Cpp2IlInjected.Address(RVA = "0x235DB30", Offset = "0x235CF30", VA = "0x18235DB30")]
+	public static OCIBGMCIHFJ ODOFIFAGLAJ()
+	{
+		return default(OCIBGMCIHFJ);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200002B")]
+public static class DKEHPHLIELK
+{
+	[Cpp2IlInjected.Token(Token = "0x600009B")]
+	[Cpp2IlInjected.Address(RVA = "0x235B7A0", Offset = "0x235ABA0", VA = "0x18235B7A0")]
+	public static void DNAOJJGPLEN(this OCIBGMCIHFJ MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600009C")]
+	[Cpp2IlInjected.Address(RVA = "0x235B5B0", Offset = "0x235A9B0", VA = "0x18235B5B0")]
+	public static bool BEICAADJBDO([In] this OCIBGMCIHFJ MPLBPEBNKFP)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600009D")]
+	[Cpp2IlInjected.Address(RVA = "0x235B960", Offset = "0x235AD60", VA = "0x18235B960")]
+	public static void HNKELJGGADC(this OCIBGMCIHFJ MPLBPEBNKFP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? IMKKPAMLDDK, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600009E")]
+	[Cpp2IlInjected.Address(RVA = "0x235B5F0", Offset = "0x235A9F0", VA = "0x18235B5F0")]
+	public static AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG> BPFPFBHMDCF(this OCIBGMCIHFJ MPLBPEBNKFP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? IMKKPAMLDDK, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD)
+	{
+		return default(AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600009F")]
+	[Cpp2IlInjected.Address(RVA = "0x235BA30", Offset = "0x235AE30", VA = "0x18235BA30")]
+	public static GCMMJLMBLKF KONDKGNBCKM([In] this OCIBGMCIHFJ MPLBPEBNKFP, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG> LPMIIFILJPI)
+	{
+		return default(GCMMJLMBLKF);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000A0")]
+	[Cpp2IlInjected.Address(RVA = "0x2E9B230", Offset = "0x2E9A630", VA = "0x182E9B230")]
+	public static void MJDLKNLPDGB<TRoot>([In] this OCIBGMCIHFJ MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000A1")]
+	[Cpp2IlInjected.Address(RVA = "0x2E9B2C0", Offset = "0x2E9A6C0", VA = "0x182E9B2C0")]
+	public static void MJDLKNLPDGB<TRoot>([In] this OCIBGMCIHFJ MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, HGGPJDPJBNN CIBJIJAGOGC, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000A2")]
+	[Cpp2IlInjected.Address(RVA = "0x2E9B230", Offset = "0x2E9A630", VA = "0x182E9B230")]
+	public static void CONNEDLGKFL<TRoot>([In] this OCIBGMCIHFJ MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000A3")]
+	[Cpp2IlInjected.Address(RVA = "0x2E9B270", Offset = "0x2E9A670", VA = "0x182E9B270")]
+	public static void CONNEDLGKFL<TRoot>([In] this OCIBGMCIHFJ MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000A4")]
+	[Cpp2IlInjected.Address(RVA = "0x2E9B230", Offset = "0x2E9A630", VA = "0x182E9B230")]
+	public static void NLKKNHIHLGO<TRoot>([In] this OCIBGMCIHFJ MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000A5")]
+	[Cpp2IlInjected.Address(RVA = "0x2E9B320", Offset = "0x2E9A720", VA = "0x182E9B320")]
+	public static void NLKKNHIHLGO<TRoot>([In] this OCIBGMCIHFJ MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, HGGPJDPJBNN CIBJIJAGOGC, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200002C")]
+[DebuggerDisplay("Class: {ClassString}, Bool: {Bool}, I32: {I32}, F32: {F32}")]
+public readonly struct PMKHPKDDMDB : IEquatable<PMKHPKDDMDB>, GHOFIKLHDEE<PMKHPKDDMDB>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000030")]
+	private readonly object? NMPGKLHDAGN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+	[Cpp2IlInjected.Token(Token = "0x4000031")]
+	private readonly FNGOKDJHLLJ BCHMHIENNHC;
+
+	[Cpp2IlInjected.Token(Token = "0x17000001")]
+	private string BLKOALDEPDP
+	{
+		[Cpp2IlInjected.Token(Token = "0x60000A6")]
+		[Cpp2IlInjected.Address(RVA = "0x235E730", Offset = "0x235DB30", VA = "0x18235E730")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000002")]
+	public bool FAFLDFMLALG
+	{
+		[Cpp2IlInjected.Token(Token = "0x60000A7")]
+		[Cpp2IlInjected.Address(RVA = "0x96ABF0", Offset = "0x969FF0", VA = "0x18096ABF0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000003")]
+	public int OPDBFCKMDBE
+	{
+		[Cpp2IlInjected.Token(Token = "0x60000A8")]
+		[Cpp2IlInjected.Address(RVA = "0x232B450", Offset = "0x232A850", VA = "0x18232B450")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000004")]
+	public float NAFFCCBDEGO
+	{
+		[Cpp2IlInjected.Token(Token = "0x60000A9")]
+		[Cpp2IlInjected.Address(RVA = "0x235E920", Offset = "0x235DD20", VA = "0x18235E920")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000005")]
+	public string? IDOBEAHJGOJ
+	{
+		[Cpp2IlInjected.Token(Token = "0x60000AA")]
+		[Cpp2IlInjected.Address(RVA = "0x235E850", Offset = "0x235DC50", VA = "0x18235E850")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000006")]
+	public AILDJCCBGLL<byte>? GMLNACNEMPC
+	{
+		[Cpp2IlInjected.Token(Token = "0x60000AB")]
+		[Cpp2IlInjected.Address(RVA = "0x235E790", Offset = "0x235DB90", VA = "0x18235E790")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000AC")]
+	[Cpp2IlInjected.Address(RVA = "0x235ED50", Offset = "0x235E150", VA = "0x18235ED50")]
+	private PMKHPKDDMDB(object? OIJJGINEKPB, FNGOKDJHLLJ LLBEDFNHCFI)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000AD")]
+	[Cpp2IlInjected.Address(RVA = "0x235E4A0", Offset = "0x235D8A0", VA = "0x18235E4A0")]
+	private static PMKHPKDDMDB DOMBDDLEMLF(FNGOKDJHLLJ LLBEDFNHCFI)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000AE")]
+	[Cpp2IlInjected.Address(RVA = "0x235E370", Offset = "0x235D770", VA = "0x18235E370")]
+	public static PMKHPKDDMDB BHPBFMJNLHF(bool KLJFGKNIFCE)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000AF")]
+	[Cpp2IlInjected.Address(RVA = "0x235E8D0", Offset = "0x235DCD0", VA = "0x18235E8D0")]
+	public static PMKHPKDDMDB LIOMGJHCBJC(int MJGLDAFACMF)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B0")]
+	[Cpp2IlInjected.Address(RVA = "0x235E450", Offset = "0x235D850", VA = "0x18235E450")]
+	public static PMKHPKDDMDB DMAKBLJFMJK(float DNLBEEDJMGE)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B1")]
+	[Cpp2IlInjected.Address(RVA = "0x235E8A0", Offset = "0x235DCA0", VA = "0x18235E8A0")]
+	public static PMKHPKDDMDB LCMHMJPDJLD(string JIBEIMGIEMM)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B2")]
+	[Cpp2IlInjected.Address(RVA = "0x235E8A0", Offset = "0x235DCA0", VA = "0x18235E8A0")]
+	public static PMKHPKDDMDB KODHKHKHOOP(byte[] MDABPMPEKPN)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B3")]
+	[Cpp2IlInjected.Address(RVA = "0x235E680", Offset = "0x235DA80", VA = "0x18235E680")]
+	public static PMKHPKDDMDB HFLCLMEPAHF(int KKMFFHOBGDI)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B4")]
+	[Cpp2IlInjected.Address(RVA = "0x235E700", Offset = "0x235DB00", VA = "0x18235E700")]
+	public static PMKHPKDDMDB HGLHAJPGLGJ()
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[SpecialName]
+	[Cpp2IlInjected.Token(Token = "0x60000B5")]
+	[Cpp2IlInjected.Address(RVA = "0x235E3E0", Offset = "0x235D7E0", VA = "0x18235E3E0")]
+	public static bool FANHDJJNLED([In] PMKHPKDDMDB FGFJFGGJOII, [In] PMKHPKDDMDB CABLGFIBABJ)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B6")]
+	[Cpp2IlInjected.Address(RVA = "0x235E4D0", Offset = "0x235D8D0", VA = "0x18235E4D0", Slot = "4")]
+	public bool Equals(PMKHPKDDMDB BMKPAKCEMFK)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B7")]
+	[Cpp2IlInjected.Address(RVA = "0x235E3E0", Offset = "0x235D7E0", VA = "0x18235E3E0")]
+	public bool DOEIDFIFKJC([In] PMKHPKDDMDB BMKPAKCEMFK)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B8")]
+	[Cpp2IlInjected.Address(RVA = "0x235E540", Offset = "0x235D940", VA = "0x18235E540", Slot = "0")]
+	public override bool Equals(object NCHBKHMIMGJ)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000B9")]
+	[Cpp2IlInjected.Address(RVA = "0x235E610", Offset = "0x235DA10", VA = "0x18235E610", Slot = "2")]
+	public override int GetHashCode()
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000BA")]
+	[Cpp2IlInjected.Address(RVA = "0x235E930", Offset = "0x235DD30", VA = "0x18235E930", Slot = "3")]
+	public override string ToString()
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000BB")]
+	[Cpp2IlInjected.Address(RVA = "0x235E3E0", Offset = "0x235D7E0", VA = "0x18235E3E0", Slot = "5")]
+	private bool CMEAIKJDIHI([In] PMKHPKDDMDB BMKPAKCEMFK)
+	{
+		return default(bool);
+	}
+}
+[StructLayout((LayoutKind)0, Size = 1)]
+[Cpp2IlInjected.Token(Token = "0x200002D")]
+public readonly struct AFPLDDJLMBM<TRoot> : global::FHNEEMNIGON<AHPCDKCOAJM<IMANFKKJPFM>, LMIPNDJCLHG, DDPGPLNGCEB, BNEEIFGPNIC<TRoot>, HBNOCLDLIEG, AHPCDKCOAJM<PLHEEEFNBNK>, AHPCDKCOAJM<JGJEEGHFLFO>, AHPCDKCOAJM<AMFCOJIMJGL>, AHPCDKCOAJM<PNODKKHPFBO>, TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x60000BC")]
+	[Cpp2IlInjected.Address(RVA = "0x24FD4D0", Offset = "0x24FC8D0", VA = "0x1824FD4D0", Slot = "24")]
+	public void LHJFAPGEDBP(TRoot NIMLNKDMKHI, HBNOCLDLIEG IFBDJLKPHIG, Action<HBNOCLDLIEG> EFLOLCEOAOA, Action<HBNOCLDLIEG> IFJPOPFJPAP, Action<HBNOCLDLIEG> NONJMPFHDOE, Action<HBNOCLDLIEG> PDLMJLKMEDK)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000BD")]
+	[Cpp2IlInjected.Address(RVA = "0x41D2540", Offset = "0x41D1940", VA = "0x1841D2540", Slot = "25")]
+	public HBNOCLDLIEG MNEBEGGFCJN(TRoot NIMLNKDMKHI, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000BE")]
+	[Cpp2IlInjected.Address(RVA = "0x41D2850", Offset = "0x41D1C50", VA = "0x1841D2850", Slot = "5")]
+	public HBNOCLDLIEG PKDNPFJKEGK(TRoot NIMLNKDMKHI)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000BF")]
+	[Cpp2IlInjected.Address(RVA = "0x41D14F0", Offset = "0x41D08F0", VA = "0x1841D14F0", Slot = "14")]
+	public HBNOCLDLIEG DKBCHLOAOKL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C0")]
+	[Cpp2IlInjected.Address(RVA = "0x41D26D0", Offset = "0x41D1AD0", VA = "0x1841D26D0", Slot = "17")]
+	public AHPCDKCOAJM<AMFCOJIMJGL> PCHLLOGAMDP(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM)
+	{
+		return default(AHPCDKCOAJM<AMFCOJIMJGL>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C1")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1C90", Offset = "0x41D1090", VA = "0x1841D1C90", Slot = "16")]
+	public AHPCDKCOAJM<JGJEEGHFLFO> GOKMGMIBJEE(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM, int IIACLAMOIEE)
+	{
+		return default(AHPCDKCOAJM<JGJEEGHFLFO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C2")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1130", Offset = "0x41D0530", VA = "0x1841D1130", Slot = "15")]
+	public int CJNFCFCFOPO(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM)
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C3")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1E30", Offset = "0x41D1230", VA = "0x1841D1E30")]
+	public LGBMHNIOIBI<HBNOCLDLIEG> KGNJINLBMKI(TRoot NIMLNKDMKHI, [In] LGBMHNIOIBI<HBNOCLDLIEG> FGFJFGGJOII, [In] LGBMHNIOIBI<HBNOCLDLIEG> CABLGFIBABJ)
+	{
+		return default(LGBMHNIOIBI<HBNOCLDLIEG>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C4")]
+	[Cpp2IlInjected.Address(RVA = "0x41D2030", Offset = "0x41D1430", VA = "0x1841D2030", Slot = "13")]
+	public IEnumerable<ICMLGMCPNGL<AHPCDKCOAJM<AMFCOJIMJGL>>> KKLKJMJGDOJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> CIBJIJAGOGC, AHPCDKCOAJM<AMFCOJIMJGL> AJLPJFOPFCG)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C5")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1D50", Offset = "0x41D1150", VA = "0x1841D1D50", Slot = "9")]
+	public AHPCDKCOAJM<PLHEEEFNBNK> HOOAKOIBOBG(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IIACLAMOIEE)
+	{
+		return default(AHPCDKCOAJM<PLHEEEFNBNK>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C6")]
+	[Cpp2IlInjected.Address(RVA = "0x41D2790", Offset = "0x41D1B90", VA = "0x1841D2790", Slot = "8")]
+	public int PDGCGNIIKCJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C7")]
+	[Cpp2IlInjected.Address(RVA = "0x41D21D0", Offset = "0x41D15D0", VA = "0x1841D21D0", Slot = "11")]
+	public AHPCDKCOAJM<JGJEEGHFLFO> LHFGFBDPIKN(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IIACLAMOIEE)
+	{
+		return default(AHPCDKCOAJM<JGJEEGHFLFO>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C8")]
+	[Cpp2IlInjected.Address(RVA = "0x41D17B0", Offset = "0x41D0BB0", VA = "0x1841D17B0", Slot = "10")]
+	public int EPPPINNECPO(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000C9")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1B60", Offset = "0x41D0F60", VA = "0x1841D1B60", Slot = "7")]
+	public int GEHGFNPNEGA(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000CA")]
+	[Cpp2IlInjected.Address(RVA = "0x41D22B0", Offset = "0x41D16B0", VA = "0x1841D22B0", Slot = "12")]
+	public IEnumerable<IBBELHJEJEK<HBNOCLDLIEG>> LIOCIOEOFGG(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000CB")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1030", Offset = "0x41D0430", VA = "0x1841D1030", Slot = "18")]
+	public HBNOCLDLIEG CFGCCFHPLAP(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000CC")]
+	[Cpp2IlInjected.Address(RVA = "0x41D18E0", Offset = "0x41D0CE0", VA = "0x1841D18E0", Slot = "20")]
+	public AHPCDKCOAJM<PLHEEEFNBNK> FFDPGNFLFMN(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE, int IIACLAMOIEE)
+	{
+		return default(AHPCDKCOAJM<PLHEEEFNBNK>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000CD")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1310", Offset = "0x41D0710", VA = "0x1841D1310", Slot = "19")]
+	public int DBFDKABBKGJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE)
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000CE")]
+	[Cpp2IlInjected.Address(RVA = "0x41D2400", Offset = "0x41D1800", VA = "0x1841D2400", Slot = "21")]
+	public AHPCDKCOAJM<AMFCOJIMJGL> MJLGMBJBMPI(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE)
+	{
+		return default(AHPCDKCOAJM<AMFCOJIMJGL>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000CF")]
+	[Cpp2IlInjected.Address(RVA = "0x41D15E0", Offset = "0x41D09E0", VA = "0x1841D15E0", Slot = "4")]
+	public EDNLCJNDGLG DMIDLPBBEOC(TRoot NIMLNKDMKHI)
+	{
+		return default(EDNLCJNDGLG);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D0")]
+	[Cpp2IlInjected.Address(RVA = "0x41D24C0", Offset = "0x41D18C0", VA = "0x1841D24C0", Slot = "27")]
+	public BNEEIFGPNIC<TRoot> MKDBGKMCONB(TRoot NIMLNKDMKHI)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D1")]
+	[Cpp2IlInjected.Address(RVA = "0x24FC6D0", Offset = "0x24FBAD0", VA = "0x1824FC6D0", Slot = "23")]
+	public HBNOCLDLIEG AFLODFCMFLL(TRoot NIMLNKDMKHI, HBNOCLDLIEG IFBDJLKPHIG, IEnumerable<HBNOCLDLIEG> KJGLMFKOBBA)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D2")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1870", Offset = "0x41D0C70", VA = "0x1841D1870", Slot = "26")]
+	public string FAPANIJDIHL(TRoot NIMLNKDMKHI, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D3")]
+	[Cpp2IlInjected.Address(RVA = "0x24FC990", Offset = "0x24FBD90", VA = "0x1824FC990", Slot = "22")]
+	public bool EDFNNEJPOHB(TRoot NIMLNKDMKHI, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D4")]
+	[Cpp2IlInjected.Address(RVA = "0x41D11F0", Offset = "0x41D05F0", VA = "0x1841D11F0", Slot = "31")]
+	public AHPCDKCOAJM<IMANFKKJPFM> COKBJIJLLLF(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, AHPCDKCOAJM<IMANFKKJPFM> INPBKEEADJL, AHPCDKCOAJM<IMANFKKJPFM> NHJAKHBPCNL)
+	{
+		return default(AHPCDKCOAJM<IMANFKKJPFM>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D5")]
+	[Cpp2IlInjected.Address(RVA = "0x41D20B0", Offset = "0x41D14B0", VA = "0x1841D20B0", Slot = "32")]
+	public void LGMJIKLMPJM(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, AHPCDKCOAJM<IMANFKKJPFM> FGFJFGGJOII, AHPCDKCOAJM<IMANFKKJPFM> CABLGFIBABJ)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D6")]
+	[Cpp2IlInjected.Address(RVA = "0x24FD7E0", Offset = "0x24FCBE0", VA = "0x1824FD7E0", Slot = "39")]
+	public LMIPNDJCLHG NGAMAECEPIE(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, DDPGPLNGCEB JPCFIGGMHBL)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D7")]
+	[Cpp2IlInjected.Address(RVA = "0x41D13D0", Offset = "0x41D07D0", VA = "0x1841D13D0", Slot = "30")]
+	public AHPCDKCOAJM<IMANFKKJPFM> DJAEHONLBOJ(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, AHPCDKCOAJM<IMANFKKJPFM> KPNIIOPMFKM)
+	{
+		return default(AHPCDKCOAJM<IMANFKKJPFM>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D8")]
+	[Cpp2IlInjected.Address(RVA = "0x41D0F20", Offset = "0x41D0320", VA = "0x1841D0F20", Slot = "29")]
+	public AHPCDKCOAJM<IMANFKKJPFM> CCDGGHAIDKI(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP)
+	{
+		return default(AHPCDKCOAJM<IMANFKKJPFM>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000D9")]
+	[Cpp2IlInjected.Address(RVA = "0x41D19F0", Offset = "0x41D0DF0", VA = "0x1841D19F0", Slot = "36")]
+	public LMIPNDJCLHG FKAIKCEMLKN(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, LMIPNDJCLHG FOEFLPAKNJF)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000DA")]
+	[Cpp2IlInjected.Address(RVA = "0x41D19A0", Offset = "0x41D0DA0", VA = "0x1841D19A0", Slot = "37")]
+	public LMIPNDJCLHG FHNHLHDJIAN(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, LMIPNDJCLHG FOEFLPAKNJF)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000DB")]
+	[Cpp2IlInjected.Address(RVA = "0x41D16F0", Offset = "0x41D0AF0", VA = "0x1841D16F0", Slot = "35")]
+	public AHPCDKCOAJM<IMANFKKJPFM> ELDNLOIDGPA(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, LMIPNDJCLHG FOEFLPAKNJF)
+	{
+		return default(AHPCDKCOAJM<IMANFKKJPFM>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000DC")]
+	[Cpp2IlInjected.Address(RVA = "0x24FD650", Offset = "0x24FCA50", VA = "0x1824FD650", Slot = "38")]
+	public AHPCDKCOAJM<IMANFKKJPFM> LMCELENHBKA(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, DDPGPLNGCEB JPCFIGGMHBL)
+	{
+		return default(AHPCDKCOAJM<IMANFKKJPFM>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000DD")]
+	[Cpp2IlInjected.Address(RVA = "0x41D16A0", Offset = "0x41D0AA0", VA = "0x1841D16A0", Slot = "33")]
+	public bool DOANIFEELLB(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, LMIPNDJCLHG FOEFLPAKNJF)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000DE")]
+	[Cpp2IlInjected.Address(RVA = "0x41D23B0", Offset = "0x41D17B0", VA = "0x1841D23B0", Slot = "34")]
+	public bool MJIKHKJIOKL(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, LMIPNDJCLHG FOEFLPAKNJF)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000DF")]
+	[Cpp2IlInjected.Address(RVA = "0x41D1A40", Offset = "0x41D0E40", VA = "0x1841D1A40", Slot = "28")]
+	public ABNAGONECLM<DDPGPLNGCEB[], PJPEMJHFJLC> GDNONEFOLML(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP)
+	{
+		return default(ABNAGONECLM<DDPGPLNGCEB[], PJPEMJHFJLC>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E0")]
+	[Cpp2IlInjected.Address(RVA = "0x41D25B0", Offset = "0x41D19B0", VA = "0x1841D25B0", Slot = "40")]
+	public LMIPNDJCLHG NHOMLAPJNHA(TRoot NIMLNKDMKHI, BNEEIFGPNIC<TRoot> HOBIGJMANNP, AHPCDKCOAJM<IMANFKKJPFM> KPNIIOPMFKM)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E1")]
+	[Cpp2IlInjected.Address(RVA = "0x41D0E90", Offset = "0x41D0290", VA = "0x1841D0E90", Slot = "6")]
+	private LGBMHNIOIBI<HBNOCLDLIEG> BGFIPOHEBME(TRoot NIMLNKDMKHI, [In] LGBMHNIOIBI<HBNOCLDLIEG> FGFJFGGJOII, [In] LGBMHNIOIBI<HBNOCLDLIEG> CABLGFIBABJ)
+	{
+		return default(LGBMHNIOIBI<HBNOCLDLIEG>);
+	}
+}
+[StructLayout((LayoutKind)0, Size = 1)]
+[Cpp2IlInjected.Token(Token = "0x200002E")]
+public readonly struct IOJAEGMGNFN<TRoot> : FIFNOBHGGKC<LGBMHNIOIBI<HBNOCLDLIEG>, HBNOCLDLIEG, TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x60000E2")]
+	[Cpp2IlInjected.Address(RVA = "0xA6D980", Offset = "0xA6CD80", VA = "0x180A6D980")]
+	public IOKind DMPMBFDNJHK([In] LGBMHNIOIBI<HBNOCLDLIEG> FEIOFGKJJLE)
+	{
+		return default(IOKind);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E3")]
+	[Cpp2IlInjected.Address(RVA = "0xAA4480", Offset = "0xAA3880", VA = "0x180AA4480")]
+	public HBNOCLDLIEG KFJOEAFCJPC([In] LGBMHNIOIBI<HBNOCLDLIEG> FEIOFGKJJLE)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E4")]
+	[Cpp2IlInjected.Address(RVA = "0x43CB400", Offset = "0x43CA800", VA = "0x1843CB400", Slot = "4")]
+	public LGBMHNIOIBI<HBNOCLDLIEG> IJNDHKFCEOD(HBNOCLDLIEG IFBDJLKPHIG, IOKind DFJAINKGDII)
+	{
+		return default(LGBMHNIOIBI<HBNOCLDLIEG>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E5")]
+	[Cpp2IlInjected.Address(RVA = "0x43CB470", Offset = "0x43CA870", VA = "0x1843CB470", Slot = "7")]
+	public EDNLCJNDGLG NBCMFLJOPID(TRoot NIMLNKDMKHI)
+	{
+		return default(EDNLCJNDGLG);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E6")]
+	[Cpp2IlInjected.Address(RVA = "0x43CB3D0", Offset = "0x43CA7D0", VA = "0x1843CB3D0", Slot = "5")]
+	private HBNOCLDLIEG GNLDEEBGFOJ([In] LGBMHNIOIBI<HBNOCLDLIEG> FEIOFGKJJLE)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000E7")]
+	[Cpp2IlInjected.Address(RVA = "0x43CB3A0", Offset = "0x43CA7A0", VA = "0x1843CB3A0", Slot = "6")]
+	private IOKind ENFCHNCOPHI([In] LGBMHNIOIBI<HBNOCLDLIEG> FEIOFGKJJLE)
+	{
+		return default(IOKind);
+	}
+}
+[StructLayout((LayoutKind)0, Size = 1)]
+[Cpp2IlInjected.Token(Token = "0x200002F")]
+public readonly struct MHKIHBDGICD<TRoot> : NDMAFIIJOJE<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x60000E8")]
+	[Cpp2IlInjected.Address(RVA = "0x49F9960", Offset = "0x49F8D60", VA = "0x1849F9960", Slot = "4")]
+	public EDNLCJNDGLG NBCMFLJOPID(TRoot NIMLNKDMKHI)
+	{
+		return default(EDNLCJNDGLG);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000030")]
+public interface FIOMBLPPNJG<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x60000E9")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	AHPCDKCOAJM<BAEMPDHCENH> HLDOAICOIGD(MNABBGKHPNI<TRoot> IEKMIONDPGO);
+}
+[Cpp2IlInjected.Token(Token = "0x2000031")]
+public interface CECKMKGFENK<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x60000EA")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	AHPCDKCOAJM<CCPDCNPKMEJ> APMAIMGMOIH(LNNAOGECEMF<TRoot> HFOMALDPHEB);
+}
+[Cpp2IlInjected.Token(Token = "0x2000032")]
+public abstract class FMEHMPIKCMI<TFactory, TRoot> : CECKMKGFENK<TRoot>, FIOMBLPPNJG<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000032")]
+	private CLJHHANFNNN<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>> BCLIKLACFCP;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000033")]
+	private CLJHHANFNNN<BAEMPDHCENH, MNABBGKHPNI<TRoot>> FIILCIANLFB;
+
+	[Cpp2IlInjected.Token(Token = "0x60000EB")]
+	[Cpp2IlInjected.Address(RVA = "0x40AA4F0", Offset = "0x40A98F0", VA = "0x1840AA4F0", Slot = "4")]
+	public AHPCDKCOAJM<CCPDCNPKMEJ> APMAIMGMOIH(LNNAOGECEMF<TRoot> HFOMALDPHEB)
+	{
+		return default(AHPCDKCOAJM<CCPDCNPKMEJ>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000EC")]
+	[Cpp2IlInjected.Address(RVA = "0x40AA550", Offset = "0x40A9950", VA = "0x1840AA550", Slot = "5")]
+	public AHPCDKCOAJM<BAEMPDHCENH> HLDOAICOIGD(MNABBGKHPNI<TRoot> IEKMIONDPGO)
+	{
+		return default(AHPCDKCOAJM<BAEMPDHCENH>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000ED")]
+	[Cpp2IlInjected.Address(RVA = "0x40AA690", Offset = "0x40A9A90", VA = "0x1840AA690")]
+	protected internal FMEHMPIKCMI([In] CLJHHANFNNN<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>> GEAMAMPAMMJ, [In] CLJHHANFNNN<BAEMPDHCENH, MNABBGKHPNI<TRoot>> MLCCHAJCFDL)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000EE")]
+	[Cpp2IlInjected.Address(RVA = "0x40AA5B0", Offset = "0x40A99B0", VA = "0x1840AA5B0")]
+	public (KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>>, KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>>) KHDDIABJOJM()
+	{
+		return default((KLJMGMKKBPJ<CCPDCNPKMEJ, LNNAOGECEMF<TRoot>>, KLJMGMKKBPJ<BAEMPDHCENH, MNABBGKHPNI<TRoot>>));
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000033")]
+public abstract class KEHHBMPLFPP : JMMAFLLBCOF
+{
+	[Cpp2IlInjected.Token(Token = "0x60000EF")]
+	[Cpp2IlInjected.Address(RVA = "0x234D420", Offset = "0x234C820", VA = "0x18234D420")]
+	protected KEHHBMPLFPP()
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000034")]
+public sealed class JBOBHACLKFN : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000034")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000035")]
+	public readonly AHPCDKCOAJM<JGJEEGHFLFO> OLPODBIHOMH;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000036")]
+	public readonly AHPCDKCOAJM<PLHEEEFNBNK> PFNLLCOGGLP;
+
+	[Cpp2IlInjected.Token(Token = "0x60000F0")]
+	[Cpp2IlInjected.Address(RVA = "0x235ACF0", Offset = "0x235A0F0", VA = "0x18235ACF0")]
+	public JBOBHACLKFN(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000F1")]
+	[Cpp2IlInjected.Address(RVA = "0x235D660", Offset = "0x235CA60", VA = "0x18235D660", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000035")]
+public sealed class GGOADKLEAIE : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000037")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000038")]
+	public readonly AHPCDKCOAJM<PLHEEEFNBNK> CEDOPLBGOFL;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000039")]
+	public readonly HBNOCLDLIEG KBPCMAIENME;
+
+	[Cpp2IlInjected.Token(Token = "0x60000F2")]
+	[Cpp2IlInjected.Address(RVA = "0x235C8C0", Offset = "0x235BCC0", VA = "0x18235C8C0")]
+	public GGOADKLEAIE(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000F3")]
+	[Cpp2IlInjected.Address(RVA = "0x235C880", Offset = "0x235BC80", VA = "0x18235C880", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000036")]
+public sealed class ADHHFJMGCFK : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x400003A")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x400003B")]
+	public readonly AHPCDKCOAJM<JGJEEGHFLFO> OLPODBIHOMH;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x400003C")]
+	public readonly AHPCDKCOAJM<PLHEEEFNBNK> PFNLLCOGGLP;
+
+	[Cpp2IlInjected.Token(Token = "0x60000F4")]
+	[Cpp2IlInjected.Address(RVA = "0x235ACF0", Offset = "0x235A0F0", VA = "0x18235ACF0")]
+	public ADHHFJMGCFK(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> FOKGOFPCJND, AHPCDKCOAJM<PLHEEEFNBNK> ACPIEDANBLP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000F5")]
+	[Cpp2IlInjected.Address(RVA = "0x235AC30", Offset = "0x235A030", VA = "0x18235AC30", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000037")]
+public sealed class PALBKKEBDHN : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x400003D")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.Token(Token = "0x60000F6")]
+	[Cpp2IlInjected.Address(RVA = "0x235DF30", Offset = "0x235D330", VA = "0x18235DF30")]
+	public PALBKKEBDHN(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000F7")]
+	[Cpp2IlInjected.Address(RVA = "0x235DEC0", Offset = "0x235D2C0", VA = "0x18235DEC0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000038")]
+public sealed class FJKACGAGICE : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x400003E")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x400003F")]
+	public readonly AHPCDKCOAJM<PLHEEEFNBNK> CEDOPLBGOFL;
+
+	[Cpp2IlInjected.Token(Token = "0x60000F8")]
+	[Cpp2IlInjected.Address(RVA = "0x235BB50", Offset = "0x235AF50", VA = "0x18235BB50")]
+	public FJKACGAGICE(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<PLHEEEFNBNK> AFJGGPEMBOM)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000F9")]
+	[Cpp2IlInjected.Address(RVA = "0x235BBC0", Offset = "0x235AFC0", VA = "0x18235BBC0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000039")]
+public sealed class GCOADPKJKJC : JMMAFLLBCOF
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000040")]
+	public readonly AHPCDKCOAJM<BAEMPDHCENH> HFDBDNGOKDE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000041")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000042")]
+	public readonly AHPCDKCOAJM<BAEMPDHCENH> BJJCEGAKLHI;
+
+	[Cpp2IlInjected.Token(Token = "0x60000FA")]
+	[Cpp2IlInjected.Address(RVA = "0x235ACF0", Offset = "0x235A0F0", VA = "0x18235ACF0")]
+	internal GCOADPKJKJC(AHPCDKCOAJM<BAEMPDHCENH> OLFLOICAIPA, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<BAEMPDHCENH> ADLLCEEMDPC)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000FB")]
+	[Cpp2IlInjected.Address(RVA = "0x235C800", Offset = "0x235BC00", VA = "0x18235C800")]
+	public static GCOADPKJKJC ODOFIFAGLAJ(AHPCDKCOAJM<BAEMPDHCENH> OLFLOICAIPA, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<BAEMPDHCENH> ADLLCEEMDPC)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000FC")]
+	[Cpp2IlInjected.Address(RVA = "0x235C4E0", Offset = "0x235B8E0", VA = "0x18235C4E0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200003A")]
+public sealed class AJDKJNMCNBF : JMMAFLLBCOF
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000043")]
+	public readonly AHPCDKCOAJM<CCPDCNPKMEJ> HFDBDNGOKDE;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000044")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000045")]
+	public readonly AHPCDKCOAJM<AMFCOJIMJGL> IIDBDCCCCBN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x24")]
+	[Cpp2IlInjected.Token(Token = "0x4000046")]
+	public readonly AHPCDKCOAJM<CCPDCNPKMEJ> BJJCEGAKLHI;
+
+	[Cpp2IlInjected.Token(Token = "0x60000FD")]
+	[Cpp2IlInjected.Address(RVA = "0x235B2E0", Offset = "0x235A6E0", VA = "0x18235B2E0")]
+	internal AJDKJNMCNBF(AHPCDKCOAJM<CCPDCNPKMEJ> OLFLOICAIPA, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<CCPDCNPKMEJ> ADLLCEEMDPC)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000FE")]
+	[Cpp2IlInjected.Address(RVA = "0x235B240", Offset = "0x235A640", VA = "0x18235B240")]
+	public static AJDKJNMCNBF ODOFIFAGLAJ(AHPCDKCOAJM<CCPDCNPKMEJ> OLFLOICAIPA, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<CCPDCNPKMEJ> ADLLCEEMDPC)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x60000FF")]
+	[Cpp2IlInjected.Address(RVA = "0x235AE50", Offset = "0x235A250", VA = "0x18235AE50", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200003B")]
+public sealed class ENFBPAIECIO<TM> : JMMAFLLBCOF
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000047")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000048")]
+	public readonly AHPCDKCOAJM<TM> EFNOLLIGHID;
+
+	[Cpp2IlInjected.Token(Token = "0x6000100")]
+	[Cpp2IlInjected.Address(RVA = "0x235BB50", Offset = "0x235AF50", VA = "0x18235BB50")]
+	public ENFBPAIECIO(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<TM> NMBALOOFANG)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000101")]
+	[Cpp2IlInjected.Address(RVA = "0x3CDF000", Offset = "0x3CDE400", VA = "0x183CDF000", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200003C")]
+public static class BEDHIIAJMNI
+{
+	[Cpp2IlInjected.Token(Token = "0x6000102")]
+	[Cpp2IlInjected.Address(RVA = "0x2DCAB80", Offset = "0x2DC9F80", VA = "0x182DCAB80")]
+	public static ENFBPAIECIO<TM> ODOFIFAGLAJ<TM>(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<TM> NMBALOOFANG) where TM : HGGPJDPJBNN.LIGLMMKHLEA
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200003D")]
+public sealed class LCDNIIADPPB<TM> : JMMAFLLBCOF
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000049")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400004A")]
+	public readonly AHPCDKCOAJM<AMFCOJIMJGL> IIDBDCCCCBN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400004B")]
+	public readonly AHPCDKCOAJM<TM> EFNOLLIGHID;
+
+	[Cpp2IlInjected.Token(Token = "0x6000103")]
+	[Cpp2IlInjected.Address(RVA = "0x235ACF0", Offset = "0x235A0F0", VA = "0x18235ACF0")]
+	internal LCDNIIADPPB(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<TM> NMBALOOFANG)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000104")]
+	[Cpp2IlInjected.Address(RVA = "0x47BB9A0", Offset = "0x47BADA0", VA = "0x1847BB9A0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200003E")]
+public static class LOAMDPIKLNM
+{
+	[Cpp2IlInjected.Token(Token = "0x6000105")]
+	[Cpp2IlInjected.Address(RVA = "0x311EBF0", Offset = "0x311DFF0", VA = "0x18311EBF0")]
+	public static LCDNIIADPPB<TM> ODOFIFAGLAJ<TM>(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<TM> NMBALOOFANG) where TM : NHDJGAOGPOD.NHAGLKCACPD
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200003F")]
+public sealed class LAADNHCLJGF : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x400004C")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x400004D")]
+	public readonly AHPCDKCOAJM<AMFCOJIMJGL> IIDBDCCCCBN;
+
+	[Cpp2IlInjected.Token(Token = "0x6000106")]
+	[Cpp2IlInjected.Address(RVA = "0x235BB50", Offset = "0x235AF50", VA = "0x18235BB50")]
+	public LAADNHCLJGF(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000107")]
+	[Cpp2IlInjected.Address(RVA = "0x235D7C0", Offset = "0x235CBC0", VA = "0x18235D7C0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000040")]
+public class PJCDFEJGBMN : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x400004E")]
+	public readonly AHPCDKCOAJM<CCPDCNPKMEJ> EDNPKAIGOLN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x400004F")]
+	public readonly Type IDPNBIJENLA;
+
+	[Cpp2IlInjected.Token(Token = "0x6000108")]
+	[Cpp2IlInjected.Address(RVA = "0x235E330", Offset = "0x235D730", VA = "0x18235E330")]
+	public PJCDFEJGBMN(AHPCDKCOAJM<CCPDCNPKMEJ> JKHDBLFFJKH, Type PCIPHOMFLEH)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000109")]
+	[Cpp2IlInjected.Address(RVA = "0x235E2D0", Offset = "0x235D6D0", VA = "0x18235E2D0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000041")]
+public sealed class AGAIFBBDMED : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000050")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000051")]
+	public readonly AHPCDKCOAJM<AMFCOJIMJGL> IIDBDCCCCBN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000052")]
+	public readonly int OBGPGMGMDMC;
+
+	[Cpp2IlInjected.Token(Token = "0x600010A")]
+	[Cpp2IlInjected.Address(RVA = "0x235AE00", Offset = "0x235A200", VA = "0x18235AE00")]
+	public AGAIFBBDMED(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IJNJJIFCDBB)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600010B")]
+	[Cpp2IlInjected.Address(RVA = "0x235AD40", Offset = "0x235A140", VA = "0x18235AD40", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000042")]
+public sealed class IHCJOEHDDNH : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000053")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000054")]
+	public readonly AHPCDKCOAJM<AMFCOJIMJGL> IIDBDCCCCBN;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+	[Cpp2IlInjected.Token(Token = "0x4000055")]
+	public readonly int JLOOIGDJDIG;
+
+	[Cpp2IlInjected.Token(Token = "0x600010C")]
+	[Cpp2IlInjected.Address(RVA = "0x235AE00", Offset = "0x235A200", VA = "0x18235AE00")]
+	public IHCJOEHDDNH(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, int IJNJJIFCDBB)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600010D")]
+	[Cpp2IlInjected.Address(RVA = "0x235D530", Offset = "0x235C930", VA = "0x18235D530", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000043")]
+public sealed class EGKEHFJOLDJ : KEHHBMPLFPP
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+	[Cpp2IlInjected.Token(Token = "0x4000056")]
+	public readonly AHPCDKCOAJM<PNODKKHPFBO> DAILGMDEFCC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+	[Cpp2IlInjected.Token(Token = "0x4000057")]
+	public readonly AHPCDKCOAJM<JGJEEGHFLFO> GJJHBHBJKPE;
+
+	[Cpp2IlInjected.Token(Token = "0x600010E")]
+	[Cpp2IlInjected.Address(RVA = "0x235BB50", Offset = "0x235AF50", VA = "0x18235BB50")]
+	public EGKEHFJOLDJ(AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<JGJEEGHFLFO> MLIAJGPJJLE)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600010F")]
+	[Cpp2IlInjected.Address(RVA = "0x235BAB0", Offset = "0x235AEB0", VA = "0x18235BAB0", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000044")]
+public sealed class EOBCJANAGLL : JMMAFLLBCOF
+{
+	[Cpp2IlInjected.Token(Token = "0x6000110")]
+	[Cpp2IlInjected.Address(RVA = "0x235BB90", Offset = "0x235AF90", VA = "0x18235BB90", Slot = "7")]
+	public override string MMDDBBBPGKC()
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000111")]
+	[Cpp2IlInjected.Address(RVA = "0x234D420", Offset = "0x234C820", VA = "0x18234D420")]
+	public EOBCJANAGLL()
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000045")]
+public abstract class LFFGIGEFBGG<TRoot> : MNABBGKHPNI<TRoot>, IDisposable
+{
+	[Cpp2IlInjected.Token(Token = "0x6000112")]
+	[Cpp2IlInjected.Address(RVA = "0x8C6D80", Offset = "0x8C6180", VA = "0x1808C6D80", Slot = "7")]
+	public virtual void Dispose()
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000113")]
+	[Cpp2IlInjected.Address(Slot = "8")]
+	public abstract void JGIJABKOFAG(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, OCIBGMCIHFJ PNOAMLLJPCK, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? IMKKPAMLDDK);
+
+	[Cpp2IlInjected.Token(Token = "0x6000114")]
+	[Cpp2IlInjected.Address(Slot = "9")]
+	public abstract void KPHDIEPICHK(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD);
+
+	[Cpp2IlInjected.Token(Token = "0x6000115")]
+	[Cpp2IlInjected.Address(RVA = "0x8CC920", Offset = "0x8CBD20", VA = "0x1808CC920")]
+	protected LFFGIGEFBGG()
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000046")]
+public abstract class LFMJMCLEEDK<TRoot> : LNNAOGECEMF<TRoot>, IDisposable where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x6000116")]
+	[Cpp2IlInjected.Address(RVA = "0x8C6D80", Offset = "0x8C6180", VA = "0x1808C6D80", Slot = "10")]
+	public virtual void Dispose()
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000117")]
+	[Cpp2IlInjected.Address(Slot = "11")]
+	public abstract void JGIJABKOFAG(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, OCIBGMCIHFJ PNOAMLLJPCK, AHPCDKCOAJM<GCMMJLMBLKF.NOOCFOKDEOG>? EAMKGBMDHCL);
+
+	[Cpp2IlInjected.Token(Token = "0x6000118")]
+	[Cpp2IlInjected.Address(Slot = "12")]
+	public abstract void KPHDIEPICHK(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x6000119")]
+	[Cpp2IlInjected.Address(Slot = "13")]
+	public abstract IEnumerable<IBBELHJEJEK<HBNOCLDLIEG>> OENOMKIMLNL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x600011A")]
+	[Cpp2IlInjected.Address(Slot = "14")]
+	public abstract void JOBOELFIOCJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO);
+
+	[Cpp2IlInjected.Token(Token = "0x600011B")]
+	[Cpp2IlInjected.Address(Slot = "15")]
+	public abstract PMKHPKDDMDB BEDIEFFDFPL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, HBNOCLDLIEG CFJFNLEMLKI);
+
+	[Cpp2IlInjected.Token(Token = "0x600011C")]
+	[Cpp2IlInjected.Address(RVA = "0x8CC920", Offset = "0x8CBD20", VA = "0x1808CC920")]
+	protected LFMJMCLEEDK()
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000047")]
+public abstract class LPEJNLGCEBN<TRoot> : LFMJMCLEEDK<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x2000048")]
+	public struct CMFAAAMMJNJ : AFBEHAOGKDP<CMFAAAMMJNJ, KJMEFKOJACK>, AFBEHAOGKDP<CMFAAAMMJNJ, GPMCNHAOBNO<TRoot>>, AFBEHAOGKDP<CMFAAAMMJNJ, HNCMJBBKIDJ>
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000059")]
+		public KJMEFKOJACK DCPPDDAEIEP;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x400005A")]
+		public GPMCNHAOBNO<TRoot> PMDOJENPBOB;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x400005B")]
+		public HNCMJBBKIDJ PMJFPPCHOBC;
+
+		[Cpp2IlInjected.Token(Token = "0x6000123")]
+		[Cpp2IlInjected.Address(RVA = "0x3C804A0", Offset = "0x3C7F8A0", VA = "0x183C804A0")]
+		private CMFAAAMMJNJ(KJMEFKOJACK PGLPAOCEPCK, GPMCNHAOBNO<TRoot> POJBCHAHLFG, HNCMJBBKIDJ BOJIHAAGEDD)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000124")]
+		[Cpp2IlInjected.Address(RVA = "0x3C80390", Offset = "0x3C7F790", VA = "0x183C80390")]
+		public static CMFAAAMMJNJ ODOFIFAGLAJ()
+		{
+			return default(CMFAAAMMJNJ);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000125")]
+		[Cpp2IlInjected.Address(RVA = "0xA49C90", Offset = "0xA49090", VA = "0x180A49C90", Slot = "4")]
+		private KJMEFKOJACK PGGLLFCNECB(CMFAAAMMJNJ MPLBPEBNKFP)
+		{
+			return default(KJMEFKOJACK);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000126")]
+		[Cpp2IlInjected.Address(RVA = "0x3C80380", Offset = "0x3C7F780", VA = "0x183C80380", Slot = "5")]
+		private GPMCNHAOBNO<TRoot> OHJGPFAFIJI(CMFAAAMMJNJ MPLBPEBNKFP)
+		{
+			return default(GPMCNHAOBNO<TRoot>);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000127")]
+		[Cpp2IlInjected.Address(RVA = "0x3C80370", Offset = "0x3C7F770", VA = "0x183C80370", Slot = "6")]
+		private HNCMJBBKIDJ JCOLMOPDOIC(CMFAAAMMJNJ MPLBPEBNKFP)
+		{
+			return default(HNCMJBBKIDJ);
+		}
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000058")]
+	protected CMFAAAMMJNJ JKKIAIILOLI;
+
+	[Cpp2IlInjected.Token(Token = "0x600011D")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF8C0", Offset = "0x47EECC0", VA = "0x1847EF8C0")]
+	protected LPEJNLGCEBN([In] CMFAAAMMJNJ BPHEGMHGEIK)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600011E")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF670", Offset = "0x47EEA70", VA = "0x1847EF670", Slot = "10")]
+	public override void Dispose()
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600011F")]
+	[Cpp2IlInjected.Address(RVA = "0x8C6D80", Offset = "0x8C6180", VA = "0x1808C6D80", Slot = "12")]
+	public override void KPHDIEPICHK(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000120")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF850", Offset = "0x47EEC50", VA = "0x1847EF850", Slot = "13")]
+	public override IEnumerable<IBBELHJEJEK<HBNOCLDLIEG>> OENOMKIMLNL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000121")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF520", Offset = "0x47EE920", VA = "0x1847EF520", Slot = "15")]
+	public override PMKHPKDDMDB BEDIEFFDFPL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, HBNOCLDLIEG CFJFNLEMLKI)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000122")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF710", Offset = "0x47EEB10", VA = "0x1847EF710")]
+	public static FILFBEMDDMB<CMFAAAMMJNJ, IPJMOCIIHAM<TRoot, HCMPIOGFLGN>> NOLKHIPOJEM()
+	{
+		return default(FILFBEMDDMB<CMFAAAMMJNJ, IPJMOCIIHAM<TRoot, HCMPIOGFLGN>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000049")]
+public static class LEEJBAGAKEF
+{
+	[Cpp2IlInjected.Token(Token = "0x6000128")]
+	[Cpp2IlInjected.Address(RVA = "0x3115D30", Offset = "0x3115130", VA = "0x183115D30")]
+	public static void DNAOJJGPLEN<TRoot>(this LPEJNLGCEBN<TRoot>.CMFAAAMMJNJ MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000129")]
+	[Cpp2IlInjected.Address(RVA = "0x3115D90", Offset = "0x3115190", VA = "0x183115D90")]
+	public static void JGIJABKOFAG<TRoot>(this LPEJNLGCEBN<TRoot>.CMFAAAMMJNJ MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600012A")]
+	[Cpp2IlInjected.Address(RVA = "0x3115E40", Offset = "0x3115240", VA = "0x183115E40")]
+	public static void JOBOELFIOCJ<TRoot>(this LPEJNLGCEBN<TRoot>.CMFAAAMMJNJ MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200004A")]
+public static class MPDDOIJFOFN
+{
+	[Cpp2IlInjected.Token(Token = "0x200004B")]
+	public sealed class LDIBGOENOOM<TRoot> : HANDHOMLLGK<TRoot> where TRoot : FALIBIJPGMP
+	{
+		[Cpp2IlInjected.Token(Token = "0x400005C")]
+		public static readonly LDIBGOENOOM<TRoot> ELEBKANKHDF;
+
+		[Cpp2IlInjected.Token(Token = "0x600012B")]
+		[Cpp2IlInjected.Address(RVA = "0x8CC920", Offset = "0x8CBD20", VA = "0x1808CC920")]
+		private LDIBGOENOOM()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600012C")]
+		[Cpp2IlInjected.Address(RVA = "0x47BDDB0", Offset = "0x47BD1B0", VA = "0x1847BDDB0", Slot = "4")]
+		public PMKHPKDDMDB ODOFIFAGLAJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, HBNOCLDLIEG CFJFNLEMLKI)
+		{
+			return default(PMKHPKDDMDB);
+		}
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200004C")]
+public interface HANDHOMLLGK<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x600012E")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	PMKHPKDDMDB ODOFIFAGLAJ(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, HBNOCLDLIEG CFJFNLEMLKI);
+}
+[Cpp2IlInjected.Token(Token = "0x200004D")]
+public interface GLOFFOIFMDN<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x600012F")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	ABNAGONECLM<AHPCDKCOAJM<PLHEEEFNBNK>, JMMAFLLBCOF> CEBHLCELHLI(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK);
+}
+[Cpp2IlInjected.Token(Token = "0x200004E")]
+public readonly struct PMKJODNOCPJ<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400005D")]
+	public readonly string DKCJKHANLJC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400005E")]
+	public readonly HBNOCLDLIEG KBPCMAIENME;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400005F")]
+	public readonly HANDHOMLLGK<TRoot> GKGOBFPHOGG;
+
+	[Cpp2IlInjected.Token(Token = "0x6000130")]
+	[Cpp2IlInjected.Address(RVA = "0x22114B0", Offset = "0x22108B0", VA = "0x1822114B0")]
+	internal PMKJODNOCPJ(string LJAGHAHCFHJ, HBNOCLDLIEG IFBDJLKPHIG, HANDHOMLLGK<TRoot> BFIJNDNDPPB)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200004F")]
+public static class JMDOKBKDEFD
+{
+	[Cpp2IlInjected.Token(Token = "0x6000131")]
+	[Cpp2IlInjected.Address(RVA = "0x2EBF580", Offset = "0x2EBE980", VA = "0x182EBF580")]
+	public static PMKJODNOCPJ<TRoot> ODOFIFAGLAJ<TRoot>(string LJAGHAHCFHJ, HBNOCLDLIEG IFBDJLKPHIG, HANDHOMLLGK<TRoot> BFIJNDNDPPB)
+	{
+		return default(PMKJODNOCPJ<TRoot>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000050")]
+public struct GPMCNHAOBNO<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000060")]
+	public CLJHHANFNNN<FEHJPJMJDBG, PMKJODNOCPJ<TRoot>> HDLOPDOLJDF;
+
+	[Cpp2IlInjected.Token(Token = "0x6000132")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private GPMCNHAOBNO([In] CLJHHANFNNN<FEHJPJMJDBG, PMKJODNOCPJ<TRoot>> FKNDLFPOOHD)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000133")]
+	[Cpp2IlInjected.Address(RVA = "0x41B8700", Offset = "0x41B7B00", VA = "0x1841B8700")]
+	public static GPMCNHAOBNO<TRoot> ODOFIFAGLAJ()
+	{
+		return default(GPMCNHAOBNO<TRoot>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000051")]
+public static class FAIFOBIHOOF
+{
+	[Cpp2IlInjected.Token(Token = "0x6000134")]
+	[Cpp2IlInjected.Address(RVA = "0x301EA10", Offset = "0x301DE10", VA = "0x18301EA10")]
+	public static void DNAOJJGPLEN<TRoot>(this GPMCNHAOBNO<TRoot> MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000135")]
+	[Cpp2IlInjected.Address(RVA = "0x301E820", Offset = "0x301DC20", VA = "0x18301E820")]
+	public static void BJGFOLADGDE<TRoot>([In] this GPMCNHAOBNO<TRoot> MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000052")]
+public static class AJCEBJPBGDN
+{
+	[Cpp2IlInjected.Token(Token = "0x6000136")]
+	[Cpp2IlInjected.Address(RVA = "0x372BFC0", Offset = "0x372B3C0", VA = "0x18372BFC0")]
+	public static FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, BLJANPCOCKP>> BOKMCEGJNOM<TIO, TRoot, TMarker>(this FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, TMarker>> MPLBPEBNKFP, string LJAGHAHCFHJ, FKDDJPPCBLB IFBDJLKPHIG, [Out] AHPCDKCOAJM<FEHJPJMJDBG> NOEOKNONPLM) where TIO : AFBEHAOGKDP<TIO, GPMCNHAOBNO<TRoot>> where TRoot : FALIBIJPGMP where TMarker : BLJANPCOCKP
+	{
+		return default(FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, BLJANPCOCKP>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000053")]
+public readonly struct NMKFFFGMHMA<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000061")]
+	public readonly PMKJODNOCPJ<TRoot> KPAENFPEKFC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000062")]
+	public readonly int MPDLMELCOMG;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000063")]
+	public readonly int INKDMGBLEDI;
+
+	[Cpp2IlInjected.Token(Token = "0x6000137")]
+	[Cpp2IlInjected.Address(RVA = "0x4A9C5C0", Offset = "0x4A9B9C0", VA = "0x184A9C5C0")]
+	internal NMKFFFGMHMA([In] PMKJODNOCPJ<TRoot> DHEONABMFJF, int OHMCJFFPFMB, int CDDAELCNAGM)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000054")]
+public static class FMOGKLFEDMJ
+{
+	[Cpp2IlInjected.Token(Token = "0x6000138")]
+	[Cpp2IlInjected.Address(RVA = "0x302B790", Offset = "0x302AB90", VA = "0x18302B790")]
+	public static NMKFFFGMHMA<TRoot> ODOFIFAGLAJ<TRoot>([In] PMKJODNOCPJ<TRoot> DHEONABMFJF, int OHMCJFFPFMB, int CDDAELCNAGM)
+	{
+		return default(NMKFFFGMHMA<TRoot>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000139")]
+	[Cpp2IlInjected.Address(RVA = "0x302B690", Offset = "0x302AA90", VA = "0x18302B690")]
+	public static void FFHHDLICAMF<TRoot>([In] this NMKFFFGMHMA<TRoot> MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000055")]
+public struct CLCFIKONDMD<TRoot>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000064")]
+	public CLJHHANFNNN<FEHJPJMJDBG, NMKFFFGMHMA<TRoot>> HDLOPDOLJDF;
+
+	[Cpp2IlInjected.Token(Token = "0x600013A")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private CLCFIKONDMD([In] CLJHHANFNNN<FEHJPJMJDBG, NMKFFFGMHMA<TRoot>> FKNDLFPOOHD)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600013B")]
+	[Cpp2IlInjected.Address(RVA = "0x41B8700", Offset = "0x41B7B00", VA = "0x1841B8700")]
+	public static CLCFIKONDMD<TRoot> ODOFIFAGLAJ()
+	{
+		return default(CLCFIKONDMD<TRoot>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000056")]
+public static class APOPFJOFOAP
+{
+	[Cpp2IlInjected.Token(Token = "0x600013C")]
+	[Cpp2IlInjected.Address(RVA = "0x301EA10", Offset = "0x301DE10", VA = "0x18301EA10")]
+	public static void DNAOJJGPLEN<TRoot>(this CLCFIKONDMD<TRoot> MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600013D")]
+	[Cpp2IlInjected.Address(RVA = "0x3730AA0", Offset = "0x372FEA0", VA = "0x183730AA0")]
+	public static AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH> BJGFOLADGDE<TRoot>([In] this CLCFIKONDMD<TRoot> MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600013E")]
+	[Cpp2IlInjected.Address(RVA = "0x3730D90", Offset = "0x3730190", VA = "0x183730D90")]
+	public static void JJDGGIHBOOM<TRoot>(BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH> NEEGKGPMEBC) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000057")]
+public static class OELILIFOCDP
+{
+	[Cpp2IlInjected.Token(Token = "0x600013F")]
+	[Cpp2IlInjected.Address(RVA = "0x3215490", Offset = "0x3214890", VA = "0x183215490")]
+	public static FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, BLJANPCOCKP>> BOKMCEGJNOM<TIO, TRoot, TMarker>(this FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, TMarker>> MPLBPEBNKFP, string LJAGHAHCFHJ, FKDDJPPCBLB IFBDJLKPHIG, [Out] AHPCDKCOAJM<FEHJPJMJDBG> NOEOKNONPLM, int OHMCJFFPFMB = 1, int CDDAELCNAGM = 1) where TIO : AFBEHAOGKDP<TIO, CLCFIKONDMD<TRoot>> where TRoot : FALIBIJPGMP where TMarker : BLJANPCOCKP
+	{
+		return default(FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, BLJANPCOCKP>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000058")]
+public struct DBEFHFBBEFE
+{
+	[Cpp2IlInjected.Token(Token = "0x2000059")]
+	public sealed class PFDJJBLCHPH : NHDJGAOGPOD.NHAGLKCACPD
+	{
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000065")]
+	public CLJHHANFNNN<FEHJPJMJDBG, int> HICIJLAOGLF;
+
+	[Cpp2IlInjected.Token(Token = "0x6000140")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private DBEFHFBBEFE([In] CLJHHANFNNN<FEHJPJMJDBG, int> MDOECAPIAAJ)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000141")]
+	[Cpp2IlInjected.Address(RVA = "0x235B580", Offset = "0x235A980", VA = "0x18235B580")]
+	public static DBEFHFBBEFE ACKFPPPAAAL([In] CLJHHANFNNN<FEHJPJMJDBG, int> MDOECAPIAAJ)
+	{
+		return default(DBEFHFBBEFE);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200005A")]
+public static class OPEKJKHIAJB
+{
+	[Cpp2IlInjected.Token(Token = "0x6000142")]
+	[Cpp2IlInjected.Address(RVA = "0x235DD70", Offset = "0x235D170", VA = "0x18235DD70")]
+	public static void DNAOJJGPLEN(this DBEFHFBBEFE MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000143")]
+	[Cpp2IlInjected.Address(RVA = "0x235DC80", Offset = "0x235D080", VA = "0x18235DC80")]
+	public static int DJAPGEKPGIJ([In] this DBEFHFBBEFE MPLBPEBNKFP, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, int GJMAEFNEOJM)
+	{
+		return default(int);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000144")]
+	[Cpp2IlInjected.Address(RVA = "0x235DDB0", Offset = "0x235D1B0", VA = "0x18235DDB0")]
+	public static int EIEPBKGPKDG([In] this DBEFHFBBEFE MPLBPEBNKFP, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, int GJMAEFNEOJM)
+	{
+		return default(int);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200005B")]
+public abstract class DIAKDNDGPJL<TRoot> : LFMJMCLEEDK<TRoot>, GLOFFOIFMDN<TRoot> where TRoot : KGJCDPCBIJL<TRoot>
+{
+	[Cpp2IlInjected.Token(Token = "0x200005C")]
+	public struct ECFGMGGNGBD : AFBEHAOGKDP<ECFGMGGNGBD, KJMEFKOJACK>, AFBEHAOGKDP<ECFGMGGNGBD, CLCFIKONDMD<TRoot>>, AFBEHAOGKDP<ECFGMGGNGBD, HNCMJBBKIDJ>
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000067")]
+		public KJMEFKOJACK DCPPDDAEIEP;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000068")]
+		public CLCFIKONDMD<TRoot> PMDOJENPBOB;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000069")]
+		public HNCMJBBKIDJ PMJFPPCHOBC;
+
+		[Cpp2IlInjected.Token(Token = "0x600014C")]
+		[Cpp2IlInjected.Address(RVA = "0x3C804A0", Offset = "0x3C7F8A0", VA = "0x183C804A0")]
+		private ECFGMGGNGBD(KJMEFKOJACK PGLPAOCEPCK, CLCFIKONDMD<TRoot> POJBCHAHLFG, HNCMJBBKIDJ BOJIHAAGEDD)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600014D")]
+		[Cpp2IlInjected.Address(RVA = "0x3C80390", Offset = "0x3C7F790", VA = "0x183C80390")]
+		public static ECFGMGGNGBD ODOFIFAGLAJ()
+		{
+			return default(ECFGMGGNGBD);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600014E")]
+		[Cpp2IlInjected.Address(RVA = "0xA49C90", Offset = "0xA49090", VA = "0x180A49C90", Slot = "4")]
+		private KJMEFKOJACK GHIDPCGHNIO(ECFGMGGNGBD MPLBPEBNKFP)
+		{
+			return default(KJMEFKOJACK);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600014F")]
+		[Cpp2IlInjected.Address(RVA = "0x3C80380", Offset = "0x3C7F780", VA = "0x183C80380", Slot = "5")]
+		private CLCFIKONDMD<TRoot> KIFBCADFCJL(ECFGMGGNGBD MPLBPEBNKFP)
+		{
+			return default(CLCFIKONDMD<TRoot>);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000150")]
+		[Cpp2IlInjected.Address(RVA = "0x3C80370", Offset = "0x3C7F770", VA = "0x183C80370", Slot = "6")]
+		private HNCMJBBKIDJ CHHGDHBGIAL(ECFGMGGNGBD MPLBPEBNKFP)
+		{
+			return default(HNCMJBBKIDJ);
+		}
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000066")]
+	protected ECFGMGGNGBD JKKIAIILOLI;
+
+	[Cpp2IlInjected.Token(Token = "0x6000145")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF8C0", Offset = "0x47EECC0", VA = "0x1847EF8C0")]
+	protected DIAKDNDGPJL([In] ECFGMGGNGBD BPHEGMHGEIK)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000146")]
+	[Cpp2IlInjected.Address(RVA = "0x47EF670", Offset = "0x47EEA70", VA = "0x1847EF670", Slot = "10")]
+	public override void Dispose()
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000147")]
+	[Cpp2IlInjected.Address(RVA = "0x5E76D60", Offset = "0x5E76160", VA = "0x185E76D60")]
+	public static void KPHDIEPICHK(BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH> NEEGKGPMEBC)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000148")]
+	[Cpp2IlInjected.Address(RVA = "0x5E76F50", Offset = "0x5E76350", VA = "0x185E76F50", Slot = "13")]
+	public override IEnumerable<IBBELHJEJEK<HBNOCLDLIEG>> OENOMKIMLNL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000149")]
+	[Cpp2IlInjected.Address(RVA = "0x5E76C10", Offset = "0x5E76010", VA = "0x185E76C10", Slot = "15")]
+	public override PMKHPKDDMDB BEDIEFFDFPL(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK, HBNOCLDLIEG CFJFNLEMLKI)
+	{
+		return default(PMKHPKDDMDB);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600014A")]
+	[Cpp2IlInjected.Address(Slot = "17")]
+	public abstract ABNAGONECLM<AHPCDKCOAJM<PLHEEEFNBNK>, JMMAFLLBCOF> CEBHLCELHLI(TRoot NIMLNKDMKHI, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK);
+
+	[Cpp2IlInjected.Token(Token = "0x600014B")]
+	[Cpp2IlInjected.Address(RVA = "0x5E76E10", Offset = "0x5E76210", VA = "0x185E76E10")]
+	public static FILFBEMDDMB<ECFGMGGNGBD, IPJMOCIIHAM<TRoot, HCMPIOGFLGN>> NOLKHIPOJEM()
+	{
+		return default(FILFBEMDDMB<ECFGMGGNGBD, IPJMOCIIHAM<TRoot, HCMPIOGFLGN>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200005D")]
+public static class PHCPHGKCDBA
+{
+	[Cpp2IlInjected.Token(Token = "0x6000151")]
+	[Cpp2IlInjected.Address(RVA = "0x3115D30", Offset = "0x3115130", VA = "0x183115D30")]
+	public static void DNAOJJGPLEN<TRoot>(this DIAKDNDGPJL<TRoot>.ECFGMGGNGBD MPLBPEBNKFP) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000152")]
+	[Cpp2IlInjected.Address(RVA = "0x3222B80", Offset = "0x3221F80", VA = "0x183222B80")]
+	public static AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH> JGIJABKOFAG<TRoot>(this DIAKDNDGPJL<TRoot>.ECFGMGGNGBD MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000153")]
+	[Cpp2IlInjected.Address(RVA = "0x3222C30", Offset = "0x3222030", VA = "0x183222C30")]
+	public static void JOBOELFIOCJ<TRoot>(this DIAKDNDGPJL<TRoot>.ECFGMGGNGBD MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000154")]
+	[Cpp2IlInjected.Address(RVA = "0x3223010", Offset = "0x3222410", VA = "0x183223010")]
+	public static void PFHDKLCLADH<TRoot>([In] this DIAKDNDGPJL<TRoot>.ECFGMGGNGBD MPLBPEBNKFP, LENADMPJNLI HDJGBIMENCG) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000155")]
+	[Cpp2IlInjected.Address(RVA = "0x3222F90", Offset = "0x3222390", VA = "0x183222F90")]
+	public static void PFHDKLCLADH<TRoot>([In] this DIAKDNDGPJL<TRoot>.ECFGMGGNGBD BPHEGMHGEIK, GKJDBJPPBHM MFCNBMBDNLN) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000156")]
+	[Cpp2IlInjected.Address(RVA = "0x32224F0", Offset = "0x32218F0", VA = "0x1832224F0")]
+	public static ABNAGONECLM<AHPCDKCOAJM<PLHEEEFNBNK>, JMMAFLLBCOF> CEBHLCELHLI<TRoot>([In] this DIAKDNDGPJL<TRoot>.ECFGMGGNGBD MPLBPEBNKFP, TRoot NIMLNKDMKHI, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO, AHPCDKCOAJM<DBEFHFBBEFE.PFDJJBLCHPH> NEEGKGPMEBC, AHPCDKCOAJM<FEHJPJMJDBG> IOOAPHCONAK) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+		return default(ABNAGONECLM<AHPCDKCOAJM<PLHEEEFNBNK>, JMMAFLLBCOF>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200005E")]
+public struct FILFBEMDDMB<TIO, TOther>
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400006A")]
+	public TIO HELJNFPOPJE;
+
+	[Cpp2IlInjected.Token(Token = "0x6000157")]
+	[Cpp2IlInjected.Address(RVA = "0x3CBB1E0", Offset = "0x3CBA5E0", VA = "0x183CBB1E0")]
+	internal FILFBEMDDMB([In] TIO BPHEGMHGEIK)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200005F")]
+public static class LHEMDJDDMID<TOther>
+{
+	[Cpp2IlInjected.Token(Token = "0x6000158")]
+	[Cpp2IlInjected.Address(RVA = "0x2F65770", Offset = "0x2F64B70", VA = "0x182F65770")]
+	public static FILFBEMDDMB<TIO, TOther> ODOFIFAGLAJ<TIO>([In] TIO BPHEGMHGEIK)
+	{
+		return default(FILFBEMDDMB<TIO, TOther>);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000159")]
+	[Cpp2IlInjected.Address(RVA = "0x302B8B0", Offset = "0x302ACB0", VA = "0x18302B8B0")]
+	public static FILFBEMDDMB<TIO, TOther> ALOMNAODKEE<TIO, TOldOther>([In] FILFBEMDDMB<TIO, TOldOther> MPLBPEBNKFP)
+	{
+		return default(FILFBEMDDMB<TIO, TOther>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000060")]
+public static class LBHOLPDKHBO
+{
+	[Cpp2IlInjected.Token(Token = "0x600015A")]
+	[Cpp2IlInjected.Address(RVA = "0x3115520", Offset = "0x3114920", VA = "0x183115520")]
+	public static TSelf JKPDGNANCMI<TSelf, TOther>([In] this FILFBEMDDMB<TSelf, TOther> MPLBPEBNKFP)
+	{
+		return (TSelf)null;
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000061")]
+public interface AFBEHAOGKDP<TSelf, TPart>
+{
+	[Cpp2IlInjected.Token(Token = "0x600015B")]
+	[Cpp2IlInjected.Address(Slot = "0")]
+	TPart GINONDLOJCK(TSelf MPLBPEBNKFP);
+}
+[Cpp2IlInjected.Token(Token = "0x2000062")]
+public class BLJANPCOCKP : BECOFGFJMIK
+{
+}
+[Cpp2IlInjected.Token(Token = "0x2000063")]
+public class BECOFGFJMIK
+{
+}
+[Cpp2IlInjected.Token(Token = "0x2000064")]
+public class HCMPIOGFLGN : BLJANPCOCKP
+{
+}
+[Cpp2IlInjected.Token(Token = "0x2000065")]
+public struct PNMPMKAAELL
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400006B")]
+	public readonly string DKCJKHANLJC;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+	[Cpp2IlInjected.Token(Token = "0x400006C")]
+	public readonly HBNOCLDLIEG KBPCMAIENME;
+
+	[Cpp2IlInjected.Token(Token = "0x600015C")]
+	[Cpp2IlInjected.Address(RVA = "0xE8EEE0", Offset = "0xE8E2E0", VA = "0x180E8EEE0")]
+	internal PNMPMKAAELL(string LJAGHAHCFHJ, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600015D")]
+	[Cpp2IlInjected.Address(RVA = "0x235ED80", Offset = "0x235E180", VA = "0x18235ED80")]
+	public static PNMPMKAAELL ODOFIFAGLAJ(string LJAGHAHCFHJ, HBNOCLDLIEG IFBDJLKPHIG)
+	{
+		return default(PNMPMKAAELL);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000066")]
+public struct HNCMJBBKIDJ
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400006D")]
+	public CLJHHANFNNN<CBPDOKJJLFC, PNMPMKAAELL> HDLOPDOLJDF;
+
+	[Cpp2IlInjected.Token(Token = "0x600015E")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private HNCMJBBKIDJ([In] CLJHHANFNNN<CBPDOKJJLFC, PNMPMKAAELL> FKNDLFPOOHD)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x600015F")]
+	[Cpp2IlInjected.Address(RVA = "0x235D4D0", Offset = "0x235C8D0", VA = "0x18235D4D0")]
+	public static HNCMJBBKIDJ ODOFIFAGLAJ()
+	{
+		return default(HNCMJBBKIDJ);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000067")]
+public static class JHNHGODHFOE
+{
+	[Cpp2IlInjected.Token(Token = "0x6000160")]
+	[Cpp2IlInjected.Address(RVA = "0x235D720", Offset = "0x235CB20", VA = "0x18235D720")]
+	public static void DNAOJJGPLEN(this HNCMJBBKIDJ MPLBPEBNKFP)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000161")]
+	[Cpp2IlInjected.Address(RVA = "0x30D5860", Offset = "0x30D4C60", VA = "0x1830D5860")]
+	public static void MDLCLNFNLKI<TRoot>([In] this HNCMJBBKIDJ MPLBPEBNKFP, BCHINHGIPLJ<TRoot> KGNDAHGMKHH, AHPCDKCOAJM<PNODKKHPFBO> PAAPGLCPIFD, AHPCDKCOAJM<AMFCOJIMJGL> DOKBOJKBDAO) where TRoot : KGJCDPCBIJL<TRoot>
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000068")]
+public static class DBLCPIEAJAA
+{
+	[Cpp2IlInjected.Token(Token = "0x6000162")]
+	[Cpp2IlInjected.Address(RVA = "0x2E91AE0", Offset = "0x2E90EE0", VA = "0x182E91AE0")]
+	public static FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, BECOFGFJMIK>> IBBKFBOHCDL<TIO, TRoot, TMarker>(this FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, TMarker>> MPLBPEBNKFP, string LJAGHAHCFHJ, FKDDJPPCBLB IFBDJLKPHIG, [Out] AHPCDKCOAJM<CBPDOKJJLFC> NOEOKNONPLM) where TIO : AFBEHAOGKDP<TIO, HNCMJBBKIDJ> where TMarker : BECOFGFJMIK
+	{
+		return default(FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, BECOFGFJMIK>>);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000069")]
+public struct NPMAIEAKBJN
+{
+	[Cpp2IlInjected.Token(Token = "0x200006A")]
+	public sealed class CEMGMFLDMHH : NHDJGAOGPOD.NHAGLKCACPD
+	{
+	}
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400006E")]
+	public CLJHHANFNNN<CBPDOKJJLFC, int> JCLNJGIPPIK;
+
+	[Cpp2IlInjected.Token(Token = "0x6000163")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private NPMAIEAKBJN([In] CLJHHANFNNN<CBPDOKJJLFC, int> HOAEIHDLJOJ)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000164")]
+	[Cpp2IlInjected.Address(RVA = "0x235B580", Offset = "0x235A980", VA = "0x18235B580")]
+	public static NPMAIEAKBJN ACKFPPPAAAL([In] CLJHHANFNNN<CBPDOKJJLFC, int> HOAEIHDLJOJ)
+	{
+		return default(NPMAIEAKBJN);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200006B")]
+public static class BGLDBODMGOP
+{
+	[Cpp2IlInjected.Token(Token = "0x6000165")]
+	[Cpp2IlInjected.Address(RVA = "0x235B4A0", Offset = "0x235A8A0", VA = "0x18235B4A0")]
+	public static void DNAOJJGPLEN(this NPMAIEAKBJN MPLBPEBNKFP)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200006C")]
+public sealed class IPJMOCIIHAM<T1, T2>
+{
+}
+[Cpp2IlInjected.Token(Token = "0x200006D")]
+public struct KJMEFKOJACK
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x400006F")]
+	public OGHLOBLCDJI<IBBELHJEJEK<HBNOCLDLIEG>> ECOGJFGKFIH;
+
+	[Cpp2IlInjected.Token(Token = "0x6000166")]
+	[Cpp2IlInjected.Address(RVA = "0x22DF670", Offset = "0x22DEA70", VA = "0x1822DF670")]
+	private KJMEFKOJACK([In] OGHLOBLCDJI<IBBELHJEJEK<HBNOCLDLIEG>> KJGLMFKOBBA)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000167")]
+	[Cpp2IlInjected.Address(RVA = "0x235D760", Offset = "0x235CB60", VA = "0x18235D760")]
+	public static KJMEFKOJACK ODOFIFAGLAJ()
+	{
+		return default(KJMEFKOJACK);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200006E")]
+public static class CKFHNBEMPLP
+{
+	[Cpp2IlInjected.Token(Token = "0x6000168")]
+	[Cpp2IlInjected.Address(RVA = "0x235B540", Offset = "0x235A940", VA = "0x18235B540")]
+	public static void DNAOJJGPLEN(this KJMEFKOJACK MPLBPEBNKFP)
+	{
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x200006F")]
+public static class CCPFGKGNCJE
+{
+	[Cpp2IlInjected.Token(Token = "0x6000169")]
+	[Cpp2IlInjected.Address(RVA = "0x2E42380", Offset = "0x2E41780", VA = "0x182E42380")]
+	public static FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, HCMPIOGFLGN>> JCMGPCIBFKE<TIO, TRoot, TMarker>(this FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, TMarker>> MPLBPEBNKFP, string LJAGHAHCFHJ, HBNOCLDLIEG IFBDJLKPHIG) where TIO : AFBEHAOGKDP<TIO, KJMEFKOJACK> where TMarker : HCMPIOGFLGN
+	{
+		return default(FILFBEMDDMB<TIO, IPJMOCIIHAM<TRoot, HCMPIOGFLGN>>);
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}
