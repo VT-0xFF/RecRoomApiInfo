@@ -1,0 +1,115 @@
+using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using Cpp2IlInjected;
+using Microsoft.CodeAnalysis;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace Microsoft.CodeAnalysis
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	[CompilerGenerated]
+	[Microsoft.CodeAnalysis.Embedded]
+	internal sealed class EmbeddedAttribute : Attribute
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x98FE40", Offset = "0x98F240", VA = "0x18098FE40")]
+		public EmbeddedAttribute()
+		{
+		}
+	}
+}
+namespace System.Runtime.CompilerServices
+{
+	[Cpp2IlInjected.Token(Token = "0x2000003")]
+	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = false, Inherited = false)]
+	[Microsoft.CodeAnalysis.Embedded]
+	[CompilerGenerated]
+	internal sealed class NullableContextAttribute : Attribute
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000001")]
+		public readonly byte Flag;
+
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0x9905D0", Offset = "0x98F9D0", VA = "0x1809905D0")]
+		public NullableContextAttribute(byte P_0)
+		{
+		}
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000004")]
+[Obsolete]
+public sealed class BCHOPBBCGKK : FMKKLINKDEK
+{
+	[Cpp2IlInjected.Token(Token = "0x17000001")]
+	public Guid BIKAJBPHMBB
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0xB40EA0", Offset = "0xB402A0", VA = "0x180B40EA0", Slot = "4")]
+		[CompilerGenerated]
+		get
+		{
+			return default(Guid);
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x966900", Offset = "0x965D00", VA = "0x180966900", Slot = "5")]
+	public void Bind(PDDKBNGMOFN EHNGKAFNFAE)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000005")]
+	[Cpp2IlInjected.Address(RVA = "0xE31650", Offset = "0xE30A50", VA = "0x180E31650")]
+	public BCHOPBBCGKK(Guid BCIHOIBCNMJ)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000006")]
+	[Cpp2IlInjected.Address(RVA = "0x25682C0", Offset = "0x25676C0", VA = "0x1825682C0")]
+	public static BCHOPBBCGKK KMDIICJFNJF(Guid BCIHOIBCNMJ)
+	{
+		return null;
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}

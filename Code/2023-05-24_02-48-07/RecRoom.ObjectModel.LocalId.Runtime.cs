@@ -1,0 +1,168 @@
+using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using Cpp2IlInjected;
+using Unity.Entities;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace RecRoom.ObjectModel
+{
+	[Serializable]
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	public readonly struct LocalId : IEquatable<LocalId>, IComparable<LocalId>
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000001")]
+		public readonly int Index;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x4")]
+		[Cpp2IlInjected.Token(Token = "0x4000002")]
+		public readonly int Version;
+
+		[Cpp2IlInjected.Token(Token = "0x17000001")]
+		public static LocalId Null
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000002")]
+			[Cpp2IlInjected.Address(RVA = "0x83E700", Offset = "0x83D300", VA = "0x18083E700")]
+			get
+			{
+				return default(LocalId);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000002")]
+		public bool IsNull
+		{
+			[Cpp2IlInjected.Token(Token = "0x600000C")]
+			[Cpp2IlInjected.Address(RVA = "0x13AB220", Offset = "0x13A9E20", VA = "0x1813AB220")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000003")]
+		public bool IsNotNull
+		{
+			[Cpp2IlInjected.Token(Token = "0x600000D")]
+			[Cpp2IlInjected.Address(RVA = "0x13AB200", Offset = "0x13A9E00", VA = "0x1813AB200")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x81E4F0", Offset = "0x81D0F0", VA = "0x18081E4F0")]
+		public LocalId(int NHHNPPKPBIA, int FPBNFBFIPHI)
+		{
+		}
+
+		[SpecialName]
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0x1036F30", Offset = "0x1035B30", VA = "0x181036F30")]
+		public static Entity DGIADCHILCD(LocalId ECNGHFJBIJL)
+		{
+			return default(Entity);
+		}
+
+		[SpecialName]
+		[Cpp2IlInjected.Token(Token = "0x6000004")]
+		[Cpp2IlInjected.Address(RVA = "0x1036F30", Offset = "0x1035B30", VA = "0x181036F30")]
+		public static LocalId DGIADCHILCD(Entity ECNGHFJBIJL)
+		{
+			return default(LocalId);
+		}
+
+		[SpecialName]
+		[Cpp2IlInjected.Token(Token = "0x6000005")]
+		[Cpp2IlInjected.Address(RVA = "0x13AB130", Offset = "0x13A9D30", VA = "0x1813AB130")]
+		public static bool FMMDKFLNNFA(LocalId EOEOFNCKKHJ, LocalId AOEAFBFCPPC)
+		{
+			return default(bool);
+		}
+
+		[SpecialName]
+		[Cpp2IlInjected.Token(Token = "0x6000006")]
+		[Cpp2IlInjected.Address(RVA = "0x13AB050", Offset = "0x13A9C50", VA = "0x1813AB050")]
+		public static bool BDPOAMCDIDB(LocalId EOEOFNCKKHJ, LocalId AOEAFBFCPPC)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000007")]
+		[Cpp2IlInjected.Address(RVA = "0x13AB070", Offset = "0x13A9C70", VA = "0x1813AB070", Slot = "5")]
+		public int CompareTo(LocalId MDHJAFNLPON)
+		{
+			return default(int);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000008")]
+		[Cpp2IlInjected.Address(RVA = "0x13AB080", Offset = "0x13A9C80", VA = "0x1813AB080", Slot = "0")]
+		public override bool Equals(object IBMKHDGPJMJ)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000009")]
+		[Cpp2IlInjected.Address(RVA = "0xB91F60", Offset = "0xB90B60", VA = "0x180B91F60", Slot = "2")]
+		public override int GetHashCode()
+		{
+			return default(int);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000A")]
+		[Cpp2IlInjected.Address(RVA = "0x13AB110", Offset = "0x13A9D10", VA = "0x1813AB110", Slot = "4")]
+		public bool Equals(LocalId EEOIFMPKINO)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000B")]
+		[Cpp2IlInjected.Address(RVA = "0x13AB150", Offset = "0x13A9D50", VA = "0x1813AB150", Slot = "3")]
+		public override string ToString()
+		{
+			return null;
+		}
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}

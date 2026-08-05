@@ -1,0 +1,280 @@
+using System;
+using System.Reflection;
+using Cpp2IlInjected;
+using UnityEngine;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+[LPHINGJEECL]
+public enum FNMMBLFBBBO
+{
+	[Cpp2IlInjected.Token(Token = "0x4000002")]
+	Nothing = 0,
+	[Cpp2IlInjected.Token(Token = "0x4000003")]
+	Everything = -1,
+	[Cpp2IlInjected.Token(Token = "0x4000004")]
+	NonPlayerPhysics = 3073,
+	[Cpp2IlInjected.Token(Token = "0x4000005")]
+	ToolAndEnemyPhysics = 497427456,
+	[Cpp2IlInjected.Token(Token = "0x4000006")]
+	ToolAndAnyPlayerPhysics = 162936320,
+	[Cpp2IlInjected.Token(Token = "0x4000007")]
+	LocalPlayerPhysics = 1049088,
+	[Cpp2IlInjected.Token(Token = "0x4000008")]
+	RemotePlayerPhysics = 1052672,
+	[Cpp2IlInjected.Token(Token = "0x4000009")]
+	AnyPlayerPhysics = 1053184,
+	[Cpp2IlInjected.Token(Token = "0x400000A")]
+	ToolAndEnemyAndLocalPlayerPhysics = 498476544,
+	[Cpp2IlInjected.Token(Token = "0x400000B")]
+	ToolAndEnemyAndAnyPlayerPhysics = 498480640,
+	[Cpp2IlInjected.Token(Token = "0x400000C")]
+	ToolAndEnemyAndRemotePlayerPhysics = 498480128,
+	[Cpp2IlInjected.Token(Token = "0x400000D")]
+	StaticPhysics = 2048,
+	[Cpp2IlInjected.Token(Token = "0x400000E")]
+	VehiclePhysics = 2097152,
+	[Cpp2IlInjected.Token(Token = "0x400000F")]
+	PredictiveVehicleCollisionDynamic = 16778240,
+	[Cpp2IlInjected.Token(Token = "0x4000010")]
+	DefaultOrStaticPhysics = 2049,
+	[Cpp2IlInjected.Token(Token = "0x4000011")]
+	UI = 4197409,
+	[Cpp2IlInjected.Token(Token = "0x4000012")]
+	VehicleMovementCollision = 67128320,
+	[Cpp2IlInjected.Token(Token = "0x4000013")]
+	VehiclePlacementPhysics = 70278656,
+	[Cpp2IlInjected.Token(Token = "0x4000014")]
+	MovementCollision = 69225472,
+	[Cpp2IlInjected.Token(Token = "0x4000015")]
+	BulletPhysics = 364133888,
+	[Cpp2IlInjected.Token(Token = "0x4000016")]
+	MirrorCameraCullingMask = 1606418399,
+	[Cpp2IlInjected.Token(Token = "0x4000017")]
+	Portal = 2049,
+	[Cpp2IlInjected.Token(Token = "0x4000018")]
+	LaserPointerOccluder = 497433600,
+	[Cpp2IlInjected.Token(Token = "0x4000019")]
+	EnemyPhysics = 335544320,
+	[Cpp2IlInjected.Token(Token = "0x400001A")]
+	OverlayNotifications = 4194304,
+	[Cpp2IlInjected.Token(Token = "0x400001B")]
+	HiddenInFirstPerson = 256,
+	[Cpp2IlInjected.Token(Token = "0x400001C")]
+	ToolPhysics = 161883136,
+	[Cpp2IlInjected.Token(Token = "0x400001D")]
+	ToolAndStaticPhysics = 161885184,
+	[Cpp2IlInjected.Token(Token = "0x400001E")]
+	NonPhysicalTools = 1107312640,
+	[Cpp2IlInjected.Token(Token = "0x400001F")]
+	PhysicalAndNonPhysicalTools = 1269195776,
+	[Cpp2IlInjected.Token(Token = "0x4000020")]
+	IgnoreEnemyPhysics = 419430400,
+	[Cpp2IlInjected.Token(Token = "0x4000021")]
+	SteeringAvoidance = 77999104,
+	[Cpp2IlInjected.Token(Token = "0x4000022")]
+	MakerPenPointer = 1269197825,
+	[Cpp2IlInjected.Token(Token = "0x4000023")]
+	MakerPenSurfaceSnap = 1269197825,
+	[Cpp2IlInjected.Token(Token = "0x4000024")]
+	LaserPushButtonRaycast = -517,
+	[Cpp2IlInjected.Token(Token = "0x4000025")]
+	StickyTargets = 498482688,
+	[Cpp2IlInjected.Token(Token = "0x4000026")]
+	RangedWeaponOverlaps = 497427456,
+	[Cpp2IlInjected.Token(Token = "0x4000027")]
+	Interactables = 1336290304,
+	[Cpp2IlInjected.Token(Token = "0x4000028")]
+	DoesntOccludeInteractableTargeting = 1111491332,
+	[Cpp2IlInjected.Token(Token = "0x4000029")]
+	NonTargetingOccludingTools = 1107296256,
+	[Cpp2IlInjected.Token(Token = "0x400002A")]
+	EnemyColliderCandidate = 343932928,
+	[Cpp2IlInjected.Token(Token = "0x400002B")]
+	DefaultShareCamera = 2143223805,
+	[Cpp2IlInjected.Token(Token = "0x400002C")]
+	LocalHeldShareCamera = 2143223549
+}
+[Cpp2IlInjected.Token(Token = "0x2000003")]
+public enum AGHPBLHFLLP
+{
+	[Cpp2IlInjected.Token(Token = "0x400002E")]
+	Nothing = 0,
+	[Cpp2IlInjected.Token(Token = "0x400002F")]
+	ToolAndAnyPlayerPhysics = 30,
+	[Cpp2IlInjected.Token(Token = "0x4000030")]
+	AnyPlayerPhysics = 60,
+	[Cpp2IlInjected.Token(Token = "0x4000031")]
+	StaticPhysics = 100,
+	[Cpp2IlInjected.Token(Token = "0x4000032")]
+	BulletPhysics = 150,
+	[Cpp2IlInjected.Token(Token = "0x4000033")]
+	ToolAndStaticPhysics = 230,
+	[Cpp2IlInjected.Token(Token = "0x4000034")]
+	StickyTargets = 300
+}
+[Cpp2IlInjected.Token(Token = "0x2000004")]
+public static class PENPLHDMICE
+{
+	[Cpp2IlInjected.Token(Token = "0x6000001")]
+	[Cpp2IlInjected.Address(RVA = "0x74F43C0", Offset = "0x74F29C0", VA = "0x1874F43C0")]
+	public static FNMMBLFBBBO EFBNDAFNNKM(this AGHPBLHFLLP GLANIPKGCHM)
+	{
+		return default(FNMMBLFBBBO);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000005")]
+public enum MPPLOPGDAHM
+{
+	[Cpp2IlInjected.Token(Token = "0x4000036")]
+	Default = 0,
+	[Cpp2IlInjected.Token(Token = "0x4000037")]
+	TransparentFX = 1,
+	[Cpp2IlInjected.Token(Token = "0x4000038")]
+	IgnoreRaycast = 2,
+	[Cpp2IlInjected.Token(Token = "0x4000039")]
+	Water = 4,
+	[Cpp2IlInjected.Token(Token = "0x400003A")]
+	UI = 5,
+	[Cpp2IlInjected.Token(Token = "0x400003B")]
+	HiddenInFirstPerson = 8,
+	[Cpp2IlInjected.Token(Token = "0x400003C")]
+	LocalPlayerPhysics = 9,
+	[Cpp2IlInjected.Token(Token = "0x400003D")]
+	DynamicPhysics = 10,
+	[Cpp2IlInjected.Token(Token = "0x400003E")]
+	StaticPhysics = 11,
+	[Cpp2IlInjected.Token(Token = "0x400003F")]
+	RemotePlayerPhysics = 12,
+	[Cpp2IlInjected.Token(Token = "0x4000040")]
+	DynamicPhysicsIgnoreStaticPhysics = 13,
+	[Cpp2IlInjected.Token(Token = "0x4000041")]
+	MovementBlocker = 14,
+	[Cpp2IlInjected.Token(Token = "0x4000042")]
+	DEPRECATED_OutfitTrigger = 15,
+	[Cpp2IlInjected.Token(Token = "0x4000043")]
+	CameraMesh = 16,
+	[Cpp2IlInjected.Token(Token = "0x4000044")]
+	DynamicPhysicsIgnoreDynamicPhysics = 17,
+	[Cpp2IlInjected.Token(Token = "0x4000045")]
+	DynamicPhysicsIgnorePlayerPhysics = 18,
+	[Cpp2IlInjected.Token(Token = "0x4000046")]
+	KillZone = 19,
+	[Cpp2IlInjected.Token(Token = "0x4000047")]
+	PlayerTrigger = 20,
+	[Cpp2IlInjected.Token(Token = "0x4000048")]
+	VehiclePhysics = 21,
+	[Cpp2IlInjected.Token(Token = "0x4000049")]
+	OverlayNotifications = 22,
+	[Cpp2IlInjected.Token(Token = "0x400004A")]
+	DynamicPhysicsIgnoreDynamicAndPlayerPhysics = 23,
+	[Cpp2IlInjected.Token(Token = "0x400004B")]
+	DynamicPhysicsIgnoreEnemyAndPlayerPhysics = 24,
+	[Cpp2IlInjected.Token(Token = "0x400004C")]
+	TriggerCollider = 25,
+	[Cpp2IlInjected.Token(Token = "0x400004D")]
+	EnemyPhysics = 26,
+	[Cpp2IlInjected.Token(Token = "0x400004E")]
+	DynamicPhysicsIgnoreDynamicAndPlayerAndEnemyPhysics = 27,
+	[Cpp2IlInjected.Token(Token = "0x400004F")]
+	EnemyPhysicsIgnoreDynamicAndEnemyPhysics = 28,
+	[Cpp2IlInjected.Token(Token = "0x4000050")]
+	FirstPersonShadowCaster = 29,
+	[Cpp2IlInjected.Token(Token = "0x4000051")]
+	Decoration = 30,
+	[Cpp2IlInjected.Token(Token = "0x4000052")]
+	CachedView = 31
+}
+[Cpp2IlInjected.Token(Token = "0x2000006")]
+public static class MNJGMMKBKFA
+{
+	[Cpp2IlInjected.Token(Token = "0x6000002")]
+	[Cpp2IlInjected.Address(RVA = "0x74F3EB0", Offset = "0x74F24B0", VA = "0x1874F3EB0")]
+	public static void CDHPEMCFCCO(this GameObject MNKAGJEGJCF, MPPLOPGDAHM CEEMGDGDBHO)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000003")]
+	[Cpp2IlInjected.Address(RVA = "0x74F4110", Offset = "0x74F2710", VA = "0x1874F4110")]
+	public static void LKEMKIHDALJ(this GameObject MNKAGJEGJCF, MPPLOPGDAHM MLMADIOJBNO, MPPLOPGDAHM PHBNLAJDFGJ)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x74F3E70", Offset = "0x74F2470", VA = "0x1874F3E70")]
+	public static bool BJMJFDDHJCC(this GameObject MNKAGJEGJCF, FNMMBLFBBBO JIPBIKMJHLM)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000005")]
+	[Cpp2IlInjected.Address(RVA = "0x74F43B0", Offset = "0x74F29B0", VA = "0x1874F43B0")]
+	public static bool MFEMBJFBHJF(int KLABJGGMBGH, int OICDBIACOKB)
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000006")]
+	[Cpp2IlInjected.Address(RVA = "0x74F3DB0", Offset = "0x74F23B0", VA = "0x1874F3DB0")]
+	public static bool AMILKGHPEPB(this GameObject MNKAGJEGJCF, int OICDBIACOKB)
+	{
+		return default(bool);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000007")]
+public static class CDNPFEKBFCL
+{
+	[Cpp2IlInjected.Token(Token = "0x4000053")]
+	public static readonly int CONBJLHKOCN;
+
+	[Cpp2IlInjected.Token(Token = "0x4000054")]
+	public static readonly int OEGFEKGDDFD;
+
+	[Cpp2IlInjected.Token(Token = "0x4000055")]
+	public static readonly int PEIALNLOLFH;
+
+	[Cpp2IlInjected.Token(Token = "0x4000056")]
+	public static readonly int CBMNEPEBNDC;
+
+	[Cpp2IlInjected.Token(Token = "0x4000057")]
+	public static readonly int DBLAEDGLLMH;
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

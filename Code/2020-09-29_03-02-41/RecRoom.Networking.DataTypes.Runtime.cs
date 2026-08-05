@@ -1,0 +1,84 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using Cpp2IlInjected;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace RecRoom.Networking.DataTypes
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	public interface INetworkedPlayer
+	{
+		[Cpp2IlInjected.Token(Token = "0x17000001")]
+		int ID
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000001")]
+			[Cpp2IlInjected.Address(RVA = "0x18588980185800", Offset = "0x0", VA = "0x18588B00185800", Slot = "0")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000002")]
+		bool IsLocal
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000002")]
+			[Cpp2IlInjected.Address(RVA = "0x18588E840B2E0C", Offset = "0x0", VA = "0x185890040B2E0C", Slot = "1")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000003")]
+		bool IsMaster
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000003")]
+			[Cpp2IlInjected.Address(RVA = "0x40B2E0A80185917", Offset = "0x0", VA = "0x40B2E0C00185917", Slot = "2")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000004")]
+		IDictionary<object, object> CustomProperties
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000004")]
+			[Cpp2IlInjected.Address(RVA = "0x18599C80185920", Offset = "0x0", VA = "0x18599E00185920", Slot = "3")]
+			get;
+		}
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}

@@ -1,0 +1,88 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using Cpp2IlInjected;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public interface GNGELPCDOEB
+{
+	[Cpp2IlInjected.Token(Token = "0x17000001")]
+	int GOGKMCKABDH
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x68D6EEA8023C86A", Offset = "0x0", VA = "0x68D6EEC0023C86A", Slot = "0")]
+		get;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000002")]
+	bool DCLNFHDODDL
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0x23C9388023C870", Offset = "0x0", VA = "0x23C93A0023C870", Slot = "1")]
+		get;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000003")]
+	IDictionary<object, object> DHNKJCGLBGG
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0x23C93E868D6EEC", Offset = "0x0", VA = "0x23C940068D6EEC", Slot = "2")]
+		get;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000004")]
+	string ELCOIPAPLJL
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000004")]
+		[Cpp2IlInjected.Address(RVA = "0x68D2E228023CA14", Offset = "0x0", VA = "0x68D2E240023CA14", Slot = "3")]
+		get;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000005")]
+	bool IKNNJFFIENB
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000005")]
+		[Cpp2IlInjected.Address(RVA = "0x23CB048023CA20", Offset = "0x0", VA = "0x23CB060023CA20", Slot = "4")]
+		get;
+	}
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

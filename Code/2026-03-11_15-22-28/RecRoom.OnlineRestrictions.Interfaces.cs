@@ -1,0 +1,857 @@
+using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using Cpp2IlInjected;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace RecRoom.OnlineRestrictions
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	[Flags]
+	public enum OnlineRestrictionsSources : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x4000002")]
+		None = 0,
+		[Cpp2IlInjected.Token(Token = "0x4000003")]
+		Moderation = 2,
+		[Cpp2IlInjected.Token(Token = "0x4000004")]
+		Platform = 4,
+		[Cpp2IlInjected.Token(Token = "0x4000005")]
+		RecNetJunior = 0x10,
+		[Cpp2IlInjected.Token(Token = "0x4000006")]
+		Settings = 0x20
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000003")]
+	[Flags]
+	public enum PlayerRelationships : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x4000008")]
+		Party = 0x12,
+		[Cpp2IlInjected.Token(Token = "0x4000009")]
+		FavoriteFriend = 0x1C,
+		[Cpp2IlInjected.Token(Token = "0x400000A")]
+		Friend = 0x18,
+		[Cpp2IlInjected.Token(Token = "0x400000B")]
+		Any = 0x10
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000004")]
+	public interface NJLDKZUTSQW
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(Slot = "0")]
+		bool JOBHQSYJSOA([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(Slot = "1")]
+		bool JGBKNJTCCVB([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(Slot = "2")]
+		bool EBQTEHIUVUX([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000004")]
+		[Cpp2IlInjected.Address(Slot = "3")]
+		bool GATBCVKIOGX([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000005")]
+		[Cpp2IlInjected.Address(Slot = "4")]
+		bool SFEFRVPFKVV([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000006")]
+		[Cpp2IlInjected.Address(Slot = "5")]
+		bool LECKQPIVYMI(PlayerRelationships a, [Out] OnlineRestrictionsSources b);
+
+		[Cpp2IlInjected.Token(Token = "0x6000007")]
+		[Cpp2IlInjected.Address(Slot = "6")]
+		bool YHQLGCFOVMV([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000008")]
+		[Cpp2IlInjected.Address(Slot = "7")]
+		bool DPXSXNVBWOA([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000009")]
+		[Cpp2IlInjected.Address(Slot = "8")]
+		bool CPBNBGFUKFN([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600000A")]
+		[Cpp2IlInjected.Address(Slot = "9")]
+		bool DVBUKGRVYOY([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600000B")]
+		[Cpp2IlInjected.Address(Slot = "10")]
+		bool VWCMBHDTRZU([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600000C")]
+		[Cpp2IlInjected.Address(Slot = "11")]
+		bool KTLECMMOUDL([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600000D")]
+		[Cpp2IlInjected.Address(Slot = "12")]
+		bool KJHSRRZRGFH([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600000E")]
+		[Cpp2IlInjected.Address(Slot = "13")]
+		bool FSCJVHDKFJM([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600000F")]
+		[Cpp2IlInjected.Address(Slot = "14")]
+		bool MFJGZTAJYER([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000010")]
+		[Cpp2IlInjected.Address(Slot = "15")]
+		bool BJSXKIULGLN([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000011")]
+		[Cpp2IlInjected.Address(Slot = "16")]
+		bool WHBFWMVMSIO(CreationRooms a, [Out] OnlineRestrictionsSources b);
+
+		[Cpp2IlInjected.Token(Token = "0x6000012")]
+		[Cpp2IlInjected.Address(Slot = "17")]
+		bool FVRSOHVVFLX(DrawingRooms a, [Out] OnlineRestrictionsSources b);
+
+		[Cpp2IlInjected.Token(Token = "0x6000013")]
+		[Cpp2IlInjected.Address(Slot = "18")]
+		bool ZAPAAKSBMRE([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000014")]
+		[Cpp2IlInjected.Address(Slot = "19")]
+		bool NYOFEJLPDPE([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000015")]
+		[Cpp2IlInjected.Address(Slot = "20")]
+		bool XIKNBTZYFSX([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000016")]
+		[Cpp2IlInjected.Address(Slot = "21")]
+		bool VKXSXFBKGIV([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000017")]
+		[Cpp2IlInjected.Address(Slot = "22")]
+		bool YEEDONENSSA([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000018")]
+		[Cpp2IlInjected.Address(Slot = "23")]
+		bool LALCQEAFPUU([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000019")]
+		[Cpp2IlInjected.Address(Slot = "24")]
+		bool JYCNBWLJFIR(SharecamVisibleObjects a, [Out] OnlineRestrictionsSources b);
+
+		[Cpp2IlInjected.Token(Token = "0x600001A")]
+		[Cpp2IlInjected.Address(Slot = "25")]
+		bool JHURPKEUOJB([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600001B")]
+		[Cpp2IlInjected.Address(Slot = "26")]
+		bool TZZRDRKRWNS([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600001C")]
+		[Cpp2IlInjected.Address(Slot = "27")]
+		bool ZIPJDHJVXVY([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600001D")]
+		[Cpp2IlInjected.Address(Slot = "28")]
+		bool IEFLZXFNETD([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x600001E")]
+		[Cpp2IlInjected.Address(Slot = "29")]
+		bool FVSOAOTJAXJ(UGCPublishedClubAnnouncements a, [Out] OnlineRestrictionsSources b);
+
+		[Cpp2IlInjected.Token(Token = "0x600001F")]
+		[Cpp2IlInjected.Address(Slot = "30")]
+		bool VJKMVILENCG([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000020")]
+		[Cpp2IlInjected.Address(Slot = "31")]
+		bool IZCMNVCDJLA([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000021")]
+		[Cpp2IlInjected.Address(Slot = "32")]
+		bool MBOGDFJOYTD([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000022")]
+		[Cpp2IlInjected.Address(Slot = "33")]
+		bool BWQGKZGGTJG([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000023")]
+		[Cpp2IlInjected.Address(Slot = "34")]
+		bool MQAGUKAQADR([Out] OnlineRestrictionsSources a);
+
+		[Cpp2IlInjected.Token(Token = "0x6000024")]
+		[Cpp2IlInjected.Address(Slot = "35")]
+		string LAPBXQUWWIT(OnlineRestrictionsSources a);
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000005")]
+	public static class LJLXLZBYUVX
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000025")]
+		[Cpp2IlInjected.Address(RVA = "0x8864400", Offset = "0x8863400", VA = "0x188864400")]
+		public static bool ELGSZFONZPP(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000026")]
+		[Cpp2IlInjected.Address(RVA = "0x8865320", Offset = "0x8864320", VA = "0x188865320")]
+		public static bool SEHZLLSDCFG(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000027")]
+		[Cpp2IlInjected.Address(RVA = "0x8864B90", Offset = "0x8863B90", VA = "0x188864B90")]
+		public static bool JOBHQSYJSOA(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000028")]
+		[Cpp2IlInjected.Address(RVA = "0x8864A10", Offset = "0x8863A10", VA = "0x188864A10")]
+		public static bool JGBKNJTCCVB(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000029")]
+		[Cpp2IlInjected.Address(RVA = "0x8864340", Offset = "0x8863340", VA = "0x188864340")]
+		public static bool EBQTEHIUVUX(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002A")]
+		[Cpp2IlInjected.Address(RVA = "0x88647D0", Offset = "0x88637D0", VA = "0x1888647D0")]
+		public static bool GATBCVKIOGX(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002B")]
+		[Cpp2IlInjected.Address(RVA = "0x8865490", Offset = "0x8864490", VA = "0x188865490")]
+		public static bool SFEFRVPFKVV(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002C")]
+		[Cpp2IlInjected.Address(RVA = "0x8864F50", Offset = "0x8863F50", VA = "0x188864F50")]
+		public static bool LECKQPIVYMI(this NJLDKZUTSQW a, PlayerRelationships b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002D")]
+		[Cpp2IlInjected.Address(RVA = "0x8865AA0", Offset = "0x8864AA0", VA = "0x188865AA0")]
+		public static bool YHQLGCFOVMV(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002E")]
+		[Cpp2IlInjected.Address(RVA = "0x88641C0", Offset = "0x88631C0", VA = "0x1888641C0")]
+		public static bool DPXSXNVBWOA(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002F")]
+		[Cpp2IlInjected.Address(RVA = "0x8864100", Offset = "0x8863100", VA = "0x188864100")]
+		public static bool CPBNBGFUKFN(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000030")]
+		[Cpp2IlInjected.Address(RVA = "0x8864280", Offset = "0x8863280", VA = "0x188864280")]
+		public static bool DVBUKGRVYOY(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000031")]
+		[Cpp2IlInjected.Address(RVA = "0x8865790", Offset = "0x8864790", VA = "0x188865790")]
+		public static bool VWCMBHDTRZU(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000032")]
+		[Cpp2IlInjected.Address(RVA = "0x8864DD0", Offset = "0x8863DD0", VA = "0x188864DD0")]
+		public static bool KTLECMMOUDL(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000033")]
+		[Cpp2IlInjected.Address(RVA = "0x8864D10", Offset = "0x8863D10", VA = "0x188864D10")]
+		public static bool KJHSRRZRGFH(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000034")]
+		[Cpp2IlInjected.Address(RVA = "0x8864570", Offset = "0x8863570", VA = "0x188864570")]
+		public static bool FSCJVHDKFJM(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000035")]
+		[Cpp2IlInjected.Address(RVA = "0x88650E0", Offset = "0x88640E0", VA = "0x1888650E0")]
+		public static bool MFJGZTAJYER(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000036")]
+		[Cpp2IlInjected.Address(RVA = "0x8863F80", Offset = "0x8862F80", VA = "0x188863F80")]
+		public static bool BJSXKIULGLN(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000037")]
+		[Cpp2IlInjected.Address(RVA = "0x8865850", Offset = "0x8864850", VA = "0x188865850")]
+		public static bool WHBFWMVMSIO(this NJLDKZUTSQW a, CreationRooms b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000038")]
+		[Cpp2IlInjected.Address(RVA = "0x8864630", Offset = "0x8863630", VA = "0x188864630")]
+		public static bool FVRSOHVVFLX(this NJLDKZUTSQW a, DrawingRooms b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000039")]
+		[Cpp2IlInjected.Address(RVA = "0x8865B60", Offset = "0x8864B60", VA = "0x188865B60")]
+		public static bool ZAPAAKSBMRE(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600003A")]
+		[Cpp2IlInjected.Address(RVA = "0x8865260", Offset = "0x8864260", VA = "0x188865260")]
+		public static bool NYOFEJLPDPE(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600003B")]
+		[Cpp2IlInjected.Address(RVA = "0x8865920", Offset = "0x8864920", VA = "0x188865920")]
+		public static bool XIKNBTZYFSX(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600003C")]
+		[Cpp2IlInjected.Address(RVA = "0x88656D0", Offset = "0x88646D0", VA = "0x1888656D0")]
+		public static bool VKXSXFBKGIV(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600003D")]
+		[Cpp2IlInjected.Address(RVA = "0x88659E0", Offset = "0x88649E0", VA = "0x1888659E0")]
+		public static bool YEEDONENSSA(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600003E")]
+		[Cpp2IlInjected.Address(RVA = "0x8864E90", Offset = "0x8863E90", VA = "0x188864E90")]
+		public static bool LALCQEAFPUU(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600003F")]
+		[Cpp2IlInjected.Address(RVA = "0x8864C40", Offset = "0x8863C40", VA = "0x188864C40")]
+		public static bool JYCNBWLJFIR(this NJLDKZUTSQW a, SharecamVisibleObjects b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000040")]
+		[Cpp2IlInjected.Address(RVA = "0x8864AD0", Offset = "0x8863AD0", VA = "0x188864AD0")]
+		public static bool JHURPKEUOJB(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000041")]
+		[Cpp2IlInjected.Address(RVA = "0x8865550", Offset = "0x8864550", VA = "0x188865550")]
+		public static bool TZZRDRKRWNS(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000042")]
+		[Cpp2IlInjected.Address(RVA = "0x8865C20", Offset = "0x8864C20", VA = "0x188865C20")]
+		public static bool ZIPJDHJVXVY(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000043")]
+		[Cpp2IlInjected.Address(RVA = "0x8864890", Offset = "0x8863890", VA = "0x188864890")]
+		public static bool IEFLZXFNETD(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000044")]
+		[Cpp2IlInjected.Address(RVA = "0x8864700", Offset = "0x8863700", VA = "0x188864700")]
+		public static bool FVSOAOTJAXJ(this NJLDKZUTSQW a, UGCPublishedClubAnnouncements b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000045")]
+		[Cpp2IlInjected.Address(RVA = "0x8865610", Offset = "0x8864610", VA = "0x188865610")]
+		public static bool VJKMVILENCG(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000046")]
+		[Cpp2IlInjected.Address(RVA = "0x8864950", Offset = "0x8863950", VA = "0x188864950")]
+		public static bool IZCMNVCDJLA(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000047")]
+		[Cpp2IlInjected.Address(RVA = "0x8865020", Offset = "0x8864020", VA = "0x188865020")]
+		public static bool MBOGDFJOYTD(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000048")]
+		[Cpp2IlInjected.Address(RVA = "0x8864040", Offset = "0x8863040", VA = "0x188864040")]
+		public static bool BWQGKZGGTJG(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000049")]
+		[Cpp2IlInjected.Address(RVA = "0x88651A0", Offset = "0x88641A0", VA = "0x1888651A0")]
+		public static bool MQAGUKAQADR(this NJLDKZUTSQW a)
+		{
+			return default(bool);
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000006")]
+	[Flags]
+	public enum PlayerRelationshipsFlags : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x400000D")]
+		None = 0,
+		[Cpp2IlInjected.Token(Token = "0x400000E")]
+		Party = 2,
+		[Cpp2IlInjected.Token(Token = "0x400000F")]
+		FavoriteFriend = 4,
+		[Cpp2IlInjected.Token(Token = "0x4000010")]
+		Friend = 8,
+		[Cpp2IlInjected.Token(Token = "0x4000011")]
+		Any = 0x10
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000007")]
+	[Flags]
+	public enum AllowedPlayerRelationships : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x4000013")]
+		None = 0,
+		[Cpp2IlInjected.Token(Token = "0x4000014")]
+		Party = 2,
+		[Cpp2IlInjected.Token(Token = "0x4000015")]
+		FavoriteFriends = 4,
+		[Cpp2IlInjected.Token(Token = "0x4000016")]
+		Friends = 0xC,
+		[Cpp2IlInjected.Token(Token = "0x4000017")]
+		PartyAndFavoriteFriends = 6,
+		[Cpp2IlInjected.Token(Token = "0x4000018")]
+		PartyAndFriends = 0xE,
+		[Cpp2IlInjected.Token(Token = "0x4000019")]
+		All = 0x1E
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000008")]
+	[Flags]
+	public enum CreationRooms : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x400001B")]
+		None = 0,
+		[Cpp2IlInjected.Token(Token = "0x400001C")]
+		Dorm = 2,
+		[Cpp2IlInjected.Token(Token = "0x400001D")]
+		All = 0xA
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000009")]
+	[Flags]
+	public enum DrawingRooms : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x400001F")]
+		None = 0,
+		[Cpp2IlInjected.Token(Token = "0x4000020")]
+		TransientDormOnly = 2,
+		[Cpp2IlInjected.Token(Token = "0x4000021")]
+		SavedDorm = 4,
+		[Cpp2IlInjected.Token(Token = "0x4000022")]
+		All = 0xC
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000A")]
+	[Flags]
+	public enum SharecamVisibleObjects : byte
+	{
+		[Cpp2IlInjected.Token(Token = "0x4000024")]
+		RegularObjects = 2,
+		[Cpp2IlInjected.Token(Token = "0x4000025")]
+		ConditionallyRestrictedObjects = 6
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000B")]
+	[Flags]
+	public enum UGCPublishedClubAnnouncements
+	{
+		[Cpp2IlInjected.Token(Token = "0x4000027")]
+		None = 0,
+		[Cpp2IlInjected.Token(Token = "0x4000028")]
+		UnblockedCreators = 2,
+		[Cpp2IlInjected.Token(Token = "0x4000029")]
+		All = 6
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000C")]
+	public interface HVRUFLBRQUT
+	{
+		[Cpp2IlInjected.Token(Token = "0x17000001")]
+		OnlineRestrictionsSources LJEYUVVYGPU
+		{
+			[Cpp2IlInjected.Token(Token = "0x600004A")]
+			[Cpp2IlInjected.Address(Slot = "0")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000002")]
+		bool JOBHQSYJSOA
+		{
+			[Cpp2IlInjected.Token(Token = "0x600004B")]
+			[Cpp2IlInjected.Address(Slot = "1")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000003")]
+		bool JGBKNJTCCVB
+		{
+			[Cpp2IlInjected.Token(Token = "0x600004C")]
+			[Cpp2IlInjected.Address(Slot = "2")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000004")]
+		bool EBQTEHIUVUX
+		{
+			[Cpp2IlInjected.Token(Token = "0x600004D")]
+			[Cpp2IlInjected.Address(Slot = "3")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000005")]
+		bool GATBCVKIOGX
+		{
+			[Cpp2IlInjected.Token(Token = "0x600004E")]
+			[Cpp2IlInjected.Address(Slot = "4")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000006")]
+		AllowedPlayerRelationships ISOFNSKWTXP
+		{
+			[Cpp2IlInjected.Token(Token = "0x600004F")]
+			[Cpp2IlInjected.Address(Slot = "5")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000007")]
+		bool YHQLGCFOVMV
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000050")]
+			[Cpp2IlInjected.Address(Slot = "6")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000008")]
+		bool DPXSXNVBWOA
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000051")]
+			[Cpp2IlInjected.Address(Slot = "7")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000009")]
+		bool CPBNBGFUKFN
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000052")]
+			[Cpp2IlInjected.Address(Slot = "8")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700000A")]
+		bool DVBUKGRVYOY
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000053")]
+			[Cpp2IlInjected.Address(Slot = "9")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700000B")]
+		bool VWCMBHDTRZU
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000054")]
+			[Cpp2IlInjected.Address(Slot = "10")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700000C")]
+		bool KTLECMMOUDL
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000055")]
+			[Cpp2IlInjected.Address(Slot = "11")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700000D")]
+		bool KJHSRRZRGFH
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000056")]
+			[Cpp2IlInjected.Address(Slot = "12")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700000E")]
+		bool FSCJVHDKFJM
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000057")]
+			[Cpp2IlInjected.Address(Slot = "13")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700000F")]
+		bool MFJGZTAJYER
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000058")]
+			[Cpp2IlInjected.Address(Slot = "14")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000010")]
+		bool BJSXKIULGLN
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000059")]
+			[Cpp2IlInjected.Address(Slot = "15")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000011")]
+		CreationRooms KEJLBQBBOJA
+		{
+			[Cpp2IlInjected.Token(Token = "0x600005A")]
+			[Cpp2IlInjected.Address(Slot = "16")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000012")]
+		DrawingRooms NFAHMJTHGQN
+		{
+			[Cpp2IlInjected.Token(Token = "0x600005B")]
+			[Cpp2IlInjected.Address(Slot = "17")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000013")]
+		bool ZAPAAKSBMRE
+		{
+			[Cpp2IlInjected.Token(Token = "0x600005C")]
+			[Cpp2IlInjected.Address(Slot = "18")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000014")]
+		bool NYOFEJLPDPE
+		{
+			[Cpp2IlInjected.Token(Token = "0x600005D")]
+			[Cpp2IlInjected.Address(Slot = "19")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000015")]
+		bool XIKNBTZYFSX
+		{
+			[Cpp2IlInjected.Token(Token = "0x600005E")]
+			[Cpp2IlInjected.Address(Slot = "20")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000016")]
+		bool VKXSXFBKGIV
+		{
+			[Cpp2IlInjected.Token(Token = "0x600005F")]
+			[Cpp2IlInjected.Address(Slot = "21")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000017")]
+		bool YEEDONENSSA
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000060")]
+			[Cpp2IlInjected.Address(Slot = "22")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000018")]
+		bool LALCQEAFPUU
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000061")]
+			[Cpp2IlInjected.Address(Slot = "23")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000019")]
+		SharecamVisibleObjects ISDCNPBASGL
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000062")]
+			[Cpp2IlInjected.Address(Slot = "24")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700001A")]
+		bool JHURPKEUOJB
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000063")]
+			[Cpp2IlInjected.Address(Slot = "25")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700001B")]
+		bool TZZRDRKRWNS
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000064")]
+			[Cpp2IlInjected.Address(Slot = "26")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700001C")]
+		bool ZIPJDHJVXVY
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000065")]
+			[Cpp2IlInjected.Address(Slot = "27")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700001D")]
+		bool IEFLZXFNETD
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000066")]
+			[Cpp2IlInjected.Address(Slot = "28")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700001E")]
+		UGCPublishedClubAnnouncements UDSQZFFKTJW
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000067")]
+			[Cpp2IlInjected.Address(Slot = "29")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x1700001F")]
+		bool VJKMVILENCG
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000068")]
+			[Cpp2IlInjected.Address(Slot = "30")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000020")]
+		bool IZCMNVCDJLA
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000069")]
+			[Cpp2IlInjected.Address(Slot = "31")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000021")]
+		bool MBOGDFJOYTD
+		{
+			[Cpp2IlInjected.Token(Token = "0x600006A")]
+			[Cpp2IlInjected.Address(Slot = "32")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000022")]
+		bool BWQGKZGGTJG
+		{
+			[Cpp2IlInjected.Token(Token = "0x600006B")]
+			[Cpp2IlInjected.Address(Slot = "33")]
+			get;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000023")]
+		bool MQAGUKAQADR
+		{
+			[Cpp2IlInjected.Token(Token = "0x600006C")]
+			[Cpp2IlInjected.Address(Slot = "34")]
+			get;
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000D")]
+	public static class OnlineRestrictionsProvider
+	{
+		[Cpp2IlInjected.Token(Token = "0x600006D")]
+		[Cpp2IlInjected.Address(RVA = "0x8865CE0", Offset = "0x8864CE0", VA = "0x188865CE0")]
+		public static string EJLFCKDSQTR(OnlineRestrictionsSources a)
+		{
+			return null;
+		}
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}

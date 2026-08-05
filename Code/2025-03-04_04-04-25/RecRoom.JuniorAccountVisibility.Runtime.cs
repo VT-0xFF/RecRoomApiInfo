@@ -1,0 +1,418 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using Cpp2IlInjected;
+using RecRoom.Core.Studio;
+using UnityEngine;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace RecRoom
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	public class AccountRestrictedVisibilityObject : VisibilityRestriction
+	{
+		[Cpp2IlInjected.Token(Token = "0x2000003")]
+		[Flags]
+		public enum AADPBMFHBII
+		{
+			[Cpp2IlInjected.Token(Token = "0x400000A")]
+			Junior = 1,
+			[Cpp2IlInjected.Token(Token = "0x400000B")]
+			NonJunior = 2,
+			[Cpp2IlInjected.Token(Token = "0x400000C")]
+			UGC_Allowed = 4,
+			[Cpp2IlInjected.Token(Token = "0x400000D")]
+			UGC_Blocked = 8,
+			[Cpp2IlInjected.Token(Token = "0x400000E")]
+			Chat_Allowed = 0x10,
+			[Cpp2IlInjected.Token(Token = "0x400000F")]
+			Chat_Blocked = 0x20
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000004")]
+		public enum MNOCCPNHOIH
+		{
+			[Cpp2IlInjected.Token(Token = "0x4000011")]
+			AllNonExclusive,
+			[Cpp2IlInjected.Token(Token = "0x4000012")]
+			Any
+		}
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+		[Cpp2IlInjected.Token(Token = "0x4000001")]
+		[SerializeField]
+		private AADPBMFHBII visibleFor;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x24")]
+		[Cpp2IlInjected.Token(Token = "0x4000002")]
+		[SerializeField]
+		private MNOCCPNHOIH evaluationMode;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+		[Cpp2IlInjected.Token(Token = "0x4000003")]
+		[SerializeField]
+		[Tooltip("We allow some ugc content for Junior accounts, this is fairly restricted. Consult Social team if you are not sure.")]
+		private bool limitedUGCForJuniorAccount;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x29")]
+		[Cpp2IlInjected.Token(Token = "0x4000004")]
+		private bool EOCJLCMNDCH;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x2A")]
+		[Cpp2IlInjected.Token(Token = "0x4000005")]
+		private bool EFBBCKCBPOI;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x2B")]
+		[Cpp2IlInjected.Token(Token = "0x4000006")]
+		private bool IMEEBNFFLKN;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x2C")]
+		[Cpp2IlInjected.Token(Token = "0x4000007")]
+		private bool JCMPNJFMPFJ;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+		[Cpp2IlInjected.Token(Token = "0x4000008")]
+		private BPJLCHCNDMD MBDIGPMMHLD;
+
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x753D2C0", Offset = "0x753B8C0", VA = "0x18753D2C0", Slot = "5")]
+		protected override void DPMEJGCNJCL()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0x753D640", Offset = "0x753BC40", VA = "0x18753D640", Slot = "4")]
+		protected override void Start()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0x753D500", Offset = "0x753BB00", VA = "0x18753D500")]
+		private void OnDestroy()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000004")]
+		[Cpp2IlInjected.Address(RVA = "0x753D4F0", Offset = "0x753BAF0", VA = "0x18753D4F0")]
+		private void JBNMLECCOIE(bool EOCJLCMNDCH)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000005")]
+		[Cpp2IlInjected.Address(RVA = "0x753D230", Offset = "0x753B830", VA = "0x18753D230")]
+		private void DGDALMEKNDK(bool EOCJLCMNDCH)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000006")]
+		[Cpp2IlInjected.Address(RVA = "0x753D420", Offset = "0x753BA20", VA = "0x18753D420", Slot = "6")]
+		protected override void IKNOKFOEOJH()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000007")]
+		[Cpp2IlInjected.Address(RVA = "0x951A50", Offset = "0x950050", VA = "0x180951A50")]
+		public AccountRestrictedVisibilityObject()
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000005")]
+	public abstract class AltRenderedObject : MonoBehaviour
+	{
+		[Cpp2IlInjected.Token(Token = "0x4000013")]
+		public static List<AltRenderedObject> All;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+		[Cpp2IlInjected.Token(Token = "0x4000014")]
+		[MDEDNPMFNHN("Alters the behavior of this object when rendered in photos taken by junior players", order = 0)]
+		[MDEDNPMFNHN("Enable Never Render to prevent this object from rendering in photos taken by ANY players.", MDEDNPMFNHN.PFIOCKJKHMO.Warning, order = 1)]
+		public bool NeverRender;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+		[Cpp2IlInjected.Token(Token = "0x4000015")]
+		private IFFCOANOBGF EFGOEIHGDFN;
+
+		[Cpp2IlInjected.Token(Token = "0x17000001")]
+		public bool CLBGPOJDHNL
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000008")]
+			[Cpp2IlInjected.Address(RVA = "0x13B6C30", Offset = "0x13B5230", VA = "0x1813B6C30")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000009")]
+		[Cpp2IlInjected.Address(RVA = "0x753D6F0", Offset = "0x753BCF0", VA = "0x18753D6F0", Slot = "4")]
+		protected virtual void Awake()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000A")]
+		[Cpp2IlInjected.Address(RVA = "0x753D7F0", Offset = "0x753BDF0", VA = "0x18753D7F0", Slot = "5")]
+		protected virtual void OnDestroy()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000B")]
+		[Cpp2IlInjected.Address(RVA = "0x753D910", Offset = "0x753BF10", VA = "0x18753D910")]
+		public void SetPaused(bool LGLLAKCPHMM, UnityEngine.Object LAAJFAFNFCN)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000C")]
+		[Cpp2IlInjected.Address(RVA = "0x753D8C0", Offset = "0x753BEC0", VA = "0x18753D8C0")]
+		public void PreRender(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000D")]
+		[Cpp2IlInjected.Address(Slot = "6")]
+		protected abstract void PFMKOHGIFDD(Camera JGNIAEGLGKO);
+
+		[Cpp2IlInjected.Token(Token = "0x600000E")]
+		[Cpp2IlInjected.Address(RVA = "0x753D870", Offset = "0x753BE70", VA = "0x18753D870")]
+		public void PostRender(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000F")]
+		[Cpp2IlInjected.Address(Slot = "7")]
+		protected abstract void MJJPCHNGFMJ(Camera JGNIAEGLGKO);
+
+		[Cpp2IlInjected.Token(Token = "0x6000010")]
+		[Cpp2IlInjected.Address(RVA = "0x753D9E0", Offset = "0x753BFE0", VA = "0x18753D9E0")]
+		protected AltRenderedObject()
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000006")]
+	public class DisabledAltRenderedObject : AltRenderedObject, PIAJBFKPGNN<RecRoomStudioDisableRenderInShareCamPhoto>
+	{
+		[Cpp2IlInjected.Token(Token = "0x2000007")]
+		public struct IJEDBBINJHD
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000017")]
+			public (Component, bool)[] MIEOJJFOLGK;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000018")]
+			public (Component, bool)[] PGLNNIICOKO;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x4000019")]
+			public (Component, bool)[] ONJFBDDAKNJ;
+		}
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+		[Cpp2IlInjected.Token(Token = "0x4000016")]
+		private IJEDBBINJHD BJLMNPDMCKN;
+
+		[Cpp2IlInjected.Token(Token = "0x6000012")]
+		[Cpp2IlInjected.Address(RVA = "0x753E330", Offset = "0x753C930", VA = "0x18753E330")]
+		public static IJEDBBINJHD PreRender(GameObject HHDLNMHBJJD)
+		{
+			return default(IJEDBBINJHD);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000013")]
+		[Cpp2IlInjected.Address(RVA = "0x753E170", Offset = "0x753C770", VA = "0x18753E170")]
+		public static void PostRender(IJEDBBINJHD EBFIFONAHLL)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000014")]
+		[Cpp2IlInjected.Address(RVA = "0x753DFC0", Offset = "0x753C5C0", VA = "0x18753DFC0", Slot = "6")]
+		protected override void PFMKOHGIFDD(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000015")]
+		[Cpp2IlInjected.Address(RVA = "0x753DB00", Offset = "0x753C100", VA = "0x18753DB00", Slot = "7")]
+		protected override void MJJPCHNGFMJ(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000016")]
+		[Cpp2IlInjected.Address(RVA = "0x753DA60", Offset = "0x753C060", VA = "0x18753DA60", Slot = "8")]
+		private void AJCGAPOMKND(RecRoomStudioDisableRenderInShareCamPhoto NBFMMHCFMCP, int LKFHDOIIJOM, bool BGPIBAOAGLB)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000017")]
+		[Cpp2IlInjected.Address(RVA = "0x753E4C0", Offset = "0x753CAC0", VA = "0x18753E4C0")]
+		public DisabledAltRenderedObject()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000018")]
+		[Cpp2IlInjected.Address(RVA = "0x753DCC0", Offset = "0x753C2C0", VA = "0x18753DCC0")]
+		[CompilerGenerated]
+		internal static (Component, bool)[] OBJKOKJLADG(IEnumerable<Component> HNJACBMPMEA)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000019")]
+		[Cpp2IlInjected.Address(RVA = "0x753DA90", Offset = "0x753C090", VA = "0x18753DA90")]
+		[CompilerGenerated]
+		internal static void MACLDIBJBIG((Component, bool) IEFMBDGJEHE)
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000009")]
+	public class GameObjectSwapAltRenderedObject : AltRenderedObject
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+		[Cpp2IlInjected.Token(Token = "0x400001F")]
+		[SerializeField]
+		private GameObject primaryObject;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+		[Cpp2IlInjected.Token(Token = "0x4000020")]
+		[SerializeField]
+		private GameObject alternateObject;
+
+		[Cpp2IlInjected.Token(Token = "0x6000020")]
+		[Cpp2IlInjected.Address(RVA = "0x753E550", Offset = "0x753CB50", VA = "0x18753E550", Slot = "6")]
+		protected override void PFMKOHGIFDD(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000021")]
+		[Cpp2IlInjected.Address(RVA = "0x753E510", Offset = "0x753CB10", VA = "0x18753E510", Slot = "7")]
+		protected override void MJJPCHNGFMJ(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000022")]
+		[Cpp2IlInjected.Address(RVA = "0x753E590", Offset = "0x753CB90", VA = "0x18753E590")]
+		public GameObjectSwapAltRenderedObject()
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000A")]
+	public class MaterialSwapAltRenderedObject : AltRenderedObject
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+		[Cpp2IlInjected.Token(Token = "0x4000021")]
+		[SerializeField]
+		private Renderer swappedRenderer;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+		[Cpp2IlInjected.Token(Token = "0x4000022")]
+		[SerializeField]
+		private Material[] swappedMaterials;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+		[Cpp2IlInjected.Token(Token = "0x4000023")]
+		private Material[] IICDNJBMFDK;
+
+		[Cpp2IlInjected.Token(Token = "0x6000023")]
+		[Cpp2IlInjected.Address(RVA = "0x753E610", Offset = "0x753CC10", VA = "0x18753E610", Slot = "6")]
+		protected override void PFMKOHGIFDD(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000024")]
+		[Cpp2IlInjected.Address(RVA = "0x753E5E0", Offset = "0x753CBE0", VA = "0x18753E5E0", Slot = "7")]
+		protected override void MJJPCHNGFMJ(Camera JGNIAEGLGKO)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000025")]
+		[Cpp2IlInjected.Address(RVA = "0x753E660", Offset = "0x753CC60", VA = "0x18753E660")]
+		public MaterialSwapAltRenderedObject()
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000B")]
+	public abstract class VisibilityRestriction : MonoBehaviour
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+		[Cpp2IlInjected.Token(Token = "0x4000024")]
+		private bool DDKJPDBBMGE;
+
+		[Cpp2IlInjected.Token(Token = "0x17000002")]
+		public bool EDDMKOEACNM
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000026")]
+			[Cpp2IlInjected.Address(RVA = "0xBB40B0", Offset = "0xBB26B0", VA = "0x180BB40B0")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000027")]
+		[Cpp2IlInjected.Address(RVA = "0x753E930", Offset = "0x753CF30", VA = "0x18753E930", Slot = "4")]
+		protected virtual void Start()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000028")]
+		[Cpp2IlInjected.Address(RVA = "0x753E930", Offset = "0x753CF30", VA = "0x18753E930")]
+		public void Initialize()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000029")]
+		[Cpp2IlInjected.Address(RVA = "0x951A60", Offset = "0x950060", VA = "0x180951A60", Slot = "5")]
+		protected virtual void DPMEJGCNJCL()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002A")]
+		[Cpp2IlInjected.Address(Slot = "6")]
+		protected abstract void IKNOKFOEOJH();
+
+		[Cpp2IlInjected.Token(Token = "0x600002B")]
+		[Cpp2IlInjected.Address(RVA = "0x951A50", Offset = "0x950050", VA = "0x180951A50")]
+		protected VisibilityRestriction()
+		{
+		}
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}

@@ -1,0 +1,1459 @@
+using System;
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Threading;
+using System.Threading.Tasks;
+using Cpp2IlInjected;
+using JetBrains.Annotations;
+using Microsoft.CodeAnalysis;
+using RecNet;
+using RecRoom.Analytics.Statsig;
+using RecRoom.Async;
+using RecRoom.Avatars;
+using RecRoom.DataLayer.Attributes;
+using RecRoom.DataLayer.Registration;
+using RecRoom.Initialization;
+using RecRoom.NoEngine.Common;
+using RecRoom.NoEngine.DataStructures.Caching;
+using RecRoom.RoomEconomy.Store;
+using RecRoom.Storefronts;
+using UJect;
+using UJect.Injection;
+using UnityEngine;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace Microsoft.CodeAnalysis
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	[CompilerGenerated]
+	[Microsoft.CodeAnalysis.Embedded]
+	internal sealed class EmbeddedAttribute : Attribute
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0xAF1770", Offset = "0xAF0570", VA = "0x180AF1770")]
+		public EmbeddedAttribute()
+		{
+		}
+	}
+}
+namespace System.Runtime.CompilerServices
+{
+	[Cpp2IlInjected.Token(Token = "0x2000003")]
+	[CompilerGenerated]
+	[Microsoft.CodeAnalysis.Embedded]
+	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Parameter | AttributeTargets.ReturnValue | AttributeTargets.GenericParameter, AllowMultiple = false, Inherited = false)]
+	internal sealed class NullableAttribute : Attribute
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000001")]
+		public readonly byte[] NullableFlags;
+
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0xAF1800", Offset = "0xAF0600", VA = "0x180AF1800")]
+		public NullableAttribute(byte[] P_0)
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000004")]
+	[CompilerGenerated]
+	[Microsoft.CodeAnalysis.Embedded]
+	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = false, Inherited = false)]
+	internal sealed class NullableContextAttribute : Attribute
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000002")]
+		public readonly byte Flag;
+
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0xAF1840", Offset = "0xAF0640", VA = "0x180AF1840")]
+		public NullableContextAttribute(byte P_0)
+		{
+		}
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000005")]
+[CompilerGenerated]
+[EditorBrowsable(EditorBrowsableState.Never)]
+[GeneratedCode("Unity.MonoScriptGenerator.MonoScriptInfoGenerator", null)]
+internal class XABYAYWDHUK
+{
+	[Cpp2IlInjected.Token(Token = "0x2000006")]
+	private struct MonoScriptData
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000003")]
+		public byte[] FilePathsData;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+		[Cpp2IlInjected.Token(Token = "0x4000004")]
+		public byte[] TypesData;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000005")]
+		public int TotalTypes;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x14")]
+		[Cpp2IlInjected.Token(Token = "0x4000006")]
+		public int TotalFiles;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+		[Cpp2IlInjected.Token(Token = "0x4000007")]
+		public bool IsEditorOnly;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+	public XABYAYWDHUK()
+	{
+	}
+}
+namespace _AssemblyRegistry.RecRoom_RoomEconomy_Store_Runtime
+{
+	[Cpp2IlInjected.Token(Token = "0x2000007")]
+	[CompilerGenerated]
+	[RecRoom.DataLayer.Attributes.Preserve]
+	[Obfuscation(ApplyToMembers = false)]
+	public class _AssemblyIndex : AssemblyIndex
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000005")]
+		[Cpp2IlInjected.Address(RVA = "0x8D410B0", Offset = "0x8D3FEB0", VA = "0x188D410B0", Slot = "8")]
+		public override void RegisterMethods(ITypeRegistration registry)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000006")]
+		[Cpp2IlInjected.Address(RVA = "0x27B5590", Offset = "0x27B4390", VA = "0x1827B5590")]
+		public _AssemblyIndex()
+		{
+		}
+	}
+}
+namespace RecRoom.Avatars.Data.Shared
+{
+	[Cpp2IlInjected.Token(Token = "0x2000008")]
+	public static class UOPOBPATIAK
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000007")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3C600", Offset = "0x8D3B400", VA = "0x188D3C600")]
+		public static StoreItemFilters ALKRDFWUEIO(this OutfitType a)
+		{
+			return default(StoreItemFilters);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000008")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3C7C0", Offset = "0x8D3B5C0", VA = "0x188D3C7C0")]
+		public static RoomieStoreItemFilters YRIMXAIOPKR(this OutfitType a)
+		{
+			return default(RoomieStoreItemFilters);
+		}
+	}
+}
+namespace RecRoom.RoomEconomy.Store
+{
+	[Cpp2IlInjected.Token(Token = "0x2000009")]
+	public class XJYBBSPNXEG : NSKOAROQHPZ, IDisposable
+	{
+		[Cpp2IlInjected.Token(Token = "0x200000B")]
+		[CompilerGenerated]
+		private sealed class ILHNIGYDXUP
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x400001E")]
+			public UnifiedItemId QNDOOLLXLQB;
+
+			[Cpp2IlInjected.Token(Token = "0x6000032")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public ILHNIGYDXUP()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000033")]
+			[Cpp2IlInjected.Address(RVA = "0x8D392C0", Offset = "0x8D380C0", VA = "0x188D392C0")]
+			internal bool TDMQWYXATKH(PurchasableGiftDrop a)
+			{
+				return default(bool);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000034")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39200", Offset = "0x8D38000", VA = "0x188D39200")]
+			internal bool TDHJZSDDJYY(LONRKEISRBV a)
+			{
+				return default(bool);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000C")]
+		[CompilerGenerated]
+		private sealed class ILCGLAEGOJG
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x400001F")]
+			public string OFVYHKMNVFB;
+
+			[Cpp2IlInjected.Token(Token = "0x6000035")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public ILCGLAEGOJG()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000036")]
+			[Cpp2IlInjected.Address(RVA = "0x8D391B0", Offset = "0x8D37FB0", VA = "0x188D391B0")]
+			internal object TDXERMKVMGZ()
+			{
+				return null;
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000D")]
+		[CompilerGenerated]
+		private sealed class NYEVLLBYZQM
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x4000020")]
+			public XJYBBSPNXEG FNBWZDPUGEI;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+			[Cpp2IlInjected.Token(Token = "0x4000021")]
+			public GiftItemDTO IAVCGSSYWCC;
+
+			[Cpp2IlInjected.Token(Token = "0x6000037")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public NYEVLLBYZQM()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000038")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39300", Offset = "0x8D38100", VA = "0x188D39300")]
+			internal void NYZBUGKOEEF(BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO> a)
+			{
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000E")]
+		[CompilerGenerated]
+		private sealed class DIOHVQGOLZJ
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x4000022")]
+			public XJYBBSPNXEG FNBWZDPUGEI;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+			[Cpp2IlInjected.Token(Token = "0x4000023")]
+			public bool XGYCFSOSFGT;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x19")]
+			[Cpp2IlInjected.Token(Token = "0x4000024")]
+			public bool RWTVAEZTZEA;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x1A")]
+			[Cpp2IlInjected.Token(Token = "0x4000025")]
+			public bool QKZRNFTFZUD;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+			[Cpp2IlInjected.Token(Token = "0x4000026")]
+			public Vector3? DGAFXGEBYRJ;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x2C")]
+			[Cpp2IlInjected.Token(Token = "0x4000027")]
+			public Quaternion? ALVIIKPOUXY;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x40")]
+			[Cpp2IlInjected.Token(Token = "0x4000028")]
+			public float? PPEALUWLYBL;
+
+			[Cpp2IlInjected.Token(Token = "0x6000039")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public DIOHVQGOLZJ()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003A")]
+			[Cpp2IlInjected.Address(RVA = "0x8D366F0", Offset = "0x8D354F0", VA = "0x188D366F0")]
+			internal void UUJBTNRUFXZ(BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO> a)
+			{
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000F")]
+		[CompilerGenerated]
+		private sealed class YPHQBXYOLRY
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x4000029")]
+			public long QLXISAGOUXH;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+			[Cpp2IlInjected.Token(Token = "0x400002A")]
+			public StorefrontTypes HQILSCXVXAI;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x1C")]
+			[Cpp2IlInjected.Token(Token = "0x400002B")]
+			public CurrencyType KHBKTEDJZEH;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x400002C")]
+			public long? WQXYJBGVKUI;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x400002D")]
+			public int VRJEILIPCNH;
+
+			[Cpp2IlInjected.Token(Token = "0x600003B")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public YPHQBXYOLRY()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003C")]
+			[Cpp2IlInjected.Address(RVA = "0x8D40C70", Offset = "0x8D3FA70", VA = "0x188D40C70")]
+			internal void JBFACWYMTTW(BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO> a)
+			{
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000010")]
+		[CompilerGenerated]
+		private sealed class YLTHIKBGYII
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x400002E")]
+			public XJYBBSPNXEG FNBWZDPUGEI;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+			[Cpp2IlInjected.Token(Token = "0x400002F")]
+			public GiftItemDTO IAVCGSSYWCC;
+
+			[Cpp2IlInjected.Token(Token = "0x600003D")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public YLTHIKBGYII()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003E")]
+			[Cpp2IlInjected.Address(RVA = "0x8D40C30", Offset = "0x8D3FA30", VA = "0x188D40C30")]
+			internal void UUMGGOXBAVU(BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO> a)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000011")]
+		[CompilerGenerated]
+		private struct <ConvertCustomAvatarItemsToPurchasableItemsIfApplicable>d__45 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000030")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000031")]
+			public AsyncTaskMethodBuilder<List<LONRKEISRBV>> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x4000032")]
+			public List<CustomAvatarItem> customAvatarItems;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x4000033")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x4000034")]
+			private List<LONRKEISRBV> <output>5__2;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x4000035")]
+			private TaskAwaiter <>u__1;
+
+			[Cpp2IlInjected.Token(Token = "0x600003F")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39350", Offset = "0x8D38150", VA = "0x188D39350", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000040")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39560", Offset = "0x8D38360", VA = "0x188D39560", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000012")]
+		[CompilerGenerated]
+		private struct <GetItemPurchaseInfoAsync>d__33 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000036")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000037")]
+			public AsyncTaskMethodBuilder<NPVYFVVUTJV> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x4000038")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x4000039")]
+			public Guid customAvatarItemId;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x400003A")]
+			private TaskAwaiter<NPVYFVVUTJV?> <>u__1;
+
+			[Cpp2IlInjected.Token(Token = "0x6000041")]
+			[Cpp2IlInjected.Address(RVA = "0x8D395D0", Offset = "0x8D383D0", VA = "0x188D395D0", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000042")]
+			[Cpp2IlInjected.Address(RVA = "0x8D398A0", Offset = "0x8D386A0", VA = "0x188D398A0", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000013")]
+		[CompilerGenerated]
+		private struct <GetItemPurchaseInfoServiceCall>d__46 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400003B")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x400003C")]
+			public AsyncTaskMethodBuilder<List<NPVYFVVUTJV>> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x400003D")]
+			public IReadOnlyList<Guid> itemIds;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x400003E")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x400003F")]
+			public CancellationToken cancellationToken;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x4000040")]
+			private TaskAwaiter<List<ItemPurchaseInfoDTO>> <>u__1;
+
+			[Cpp2IlInjected.Token(Token = "0x6000043")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39910", Offset = "0x8D38710", VA = "0x188D39910", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000044")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39D00", Offset = "0x8D38B00", VA = "0x188D39D00", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000014")]
+		[CompilerGenerated]
+		private struct <GetSearchedCustomAvatarItems>d__34 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000041")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000042")]
+			public AsyncTaskMethodBuilder<List<LONRKEISRBV>> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x4000043")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x4000044")]
+			public string searchQuery;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x4000045")]
+			public bool? isOwned;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x32")]
+			[Cpp2IlInjected.Token(Token = "0x4000046")]
+			public bool? isFeatured;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x4000047")]
+			public IEnumerable<int> outfitTypes;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x40")]
+			[Cpp2IlInjected.Token(Token = "0x4000048")]
+			public bool includeCoachItems;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x41")]
+			[Cpp2IlInjected.Token(Token = "0x4000049")]
+			public bool prefillResultsWithGiftBoxes;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x48")]
+			[Cpp2IlInjected.Token(Token = "0x400004A")]
+			private List<LONRKEISRBV> <results>5__2;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x50")]
+			[Cpp2IlInjected.Token(Token = "0x400004B")]
+			private TaskAwaiter<List<CustomAvatarItem>> <>u__1;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x58")]
+			[Cpp2IlInjected.Token(Token = "0x400004C")]
+			private TaskAwaiter <>u__2;
+
+			[Cpp2IlInjected.Token(Token = "0x6000045")]
+			[Cpp2IlInjected.Address(RVA = "0x8D39D70", Offset = "0x8D38B70", VA = "0x188D39D70", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000046")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3A3A0", Offset = "0x8D391A0", VA = "0x188D3A3A0", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000015")]
+		[CompilerGenerated]
+		private struct <GetStoreItemsByIdsAsync>d__36 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400004D")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x400004E")]
+			public AsyncTaskMethodBuilder<List<LONRKEISRBV>> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x400004F")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x4000050")]
+			public IReadOnlyList<UnifiedItemId> unifiedItemIds;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x4000051")]
+			public bool convertCustomAvatarItemsToPurchasableGiftDrops;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x4000052")]
+			private Task <watchStorefrontTask>5__2;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x40")]
+			[Cpp2IlInjected.Token(Token = "0x4000053")]
+			private List<CustomAvatarItem> <customAvatarItems>5__3;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x48")]
+			[Cpp2IlInjected.Token(Token = "0x4000054")]
+			private List<LONRKEISRBV> <storeItemsInInitialOrder>5__4;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x50")]
+			[Cpp2IlInjected.Token(Token = "0x4000055")]
+			private TaskAwaiter<List<CustomAvatarItem>> <>u__1;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x58")]
+			[Cpp2IlInjected.Token(Token = "0x4000056")]
+			private TaskAwaiter <>u__2;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x60")]
+			[Cpp2IlInjected.Token(Token = "0x4000057")]
+			private TaskAwaiter<List<PurchasableGiftDrop>> <>u__3;
+
+			[Cpp2IlInjected.Token(Token = "0x6000047")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3A410", Offset = "0x8D39210", VA = "0x188D3A410", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000048")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3AFF0", Offset = "0x8D39DF0", VA = "0x188D3AFF0", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000016")]
+		[CompilerGenerated]
+		private struct <GetUnknownThenFilterOutUnapprovedAvatarItems>d__37 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000058")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000059")]
+			public AsyncTaskMethodBuilder<List<CustomAvatarItem>> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x400005A")]
+			public List<CustomAvatarItem> customAvatarItems;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x400005B")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x400005C")]
+			private TaskAwaiter <>u__1;
+
+			[Cpp2IlInjected.Token(Token = "0x6000049")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3B060", Offset = "0x8D39E60", VA = "0x188D3B060", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600004A")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3B550", Offset = "0x8D3A350", VA = "0x188D3B550", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000017")]
+		[CompilerGenerated]
+		private struct <InlineConvertItemsToPurchasableItemsIfApplicable>d__49 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400005D")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x400005E")]
+			public AsyncTaskMethodBuilder <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x400005F")]
+			public List<LONRKEISRBV> storeItems;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x4000060")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x4000061")]
+			private int <attemptNumber>5__2;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x4000062")]
+			private TaskAwaiter <>u__1;
+
+			[Cpp2IlInjected.Token(Token = "0x600004B")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3B5C0", Offset = "0x8D3A3C0", VA = "0x188D3B5C0", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600004C")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3BB50", Offset = "0x8D3A950", VA = "0x188D3BB50", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000018")]
+		[CompilerGenerated]
+		private struct <PeriodicallyPurgeCacheTask>d__27 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000063")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000064")]
+			public AsyncTaskMethodBuilder <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x4000065")]
+			public CancellationToken cancellationToken;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x4000066")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+			[Cpp2IlInjected.Token(Token = "0x4000067")]
+			private TaskAwaiter <>u__1;
+
+			[Cpp2IlInjected.Token(Token = "0x600004D")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3BBB0", Offset = "0x8D3A9B0", VA = "0x188D3BBB0", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600004E")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3BEB0", Offset = "0x8D3ACB0", VA = "0x188D3BEB0", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[StructLayout((LayoutKind)3)]
+		[Cpp2IlInjected.Token(Token = "0x2000019")]
+		[CompilerGenerated]
+		private struct <PurchaseAvatarItemAsync>d__40 : IAsyncStateMachine
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000068")]
+			public int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x8")]
+			[Cpp2IlInjected.Token(Token = "0x4000069")]
+			public AsyncTaskMethodBuilder<RecNetResultObject<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>>> <>t__builder;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x400006A")]
+			public XJYBBSPNXEG <>4__this;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+			[Cpp2IlInjected.Token(Token = "0x400006B")]
+			public Guid customAvatarItemId;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+			[Cpp2IlInjected.Token(Token = "0x400006C")]
+			public long requestedPrice;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x40")]
+			[Cpp2IlInjected.Token(Token = "0x400006D")]
+			public GiftItemDTO gift;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x48")]
+			[Cpp2IlInjected.Token(Token = "0x400006E")]
+			public long? couponConsumablePlayerMappingId;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x58")]
+			[Cpp2IlInjected.Token(Token = "0x400006F")]
+			public StorefrontTypes storefrontType;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x5C")]
+			[Cpp2IlInjected.Token(Token = "0x4000070")]
+			public CurrencyType currencyType;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x60")]
+			[Cpp2IlInjected.Token(Token = "0x4000071")]
+			private TaskAwaiter<NPVYFVVUTJV> <>u__1;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x68")]
+			[Cpp2IlInjected.Token(Token = "0x4000072")]
+			private TaskAwaiter<RecNetResultObject<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>>> <>u__2;
+
+			[Cpp2IlInjected.Token(Token = "0x600004F")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3BF10", Offset = "0x8D3AD10", VA = "0x188D3BF10", Slot = "4")]
+			private void MoveNext()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000050")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3C400", Offset = "0x8D3B200", VA = "0x188D3C400", Slot = "5")]
+			[DebuggerHidden]
+			private void SetStateMachine(IAsyncStateMachine stateMachine)
+			{
+			}
+		}
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000008")]
+		private readonly NRFIDZRMDIQ<Guid, NPVYFVVUTJV> BNTXSAIRMPO;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+		[Cpp2IlInjected.Token(Token = "0x4000009")]
+		private DCEOPVAKPUR WCCWAPZCBLG;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+		[Cpp2IlInjected.Token(Token = "0x400000A")]
+		private RFOQHKANTXH LPVNQGCOQQA;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+		[Cpp2IlInjected.Token(Token = "0x400000B")]
+		private LQHCQABMFCP GFFASCQDZHA;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x30")]
+		[Cpp2IlInjected.Token(Token = "0x400000C")]
+		private KGKPSRHXOWI TVDWJQGNIUN;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x38")]
+		[Cpp2IlInjected.Token(Token = "0x400000D")]
+		private QCBGRWKOUYD HRGWVLWWIGW;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x40")]
+		[Cpp2IlInjected.Token(Token = "0x400000E")]
+		private XCPQFGYWTBQ RIFSMTIEHLZ;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x48")]
+		[Cpp2IlInjected.Token(Token = "0x400000F")]
+		internal ZNMFHZWXPXF<Guid, NPVYFVVUTJV> KDTKYPTAPOW;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x50")]
+		[Cpp2IlInjected.Token(Token = "0x4000010")]
+		private bool BRKISHTLOGT;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x58")]
+		[Cpp2IlInjected.Token(Token = "0x4000011")]
+		private Task GDVRHFWQFOY;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x60")]
+		[Cpp2IlInjected.Token(Token = "0x4000012")]
+		private CancellationTokenSource WPZJESRBBLO;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x68")]
+		[Cpp2IlInjected.Token(Token = "0x4000013")]
+		private List<PurchasableGiftDrop> PBRCFMSEJGX;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x70")]
+		[Cpp2IlInjected.Token(Token = "0x4000014")]
+		private CustomAvatarItemSearchOrdering? WEKBQDNAUEN;
+
+		[Cpp2IlInjected.Token(Token = "0x4000015")]
+		private static NSKOAROQHPZ XOLIEJSLWNA;
+
+		[Cpp2IlInjected.Token(Token = "0x17000001")]
+		private List<PurchasableGiftDrop> FCBHXXLNVOY
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000009")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3ED70", Offset = "0x8D3DB70", VA = "0x188D3ED70")]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000002")]
+		private CustomAvatarItemSearchOrdering FDMBRFJPCCM
+		{
+			[Cpp2IlInjected.Token(Token = "0x600000B")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3CC70", Offset = "0x8D3BA70", VA = "0x188D3CC70")]
+			get
+			{
+				return default(CustomAvatarItemSearchOrdering);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x17000003")]
+		public static NSKOAROQHPZ PKFRARWZTTR
+		{
+			[Cpp2IlInjected.Token(Token = "0x600000C")]
+			[Cpp2IlInjected.Address(RVA = "0x8D40330", Offset = "0x8D3F130", VA = "0x188D40330")]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000A")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3F120", Offset = "0x8D3DF20", VA = "0x188D3F120")]
+		private List<PurchasableGiftDrop> QLBFWBOJDXF()
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000D")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3E120", Offset = "0x8D3CF20", VA = "0x188D3E120")]
+		[AUEAKLYJEMA.Session.GameOnly]
+		internal static void KDFVSNBBKHZ(TNEKCCANHHI a)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000E")]
+		[Cpp2IlInjected.Address(RVA = "0x8D407E0", Offset = "0x8D3F5E0", VA = "0x188D407E0")]
+		[RecRoom.NoEngine.Common.Preserve]
+		public XJYBBSPNXEG([Inject(null)] LQHCQABMFCP recNetStorefronts, [Inject(null)] DCEOPVAKPUR recNetGifts, [Inject(null)] RFOQHKANTXH recNetCustomAvatarItemsInternal, [Inject(null)] KGKPSRHXOWI giftManager, [Inject(null)] QCBGRWKOUYD outfitManager, [Inject(null)] XCPQFGYWTBQ statsig)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600000F")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3CE70", Offset = "0x8D3BC70", VA = "0x188D3CE70", Slot = "1")]
+		~XJYBBSPNXEG()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000010")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3CAB0", Offset = "0x8D3B8B0", VA = "0x188D3CAB0", Slot = "15")]
+		public void Dispose()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000011")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3F3F0", Offset = "0x8D3E1F0", VA = "0x188D3F3F0")]
+		[AsyncStateMachine(typeof(<PeriodicallyPurgeCacheTask>d__27))]
+		private Task QMSXNCPBKDT(CancellationToken a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000012")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3CB20", Offset = "0x8D3B920", VA = "0x188D3CB20")]
+		public void FVVHCEYPWUZ(Guid a, NPVYFVVUTJV b)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000013")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3F4E0", Offset = "0x8D3E2E0", VA = "0x188D3F4E0", Slot = "16")]
+		public void QTCRJPMGMEW(LONRKEISRBV a)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000014")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3F720", Offset = "0x8D3E520", VA = "0x188D3F720", Slot = "4")]
+		public void RCAPUQXJKNF(IEnumerable<LONRKEISRBV> a)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000015")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3E960", Offset = "0x8D3D760", VA = "0x188D3E960", Slot = "17")]
+		public NPVYFVVUTJV NMGWLTJIEDE(Guid a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000016")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3EA70", Offset = "0x8D3D870", VA = "0x188D3EA70", Slot = "5")]
+		public NPVYFVVUTJV NMGWLTJIEDE(LONRKEISRBV a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000017")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3EC60", Offset = "0x8D3DA60", VA = "0x188D3EC60", Slot = "18")]
+		[AsyncStateMachine(typeof(<GetItemPurchaseInfoAsync>d__33))]
+		public Task<NPVYFVVUTJV> OANQBWCLIDO(Guid a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000018")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3D0C0", Offset = "0x8D3BEC0", VA = "0x188D3D0C0", Slot = "7")]
+		[AsyncStateMachine(typeof(<GetSearchedCustomAvatarItems>d__34))]
+		public Task<List<LONRKEISRBV>> GetSearchedCustomAvatarItems(string searchQuery, bool? isOwned, bool? isFeatured, IEnumerable<int> outfitTypes, bool includeCoachItems, bool prefillResultsWithGiftBoxes)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000019")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3E600", Offset = "0x8D3D400", VA = "0x188D3E600", Slot = "6")]
+		public LONRKEISRBV MUGYIRVZYBO(UnifiedItemId a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600001A")]
+		[Cpp2IlInjected.Address(RVA = "0x8D40430", Offset = "0x8D3F230", VA = "0x188D40430", Slot = "8")]
+		[AsyncStateMachine(typeof(<GetStoreItemsByIdsAsync>d__36))]
+		public Task<List<LONRKEISRBV>> XVWJXJIUCII(IReadOnlyList<UnifiedItemId> a, bool b = true)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600001B")]
+		[Cpp2IlInjected.Address(RVA = "0x8D40220", Offset = "0x8D3F020", VA = "0x188D40220")]
+		[AsyncStateMachine(typeof(<GetUnknownThenFilterOutUnapprovedAvatarItems>d__37))]
+		private Task<List<CustomAvatarItem>> UFQPYPCQNGA(List<CustomAvatarItem> a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600001C")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3DB50", Offset = "0x8D3C950", VA = "0x188D3DB50")]
+		private List<LONRKEISRBV> JEJWJSTSPJR(IReadOnlyList<UnifiedItemId> a, IReadOnlyList<PurchasableGiftDrop> b, IReadOnlyList<LONRKEISRBV> c)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600001D")]
+		[Cpp2IlInjected.Address(RVA = "0x8D40580", Offset = "0x8D3F380", VA = "0x188D40580", Slot = "9")]
+		public YHTYBMEYRGD<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>> ZWIJXLCVJDX(Guid a, long b, GiftItemDTO c, CurrencyType d = CurrencyType.RecCenterTokens, [Optional] long? e, StorefrontTypes f = StorefrontTypes.None)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600001E")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3CF60", Offset = "0x8D3BD60", VA = "0x188D3CF60")]
+		[AsyncStateMachine(typeof(<PurchaseAvatarItemAsync>d__40))]
+		private Task<RecNetResultObject<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>>> GXIRMXMJXPB(Guid a, long b, GiftItemDTO c, CurrencyType d = CurrencyType.RecCenterTokens, [Optional] long? e, StorefrontTypes f = StorefrontTypes.None)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600001F")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3D7E0", Offset = "0x8D3C5E0", VA = "0x188D3D7E0", Slot = "10")]
+		public YHTYBMEYRGD<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>> IFXWUMLSLAP(StorefrontTypes a, CurrencyType b, int c, long d, long? e, int f, bool g = false, bool h = true, bool i = false, [Optional] Vector3? j, [Optional] Quaternion? k, [Optional] float? l)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000020")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3FA10", Offset = "0x8D3E810", VA = "0x188D3FA10", Slot = "11")]
+		public YHTYBMEYRGD<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>> RXOIYYICLES(StorefrontTypes a, CurrencyType b, int c, long d, long? e, int f = 1, bool g = false, bool h = true, bool i = false, [Optional] Vector3? j, [Optional] Quaternion? k, [Optional] float? l)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000021")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3D220", Offset = "0x8D3C020", VA = "0x188D3D220", Slot = "12")]
+		public YHTYBMEYRGD<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>> HSGHPECCQEG(StorefrontTypes a, CurrencyType b, int c, long d, long? e, IReadOnlyCollection<int> f, string g, bool h, GiftContext i, int j)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000022")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3FC50", Offset = "0x8D3EA50", VA = "0x188D3FC50", Slot = "13")]
+		public YHTYBMEYRGD<BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO>> TVSNSGGKEEA(StorefrontTypes a, CurrencyType b, IReadOnlyList<UnifiedItemId> c, IReadOnlyList<long> d, [Optional] long? e, [Optional][CanBeNull] GiftItemDTO gift, [Optional] Guid? f)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000023")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3E1C0", Offset = "0x8D3CFC0", VA = "0x188D3E1C0", Slot = "14")]
+		[AsyncStateMachine(typeof(<ConvertCustomAvatarItemsToPurchasableItemsIfApplicable>d__45))]
+		public Task<List<LONRKEISRBV>> LYEMYZHXGOY(List<CustomAvatarItem> a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000024")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3F8D0", Offset = "0x8D3E6D0", VA = "0x188D3F8D0")]
+		[AsyncStateMachine(typeof(<GetItemPurchaseInfoServiceCall>d__46))]
+		private Task<List<NPVYFVVUTJV>> RLVAHDTMDJN(IReadOnlyList<Guid> a, CancellationToken b)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000025")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3E2E0", Offset = "0x8D3D0E0", VA = "0x188D3E2E0")]
+		private void MDVYZDHANXE(BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO> a, bool b, bool c, bool d, bool e = false, [Optional] BUBMBPGFIEI f)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000026")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3EDB0", Offset = "0x8D3DBB0", VA = "0x188D3EDB0")]
+		private void PNKJDHBCORT(GiftPackage a, bool b, bool c, BUBMBPGFIEI d)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000027")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3C9B0", Offset = "0x8D3B7B0", VA = "0x188D3C9B0")]
+		[AsyncStateMachine(typeof(<InlineConvertItemsToPurchasableItemsIfApplicable>d__49))]
+		private Task BGVTBDNOWPR(List<LONRKEISRBV> a)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000028")]
+		[Cpp2IlInjected.Address(RVA = "0x8D3FC20", Offset = "0x8D3EA20", VA = "0x188D3FC20")]
+		[CompilerGenerated]
+		private void SARXHWVQYBI(BalanceUpdateResponseDTO<BulkPurchaseItemsBalanceUpdateResponseDataDTO> a)
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x200001A")]
+	public class GSKBPKFUPHB : UDPPNOQZUVI
+	{
+		[Cpp2IlInjected.Token(Token = "0x200001B")]
+		[CompilerGenerated]
+		private sealed class VCNGRRJSGFE
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+			[Cpp2IlInjected.Token(Token = "0x4000077")]
+			public GSKBPKFUPHB FNBWZDPUGEI;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+			[Cpp2IlInjected.Token(Token = "0x4000078")]
+			public RoomieStoreItemFilters OTBOQGZJUDC;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+			[Cpp2IlInjected.Token(Token = "0x4000079")]
+			public LONRKEISRBV RASYCYKFSFF;
+
+			[Cpp2IlInjected.Token(Token = "0x600007B")]
+			[Cpp2IlInjected.Address(RVA = "0xACC5C0", Offset = "0xACB3C0", VA = "0x180ACC5C0")]
+			public VCNGRRJSGFE()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600007C")]
+			[Cpp2IlInjected.Address(RVA = "0x8D3C870", Offset = "0x8D3B670", VA = "0x188D3C870")]
+			internal bool SUBGKNTTLJP(OutfitType a)
+			{
+				return default(bool);
+			}
+		}
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x10")]
+		[Cpp2IlInjected.Token(Token = "0x4000073")]
+		private readonly QCBGRWKOUYD JQPOPABCMNT;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x18")]
+		[Cpp2IlInjected.Token(Token = "0x4000074")]
+		private readonly KQQOEUUAXSK FVMIRAWNRIM;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x20")]
+		[Cpp2IlInjected.Token(Token = "0x4000075")]
+		private readonly RHCRJWPAXMM FUHQWZIZBQV;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x28")]
+		[Cpp2IlInjected.Token(Token = "0x4000076")]
+		private readonly TIIVFEKEUJP LYQFYTEJFIL;
+
+		[Cpp2IlInjected.Token(Token = "0x6000051")]
+		[Cpp2IlInjected.Address(RVA = "0x8D36850", Offset = "0x8D35650", VA = "0x188D36850")]
+		[AUEAKLYJEMA.Session.GameOnly]
+		internal static void AUEAKLYJEMA(TNEKCCANHHI a)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000052")]
+		[Cpp2IlInjected.Address(RVA = "0xEF7880", Offset = "0xEF6680", VA = "0x180EF7880")]
+		[RecRoom.NoEngine.Common.Preserve]
+		public GSKBPKFUPHB([Inject(null)] QCBGRWKOUYD outfitManager, [Inject(null)] KQQOEUUAXSK storefrontManager, [Inject(null)] RHCRJWPAXMM customAvatarItems, [Inject(null)] TIIVFEKEUJP storeBridge)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000053")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38B70", Offset = "0x8D37970", VA = "0x188D38B70")]
+		private bool QWXGTTQOTVB(StoreItemFilters a, StoreItemFilters b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000054")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38F50", Offset = "0x8D37D50", VA = "0x188D38F50", Slot = "5")]
+		public IReadOnlyList<LONRKEISRBV> XNISGGPGVRR(StoreItemFilters a, RoomieStoreItemFilters b, IReadOnlyList<LONRKEISRBV> c)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000055")]
+		[Cpp2IlInjected.Address(RVA = "0x8D368C0", Offset = "0x8D356C0", VA = "0x188D368C0", Slot = "4")]
+		public bool BCTVOSKZUGF(StoreItemFilters a, RoomieStoreItemFilters b, LONRKEISRBV c)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000056")]
+		[Cpp2IlInjected.Address(RVA = "0x8D382B0", Offset = "0x8D370B0", VA = "0x188D382B0")]
+		private bool MMXRNWYIUVT(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000057")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38340", Offset = "0x8D37140", VA = "0x188D38340")]
+		private bool MRMFUOPEIFR(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000058")]
+		[Cpp2IlInjected.Address(RVA = "0x8D378D0", Offset = "0x8D366D0", VA = "0x188D378D0")]
+		private bool CXQGNWJJJVE(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000059")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37D90", Offset = "0x8D36B90", VA = "0x188D37D90")]
+		public bool HEMXJCRDEXL(LONRKEISRBV a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600005A")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37CD0", Offset = "0x8D36AD0", VA = "0x188D37CD0")]
+		public bool HEMXJCRDEXL(StorefrontGiftDrop a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600005B")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37FE0", Offset = "0x8D36DE0", VA = "0x188D37FE0")]
+		private bool IQZXBQPZWHQ(Guid a)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600005C")]
+		[Cpp2IlInjected.Address(RVA = "0x8D380F0", Offset = "0x8D36EF0", VA = "0x188D380F0")]
+		private bool KFXFRNTDACN(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600005D")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38DA0", Offset = "0x8D37BA0", VA = "0x188D38DA0")]
+		private bool UVXVDFSAUEA(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600005E")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38E50", Offset = "0x8D37C50", VA = "0x188D38E50")]
+		private bool WUGQHDTBUWC(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600005F")]
+		[Cpp2IlInjected.Address(RVA = "0x8D379D0", Offset = "0x8D367D0", VA = "0x188D379D0")]
+		private bool DVFMNSTGOXF(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000060")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38B00", Offset = "0x8D37900", VA = "0x188D38B00")]
+		private bool PYDHGSCWNWE(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000061")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38D30", Offset = "0x8D37B30", VA = "0x188D38D30")]
+		private bool TZMGDQGFRPH(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000062")]
+		[Cpp2IlInjected.Address(RVA = "0x8D367E0", Offset = "0x8D355E0", VA = "0x188D367E0")]
+		private bool ACTVSZWBGHM(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000063")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38C10", Offset = "0x8D37A10", VA = "0x188D38C10")]
+		private bool RQEAPKUQTTC(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000064")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37C10", Offset = "0x8D36A10", VA = "0x188D37C10")]
+		private bool FTYQVJHDSDI(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000065")]
+		[Cpp2IlInjected.Address(RVA = "0x8D388B0", Offset = "0x8D376B0", VA = "0x188D388B0")]
+		private bool ONXXSIVFTDG(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000066")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38120", Offset = "0x8D36F20", VA = "0x188D38120")]
+		private bool LOPRNQBYRDD(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000067")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37570", Offset = "0x8D36370", VA = "0x188D37570")]
+		private bool BQDYVVUTBOV(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000068")]
+		[Cpp2IlInjected.Address(RVA = "0x8D387B0", Offset = "0x8D375B0", VA = "0x188D387B0")]
+		private bool NZJNMUWBLCM(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000069")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38690", Offset = "0x8D37490", VA = "0x188D38690")]
+		private bool NHRDUUKIVWN(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600006A")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38CA0", Offset = "0x8D37AA0", VA = "0x188D38CA0")]
+		private bool SBMBJVSBFGU(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600006B")]
+		[Cpp2IlInjected.Address(RVA = "0x8D376D0", Offset = "0x8D364D0", VA = "0x188D376D0")]
+		private bool CHSYKRNPEQM(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600006C")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38720", Offset = "0x8D37520", VA = "0x188D38720")]
+		private bool NTZQDILLXNX(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600006D")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38DC0", Offset = "0x8D37BC0", VA = "0x188D38DC0")]
+		private bool VKDWKPRUUWZ(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600006E")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38B80", Offset = "0x8D37980", VA = "0x188D38B80")]
+		private bool RICHBAQAEVZ(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600006F")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37760", Offset = "0x8D36560", VA = "0x188D37760")]
+		private bool CQDYGUIWZOP(StoreItemFilters a, RoomieStoreItemFilters b, LONRKEISRBV c)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000070")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37940", Offset = "0x8D36740", VA = "0x188D37940")]
+		private bool DMTYOEKDJLW(RoomieStoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000071")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37A40", Offset = "0x8D36840", VA = "0x188D37A40")]
+		private bool EEECALKECJX(RoomieStoreItemFilters a, LONRKEISRBV b, OutfitType c)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000072")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38940", Offset = "0x8D37740", VA = "0x188D38940")]
+		private bool OPAOKOGIGCV(RoomieStoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000073")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38060", Offset = "0x8D36E60", VA = "0x188D38060")]
+		private bool JSKXQOJKVRX(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000074")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38A40", Offset = "0x8D37840", VA = "0x188D38A40")]
+		private bool PGWADDFHBDK(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000075")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37600", Offset = "0x8D36400", VA = "0x188D37600")]
+		private bool CAJQEFCACSD(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000076")]
+		[Cpp2IlInjected.Address(RVA = "0x8D37B80", Offset = "0x8D36980", VA = "0x188D37B80")]
+		private bool EHCGKWFXZAP(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000077")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38240", Offset = "0x8D37040", VA = "0x188D38240")]
+		private bool MDOOQQQIOFI(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000078")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38EC0", Offset = "0x8D37CC0", VA = "0x188D38EC0")]
+		private bool XBULUVSUILS(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000079")]
+		[Cpp2IlInjected.Address(RVA = "0x8D381B0", Offset = "0x8D36FB0", VA = "0x188D381B0")]
+		private bool LQPCCSBXGHR(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600007A")]
+		[Cpp2IlInjected.Address(RVA = "0x8D38840", Offset = "0x8D37640", VA = "0x188D38840")]
+		private bool OKLAZVDJOMJ(StoreItemFilters a, LONRKEISRBV b)
+		{
+			return default(bool);
+		}
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}

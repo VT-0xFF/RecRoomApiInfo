@@ -1,0 +1,81 @@
+using System;
+using System.Reflection;
+using Cpp2IlInjected;
+using UnityEngine;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public static class DDOMJCDMBBI
+{
+	[Cpp2IlInjected.Token(Token = "0x2000003")]
+	public interface ONLDOEPOMAH
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000001")]
+	[Cpp2IlInjected.Address(RVA = "0x2995DC0", Offset = "0x29951C0", VA = "0x182995DC0")]
+	public static T CFCHLNFHLOO<T>(this T ABPJKOBADEP) where T : UnityEngine.Object
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000002")]
+	[Cpp2IlInjected.Address(RVA = "0x2995CA0", Offset = "0x29950A0", VA = "0x182995CA0")]
+	public static T AGDNGOLIBCA<T>(this T ABPJKOBADEP) where T : class, ONLDOEPOMAH
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000003")]
+	[Cpp2IlInjected.Address(RVA = "0x2995D30", Offset = "0x2995130", VA = "0x182995D30")]
+	public static bool ALMFMCOOIEJ<T>(this T LALIGKIKEBM) where T : class
+	{
+		return default(bool);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x690F1A0", Offset = "0x690E5A0", VA = "0x18690F1A0")]
+	public static string PKPIPDJNHBD(this UnityEngine.Object LALIGKIKEBM)
+	{
+		return null;
+	}
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

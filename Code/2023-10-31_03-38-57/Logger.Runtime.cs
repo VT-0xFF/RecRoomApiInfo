@@ -1,0 +1,67 @@
+using System;
+using System.Reflection;
+using Cpp2IlInjected;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public interface MFECNOOLHIK
+{
+	[Cpp2IlInjected.Token(Token = "0x6000001")]
+	[Cpp2IlInjected.Address(RVA = "0x90AC7528022A1F6", Offset = "0x0", VA = "0x90AC7540022A1F6", Slot = "0")]
+	void PECDFFDPILO(object AMAPEJENOPH);
+
+	[Cpp2IlInjected.Token(Token = "0x6000002")]
+	[Cpp2IlInjected.Address(RVA = "0x22A2238022A200", Offset = "0x0", VA = "0x22A2250022A200", Slot = "1")]
+	void KJGJEBHBCFI(object AMAPEJENOPH);
+
+	[Cpp2IlInjected.Token(Token = "0x6000003")]
+	[Cpp2IlInjected.Address(RVA = "0x22A22388FC9F84", Offset = "0x0", VA = "0x22A22508FC9F84", Slot = "2")]
+	void ENFDFEEIPGI(object AMAPEJENOPH);
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x90AD6B68022A2CE", Offset = "0x0", VA = "0x90AD6B80022A2CE", Slot = "3")]
+	void JAONGMFDDFG(object FJHKACIMEOO, string LFCIMIBPFKO, params object[] CAAIHKBHIAA);
+
+	[Cpp2IlInjected.Token(Token = "0x6000005")]
+	[Cpp2IlInjected.Address(RVA = "0x22A31D8022A2CE", Offset = "0x0", VA = "0x22A31F0022A2CE", Slot = "4")]
+	void BEPDGOPOJJC(Exception NNOCBMIAGOK);
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

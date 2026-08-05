@@ -1,0 +1,97 @@
+using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using Cpp2IlInjected;
+using Newtonsoft.Json;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public static class KNACMANCIDP
+{
+	[Cpp2IlInjected.Token(Token = "0x17000001")]
+	public static JsonConverter JDPLFNKFKPP
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x7B7C110", Offset = "0x7B7B510", VA = "0x187B7C110")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000002")]
+	public static JsonConverter MGJKJMMKFNO
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0x7B7C200", Offset = "0x7B7B600", VA = "0x187B7C200")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000003")]
+	public static JsonConverter MBNCOLJHPCP
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000003")]
+		[Cpp2IlInjected.Address(RVA = "0x7B7C160", Offset = "0x7B7B560", VA = "0x187B7C160")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x17000004")]
+	public static JsonConverter HABALCPMBJI
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000004")]
+		[Cpp2IlInjected.Address(RVA = "0x7B7C1B0", Offset = "0x7B7B5B0", VA = "0x187B7C1B0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

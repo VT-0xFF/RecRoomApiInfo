@@ -1,0 +1,89 @@
+using System;
+using System.Reflection;
+using Cpp2IlInjected;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public sealed class NOCMBHDCBHJ : LBDIONHNCHE
+{
+	[Cpp2IlInjected.Token(Token = "0x17000001")]
+	private bool OMPOAJDAIFH
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x552EC0", Offset = "0x5522C0", VA = "0x180552EC0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000002")]
+	[Cpp2IlInjected.Address(RVA = "0x554AB0", Offset = "0x553EB0", VA = "0x180554AB0")]
+	private NOCMBHDCBHJ()
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000003")]
+	[Cpp2IlInjected.Address(RVA = "0x4DB9CB0", Offset = "0x4DB90B0", VA = "0x184DB9CB0")]
+	public static NOCMBHDCBHJ HFCEOLCNMNF()
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x552E80", Offset = "0x552280", VA = "0x180552E80", Slot = "4")]
+	public void LLJCEPKNAKH(Func<string> AFIDHHDMHNB)
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000005")]
+	[Cpp2IlInjected.Address(RVA = "0x552E80", Offset = "0x552280", VA = "0x180552E80", Slot = "5")]
+	public void KGJAECNGCLC()
+	{
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000006")]
+	[Cpp2IlInjected.Address(RVA = "0x4DB9D00", Offset = "0x4DB9100", VA = "0x184DB9D00", Slot = "6")]
+	public void JDNHLDLKHBI(object IOHPBCJMLDB)
+	{
+	}
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

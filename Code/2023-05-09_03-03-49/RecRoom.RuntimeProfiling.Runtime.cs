@@ -1,0 +1,93 @@
+using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using Cpp2IlInjected;
+using Unity.Profiling;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public static class DAFMLEHOAAO
+{
+	[Cpp2IlInjected.Token(Token = "0x6000001")]
+	[Cpp2IlInjected.Address(RVA = "0x1E7C410", Offset = "0x1E7AE10", VA = "0x181E7C410")]
+	public static ProfilerCategory NODDNGNJPDD(string DAPCBCLBIMB)
+	{
+		return default(ProfilerCategory);
+	}
+}
+[Cpp2IlInjected.Token(Token = "0x2000003")]
+public static class HPHABBFEOMN
+{
+	[Cpp2IlInjected.Token(Token = "0x6000002")]
+	[Cpp2IlInjected.Address(RVA = "0xFDC9B0", Offset = "0xFDB3B0", VA = "0x180FDC9B0")]
+	public static ProfilerCategory LKLKLOOHGLI(ushort MIDJAIPENBP)
+	{
+		return default(ProfilerCategory);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000003")]
+	[Cpp2IlInjected.Address(RVA = "0x1E7C3B0", Offset = "0x1E7ADB0", VA = "0x181E7C3B0")]
+	public static ushort DENFICMLJNK(string DAPCBCLBIMB)
+	{
+		return default(ushort);
+	}
+}
+[StructLayout((LayoutKind)2)]
+[Cpp2IlInjected.Token(Token = "0x2000004")]
+public struct OPCEJGLGDFL
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000001")]
+	public ProfilerCategory BJCKADBMKDM;
+
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000002")]
+	public DDHEBNOJGIK EJAINFPPKNF;
+}
+[StructLayout((LayoutKind)2, Pack = 1, Size = 2)]
+[Cpp2IlInjected.Token(Token = "0x2000005")]
+public struct DDHEBNOJGIK
+{
+	[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+	[Cpp2IlInjected.Token(Token = "0x4000003")]
+	public ushort HCCHLDFHCKP;
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

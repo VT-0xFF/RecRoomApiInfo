@@ -1,0 +1,84 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using Cpp2IlInjected;
+using RecRoom.Keepsakes;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+[Cpp2IlInjected.Token(Token = "0x2000002")]
+public static class BIACGMAMKLL
+{
+	[Cpp2IlInjected.Token(Token = "0x6000001")]
+	[Cpp2IlInjected.Address(RVA = "0x624CDA0", Offset = "0x624BBA0", VA = "0x18624CDA0")]
+	public static KeepsakeTheme DOJNEIJLNKM(this MOIIGALHCCM JOMBJDFNECI, Guid FKIMLGDJPDM)
+	{
+		return default(KeepsakeTheme);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000002")]
+	[Cpp2IlInjected.Address(RVA = "0x624CE90", Offset = "0x624BC90", VA = "0x18624CE90")]
+	public static KeepsakeTheme DOJNEIJLNKM(this MOIIGALHCCM JOMBJDFNECI, CCCEPPJBOAO JHEJBHFOALD)
+	{
+		return default(KeepsakeTheme);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000003")]
+	[Cpp2IlInjected.Address(RVA = "0x624CFD0", Offset = "0x624BDD0", VA = "0x18624CFD0")]
+	public static List<KeepsakeTheme> NBBBLFGDAKJ(this MOIIGALHCCM JOMBJDFNECI)
+	{
+		return null;
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000004")]
+	[Cpp2IlInjected.Address(RVA = "0x624CF40", Offset = "0x624BD40", VA = "0x18624CF40")]
+	public static CCCEPPJBOAO JNCEFLHPOKE(this MOIIGALHCCM JOMBJDFNECI, Guid FKIMLGDJPDM)
+	{
+		return default(CCCEPPJBOAO);
+	}
+
+	[Cpp2IlInjected.Token(Token = "0x6000005")]
+	[Cpp2IlInjected.Address(RVA = "0x624D090", Offset = "0x624BE90", VA = "0x18624D090")]
+	public static int NNNKKEMAALF(this MOIIGALHCCM JOMBJDFNECI, CCCEPPJBOAO EJLEDDKGGED)
+	{
+		return default(int);
+	}
+}
+namespace Cpp2IlInjected;
+
+internal class AddressAttribute : Attribute
+{
+	public string RVA;
+
+	public string Offset;
+
+	public string VA;
+
+	public string Slot;
+}
+internal class FieldOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class AttributeAttribute : Attribute
+{
+	public string Name;
+
+	public string RVA;
+
+	public string Offset;
+}
+internal class MetadataOffsetAttribute : Attribute
+{
+	public string Offset;
+}
+internal class TokenAttribute : Attribute
+{
+	public string Token;
+}
+internal class AnalysisFailedException : Exception
+{
+	public AnalysisFailedException(string message)
+		: base(message)
+	{
+	}
+}

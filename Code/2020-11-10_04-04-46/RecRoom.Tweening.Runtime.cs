@@ -1,0 +1,704 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using Cpp2IlInjected;
+using RecRoom.Async;
+using RecRoom.Core;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+[assembly: AssemblyVersion("0.0.0.0")]
+namespace RecRoom.Tweening
+{
+	[Cpp2IlInjected.Token(Token = "0x2000002")]
+	public static class Easing
+	{
+		[Cpp2IlInjected.Token(Token = "0x2000003")]
+		public enum Functions
+		{
+			[Cpp2IlInjected.Token(Token = "0x4000002")]
+			Linear,
+			[Cpp2IlInjected.Token(Token = "0x4000003")]
+			QuadraticEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x4000004")]
+			QuadraticEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x4000005")]
+			QuadraticEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x4000006")]
+			CubicEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x4000007")]
+			CubicEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x4000008")]
+			CubicEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x4000009")]
+			QuarticEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x400000A")]
+			QuarticEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x400000B")]
+			QuarticEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x400000C")]
+			QuinticEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x400000D")]
+			QuinticEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x400000E")]
+			QuinticEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x400000F")]
+			SineEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x4000010")]
+			SineEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x4000011")]
+			SineEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x4000012")]
+			CircularEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x4000013")]
+			CircularEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x4000014")]
+			CircularEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x4000015")]
+			ExponentialEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x4000016")]
+			ExponentialEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x4000017")]
+			ExponentialEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x4000018")]
+			ElasticEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x4000019")]
+			ElasticEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x400001A")]
+			ElasticEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x400001B")]
+			BackEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x400001C")]
+			BackEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x400001D")]
+			BackEaseInOut,
+			[Cpp2IlInjected.Token(Token = "0x400001E")]
+			BounceEaseIn,
+			[Cpp2IlInjected.Token(Token = "0x400001F")]
+			BounceEaseOut,
+			[Cpp2IlInjected.Token(Token = "0x4000020")]
+			BounceEaseInOut
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000004")]
+		public static class Quadratic
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000003")]
+			[Cpp2IlInjected.Address(RVA = "0x1C89C40", Offset = "0x1C88C40", VA = "0x181C89C40")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000004")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7450", Offset = "0x30C6450", VA = "0x1830C7450")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000005")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7400", Offset = "0x30C6400", VA = "0x1830C7400")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000005")]
+		public static class Cubic
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000006")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5EF0", Offset = "0x30C4EF0", VA = "0x1830C5EF0")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000007")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5F00", Offset = "0x30C4F00", VA = "0x1830C5F00")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000008")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5EA0", Offset = "0x30C4EA0", VA = "0x1830C5EA0")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000006")]
+		public static class Quartic
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000009")]
+			[Cpp2IlInjected.Address(RVA = "0x30C74D0", Offset = "0x30C64D0", VA = "0x1830C74D0")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600000A")]
+			[Cpp2IlInjected.Address(RVA = "0x30C74E0", Offset = "0x30C64E0", VA = "0x1830C74E0")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600000B")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7470", Offset = "0x30C6470", VA = "0x1830C7470")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000007")]
+		public static class Quintic
+		{
+			[Cpp2IlInjected.Token(Token = "0x600000C")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7570", Offset = "0x30C6570", VA = "0x1830C7570")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600000D")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7590", Offset = "0x30C6590", VA = "0x1830C7590")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600000E")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7510", Offset = "0x30C6510", VA = "0x1830C7510")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000008")]
+		public static class Sine
+		{
+			[Cpp2IlInjected.Token(Token = "0x600000F")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7640", Offset = "0x30C6640", VA = "0x1830C7640")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000010")]
+			[Cpp2IlInjected.Address(RVA = "0x30C76C0", Offset = "0x30C66C0", VA = "0x1830C76C0")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000011")]
+			[Cpp2IlInjected.Address(RVA = "0x30C75C0", Offset = "0x30C65C0", VA = "0x1830C75C0")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x2000009")]
+		public static class Exponential
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000012")]
+			[Cpp2IlInjected.Address(RVA = "0x30C72A0", Offset = "0x30C62A0", VA = "0x1830C72A0")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000013")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7350", Offset = "0x30C6350", VA = "0x1830C7350")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000014")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7150", Offset = "0x30C6150", VA = "0x1830C7150")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000A")]
+		public static class Circular
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000015")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5DA0", Offset = "0x30C4DA0", VA = "0x1830C5DA0")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000016")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5E20", Offset = "0x30C4E20", VA = "0x1830C5E20")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000017")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5CD0", Offset = "0x30C4CD0", VA = "0x1830C5CD0")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000B")]
+		public static class Elastic
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000018")]
+			[Cpp2IlInjected.Address(RVA = "0x30C6F00", Offset = "0x30C5F00", VA = "0x1830C6F00")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000019")]
+			[Cpp2IlInjected.Address(RVA = "0x30C7020", Offset = "0x30C6020", VA = "0x1830C7020")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600001A")]
+			[Cpp2IlInjected.Address(RVA = "0x30C6DD0", Offset = "0x30C5DD0", VA = "0x1830C6DD0")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000C")]
+		public static class Back
+		{
+			[Cpp2IlInjected.Token(Token = "0x4000021")]
+			private static float s;
+
+			[Cpp2IlInjected.Token(Token = "0x4000022")]
+			private static float s2;
+
+			[Cpp2IlInjected.Token(Token = "0x600001B")]
+			[Cpp2IlInjected.Address(RVA = "0x30C58F0", Offset = "0x30C48F0", VA = "0x1830C58F0")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600001C")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5970", Offset = "0x30C4970", VA = "0x1830C5970")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600001D")]
+			[Cpp2IlInjected.Address(RVA = "0x30C57F0", Offset = "0x30C47F0", VA = "0x1830C57F0")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x200000D")]
+		public static class Bounce
+		{
+			[Cpp2IlInjected.Token(Token = "0x600001F")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5B60", Offset = "0x30C4B60", VA = "0x1830C5B60")]
+			public static float In(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000020")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5C30", Offset = "0x30C4C30", VA = "0x1830C5C30")]
+			public static float Out(float t)
+			{
+				return default(float);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x6000021")]
+			[Cpp2IlInjected.Address(RVA = "0x30C5A40", Offset = "0x30C4A40", VA = "0x1830C5A40")]
+			public static float InOut(float t)
+			{
+				return default(float);
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000001")]
+		[Cpp2IlInjected.Address(RVA = "0x30C5F20", Offset = "0x30C4F20", VA = "0x1830C5F20")]
+		public static float Ease(float t, Functions function)
+		{
+			return default(float);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000002")]
+		[Cpp2IlInjected.Address(RVA = "0x3AA390", Offset = "0x3A9390", VA = "0x1803AA390")]
+		public static float Linear(float t)
+		{
+			return default(float);
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000E")]
+	public interface ITweenInstance
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000022")]
+		[Cpp2IlInjected.Address(Slot = "0")]
+		ITweenInstance SetOnComplete(Action callback);
+
+		[Cpp2IlInjected.Token(Token = "0x6000023")]
+		[Cpp2IlInjected.Address(Slot = "1")]
+		IPromise AsPromise();
+
+		[Cpp2IlInjected.Token(Token = "0x6000024")]
+		[Cpp2IlInjected.Address(Slot = "2")]
+		void Kill();
+	}
+	[Cpp2IlInjected.Token(Token = "0x200000F")]
+	internal class TweenInstanceVector3 : TweenInstance<Vector3>
+	{
+		[Cpp2IlInjected.Token(Token = "0x6000025")]
+		[Cpp2IlInjected.Address(RVA = "0x30C78F0", Offset = "0x30C68F0", VA = "0x1830C78F0")]
+		public TweenInstanceVector3(Func<Vector3> getter, Action<Vector3> setter, Vector3 target, float duration, Easing.Functions easeFunction)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000026")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7730", Offset = "0x30C6730", VA = "0x1830C7730", Slot = "7")]
+		internal override Vector3 GetTargetValue()
+		{
+			return default(Vector3);
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000027")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7830", Offset = "0x30C6830", VA = "0x1830C7830", Slot = "8")]
+		internal override Vector3 Interpolate(Vector3 start, Vector3 end, float time)
+		{
+			return default(Vector3);
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000010")]
+	public static class Tween
+	{
+		[Cpp2IlInjected.Token(Token = "0x2000014")]
+		[CompilerGenerated]
+		private sealed class <ExecuteTween>d__17<TValue> : IEnumerator<ISchedule>, IEnumerator, IDisposable
+		{
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x4000029")]
+			private int <>1__state;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400002A")]
+			private ISchedule <>2__current;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400002B")]
+			public TweenInstance<TValue> tween;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400002C")]
+			private TValue <endValue>5__2;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400002D")]
+			private TValue <startValue>5__3;
+
+			[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+			[Cpp2IlInjected.Token(Token = "0x400002E")]
+			private float <elapsed>5__4;
+
+			[Cpp2IlInjected.Token(Token = "0x17000001")]
+			ISchedule IEnumerator<ISchedule>.Current
+			{
+				[Cpp2IlInjected.Token(Token = "0x600003E")]
+				[Cpp2IlInjected.Address(RVA = "0x3AA330", Offset = "0x3A9330", VA = "0x1803AA330", Slot = "4")]
+				[DebuggerHidden]
+				get
+				{
+					return null;
+				}
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x17000002")]
+			object IEnumerator.Current
+			{
+				[Cpp2IlInjected.Token(Token = "0x6000040")]
+				[Cpp2IlInjected.Address(RVA = "0x3AA330", Offset = "0x3A9330", VA = "0x1803AA330", Slot = "7")]
+				[DebuggerHidden]
+				get
+				{
+					return null;
+				}
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003B")]
+			[Cpp2IlInjected.Address(RVA = "0xF528E0", Offset = "0xF518E0", VA = "0x180F528E0")]
+			[DebuggerHidden]
+			public <ExecuteTween>d__17(int <>1__state)
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003C")]
+			[Cpp2IlInjected.Address(RVA = "0x3AA390", Offset = "0x3A9390", VA = "0x1803AA390", Slot = "5")]
+			[DebuggerHidden]
+			void IDisposable.Dispose()
+			{
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003D")]
+			[Cpp2IlInjected.Address(RVA = "0x185D570", Offset = "0x185C570", VA = "0x18185D570", Slot = "6")]
+			private bool MoveNext()
+			{
+				return default(bool);
+			}
+
+			[Cpp2IlInjected.Token(Token = "0x600003F")]
+			[Cpp2IlInjected.Address(RVA = "0x185DC30", Offset = "0x185CC30", VA = "0x18185DC30", Slot = "8")]
+			[DebuggerHidden]
+			void IEnumerator.Reset()
+			{
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x4000023")]
+		private static readonly HashSet<ITweenInstance> ActiveTweens;
+
+		[Cpp2IlInjected.Token(Token = "0x4000024")]
+		private static readonly Dictionary<UnityEngine.Object, HashSet<ITweenInstance>> ActiveTweensByTarget;
+
+		[Cpp2IlInjected.Token(Token = "0x4000025")]
+		private static bool _isInitialized;
+
+		[Cpp2IlInjected.Token(Token = "0x6000028")]
+		[Cpp2IlInjected.Address(RVA = "0x30C8120", Offset = "0x30C7120", VA = "0x1830C8120")]
+		public static ITweenInstance TweenLocalScale(Transform target, Vector3 targetScale, float duration, Easing.Functions easeFunction, [Optional] Behaviour context)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000029")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7F30", Offset = "0x30C6F30", VA = "0x1830C7F30")]
+		public static ITweenInstance TweenLocalScale(this Behaviour behaviour, Vector3 targetScale, float duration, Easing.Functions easeFunction)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002A")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7BB0", Offset = "0x30C6BB0", VA = "0x1830C7BB0")]
+		public static ITweenInstance TweenLocalPosition(Transform target, Vector3 targetPosition, float duration, Easing.Functions easeFunction, [Optional] Behaviour context)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002B")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7D40", Offset = "0x30C6D40", VA = "0x1830C7D40")]
+		public static ITweenInstance TweenLocalPosition(this Behaviour behaviour, Vector3 targetPosition, float duration, Easing.Functions easeFunction)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002C")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7990", Offset = "0x30C6990", VA = "0x1830C7990")]
+		public static void KillAll()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002D")]
+		[Cpp2IlInjected.Address(RVA = "0x1C16320", Offset = "0x1C15320", VA = "0x181C16320")]
+		private static ITweenInstance Run<TValue>(Behaviour context, TweenInstance<TValue> tween)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002E")]
+		[Cpp2IlInjected.Address(RVA = "0xC153B0", Offset = "0xC143B0", VA = "0x180C153B0")]
+		[IteratorStateMachine(typeof(<ExecuteTween>d__17<>))]
+		private static IEnumerator<ISchedule> ExecuteTween<TValue>(TweenInstance<TValue> tween)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600002F")]
+		[Cpp2IlInjected.Address(RVA = "0x12474C0", Offset = "0x12464C0", VA = "0x1812474C0")]
+		private static void AddTween<TValue>(TweenInstance<TValue> tween)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000030")]
+		[Cpp2IlInjected.Address(RVA = "0x1247820", Offset = "0x1246820", VA = "0x181247820")]
+		private static void RemoveTween<TValue>(TweenInstance<TValue> tween)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000031")]
+		[Cpp2IlInjected.Address(RVA = "0x30C7B60", Offset = "0x30C6B60", VA = "0x1830C7B60")]
+		private static void OnSceneLoaded(Scene _, LoadSceneMode __)
+		{
+		}
+	}
+	[Cpp2IlInjected.Token(Token = "0x2000015")]
+	internal abstract class TweenInstance<TValue> : ITweenInstance
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x400002F")]
+		[CompilerGenerated]
+		private Action Updated;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000030")]
+		[CompilerGenerated]
+		private Action Completed;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000031")]
+		internal readonly Func<TValue> Getter;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000032")]
+		internal readonly Action<TValue> Setter;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000033")]
+		internal readonly float Duration;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000034")]
+		protected readonly TValue TargetValue;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000035")]
+		protected bool IsRelative;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000036")]
+		private readonly List<Action> onCompleteCallbacks;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000037")]
+		internal UnityEngine.Object Target;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x0")]
+		[Cpp2IlInjected.Token(Token = "0x4000038")]
+		internal ISchedulerPromise Promise;
+
+		[Cpp2IlInjected.Token(Token = "0x17000003")]
+		internal Easing.Functions EaseFunction
+		{
+			[Cpp2IlInjected.Token(Token = "0x6000041")]
+			[Cpp2IlInjected.Address(RVA = "0x4FC6B0", Offset = "0x4FB6B0", VA = "0x1804FC6B0")]
+			[CompilerGenerated]
+			get
+			{
+				return default(Easing.Functions);
+			}
+			[Cpp2IlInjected.Token(Token = "0x6000042")]
+			[Cpp2IlInjected.Address(RVA = "0x4FC6C0", Offset = "0x4FB6C0", VA = "0x1804FC6C0")]
+			[CompilerGenerated]
+			private set
+			{
+			}
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000043")]
+		[Cpp2IlInjected.Address(RVA = "0x185D4B0", Offset = "0x185C4B0", VA = "0x18185D4B0")]
+		protected TweenInstance(Func<TValue> getter, Action<TValue> setter, TValue targetValue, float duration, Easing.Functions easeFunction)
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000044")]
+		[Cpp2IlInjected.Address(RVA = "0x185D320", Offset = "0x185C320", VA = "0x18185D320", Slot = "4")]
+		public ITweenInstance SetOnComplete(Action callback)
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000045")]
+		[Cpp2IlInjected.Address(RVA = "0x185CE40", Offset = "0x185BE40", VA = "0x18185CE40", Slot = "6")]
+		public void Kill()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000046")]
+		[Cpp2IlInjected.Address(RVA = "0x3BD070", Offset = "0x3BC070", VA = "0x1803BD070", Slot = "5")]
+		public IPromise AsPromise()
+		{
+			return null;
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x6000047")]
+		[Cpp2IlInjected.Address(Slot = "7")]
+		internal abstract TValue GetTargetValue();
+
+		[Cpp2IlInjected.Token(Token = "0x6000048")]
+		[Cpp2IlInjected.Address(Slot = "8")]
+		internal abstract TValue Interpolate(TValue start, TValue end, float time);
+
+		[Cpp2IlInjected.Token(Token = "0x6000049")]
+		[Cpp2IlInjected.Address(RVA = "0xFB0820", Offset = "0xFAF820", VA = "0x180FB0820")]
+		internal void OnUpdated()
+		{
+		}
+
+		[Cpp2IlInjected.Token(Token = "0x600004A")]
+		[Cpp2IlInjected.Address(RVA = "0x185CEE0", Offset = "0x185BEE0", VA = "0x18185CEE0")]
+		internal void OnCompleted()
+		{
+		}
+	}
+}
+namespace Cpp2IlInjected
+{
+	internal class AddressAttribute : Attribute
+	{
+		public string RVA;
+
+		public string Offset;
+
+		public string VA;
+
+		public string Slot;
+	}
+	internal class FieldOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class AttributeAttribute : Attribute
+	{
+		public string Name;
+
+		public string RVA;
+
+		public string Offset;
+	}
+	internal class MetadataOffsetAttribute : Attribute
+	{
+		public string Offset;
+	}
+	internal class TokenAttribute : Attribute
+	{
+		public string Token;
+	}
+	internal class AnalysisFailedException : Exception
+	{
+		public AnalysisFailedException(string message)
+			: base(message)
+		{
+		}
+	}
+}
